@@ -1,0 +1,47 @@
+
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+.header,
+.content,
+.footer
+{
+	text-align: center;
+}
+.header
+{ position: fixed; z-index:9999; top:0px; width: 100%; padding: 11px 0px; height: 42px; box-sizing: border-box; background: #27ae61;  box-shadow: 0px 3px 5px 0px rgba(119, 119, 119, 0.56);
+-moz-box-shadow: 0px 3px 5px 0px rgba(119, 119, 119, 0.56);
+-webkit-box-shadow: 0px 3px 5px 0px rgba(119, 119, 119, 0.56);
+}
+.header.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.footer.fixed
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.header a.micon
+{  background: url(../images/mob-icon@2x.png) no-repeat center center;  background-size: 20px 19px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+.mm-opened .header a.micon
+{  background: url(../images/mcross@2x.png) no-repeat center center;  background-size: 20px 19px;
+	width: 40px;
+	height: 40px;
+	
+	top: 0px;
+	left: 10px;
+}
+

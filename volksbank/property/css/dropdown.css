@@ -1,0 +1,61 @@
+
+#main-menu {margin:65px 0 30px 0; padding:3px 0; height:23px; background:#171717 url(../images/menubg.png) top left repeat-x; border:1px solid #000; width:880px;  }
+
+.jqueryslidemenu{width: 100%; z-index:1010; margin:0; padding:0; }
+.jqueryslidemenu ul{margin:0; padding:0; list-style:none; font-size:11px; text-transform:uppercase; font-weight:bold;}
+
+#main-menu .jqueryslidemenu ul li.current-menu-item a, #main-menu .jqueryslidemenu ul li.current_page_item a { color:#ddd; text-decoration:none; border-top:2px solid #9f0000; padding-top:12px; }
+#main-menu .jqueryslidemenu ul li.current-menu-item .sub-menu a, #main-menu .jqueryslidemenu ul li.current_page_item .sub-menu a {color: #ddd; border-top:none; padding:4px 0 4px 14px;}
+#main-menu .jqueryslidemenu ul li.current-menu-item .sub-menu a:hover, #main-menu .jqueryslidemenu ul li.current_page_item .sub-menu a:hover { color:#fff;}
+
+#main-menu .jqueryslidemenu ul li.current-menu-parent ul.sub-menu li.current-menu-item a {color: #ddd; border-top:none; padding:4px 0 4px 14px;}
+#main-menu .jqueryslidemenu ul li.current-menu-parent ul.sub-menu li.current-menu-item a { color:#fff;}
+
+#main-menu .jqueryslidemenu ul li {position:relative; display:inline; float:left; line-height:25px;}
+
+#main-menu .jqueryslidemenu ul li a { color:#ccc; text-decoration:none; padding:8px 15px; }
+
+* html #main-menu .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+#main-menu .jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{color: #ccc;}
+#main-menu .jqueryslidemenu ul li a:hover{color:#ddd; border-top:2px solid #9f0000; padding-top:12px;}
+	
+#main-menu .jqueryslidemenu ul li ul{ position: absolute; left: 0; display: block; background:#303030; visibility: hidden; z-index:1005; }
+
+#main-menu .jqueryslidemenu ul li ul li{ display: list-item; float: none; }
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+#main-menu .jqueryslidemenu ul li ul li ul{top: 0;}
+
+/* Sub level menu links style */
+#main-menu .jqueryslidemenu ul li ul li a{
+width: 140px; /*width of sub menus*/
+padding:4px 0 4px 14px;
+margin: 0;
+border-bottom: 1px solid #171717;
+display:block;
+text-transform:none;
+}
+
+#main-menu .jqueryslidemenu ul li ul li a:hover { color: #fff; border-top:none; padding:4px 0 4px 14px; }
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+#main-menu .downarrowclass {
+z-index:1011;
+position: absolute;
+top: 12px;
+right: 7px;
+background:url(../images/down.gif) center no-repeat; display:block; width:11px; height:8px;
+}
+
+#main-menu .rightarrowclass {
+z-index:1012;
+position: absolute;
+top: 9px;
+right: 5px;
+background:url(../images/right.gif) center no-repeat; display:block; width:11px; height:12px;
+}
+

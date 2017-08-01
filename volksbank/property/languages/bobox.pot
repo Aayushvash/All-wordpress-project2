@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Immobilia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-09 16:11+0800\n"
+"PO-Revision-Date: 2014-05-07 12:51+0100\n"
+"Last-Translator: sabine brings <mail@brings-online.com>\n"
+"Language-Team: sabine brings <mail@brings-online.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:12
+msgid "Not found"
+msgstr "Nichts gefunden"
+
+#: 404.php:14
+msgid "Apologies, but the content you requested could not be found."
+msgstr "Entschuldigung, aber es konnte nichts gefunden werden."
+
+#: functions.php:33
+msgid "Header Main-Menu"
+msgstr "Hauptnavigation im Header"
+
+#: functions.php:34
+msgid "Footer-Menu"
+msgstr "Navigation am Seitenende"
+
+#: functions.php:45
+msgid "Services"
+msgstr "Services"
+
+#: functions.php:46
+msgid "Service"
+msgstr "Service"
+
+#: contact-form.php:100
+msgid "Send"
+msgstr "Absenden"
+
+#: functions.php:47
+msgid "Add New"
+msgstr "Neu hinzuf&uuml;gen"
+
+#: functions.php:48
+msgid "Add New Service Entry"
+msgstr "Neuen Service-Eintrag hinzuf&uuml;gen"
+
+#: functions.php:49
+msgid "Search Service Entries"
+msgstr "Service Eintr&auml;ge suchen"
+
+#: functions.php:50
+msgid "View Service"
+msgstr "Service-Eintrag anschauen"
+
+#: functions.php:51
+msgid "Edit Service"
+msgstr "Service-Eintrag bearbeiten"
+
+#: functions.php:63
+msgid "Real Estates"
+msgstr "Immobilien"
+
+#: functions.php:64
+msgid "Property"
+msgstr "Immobilie"
+
+#: functions.php:64
+msgid "Type"
+msgstr "Rubrik"
+
+#: functions.php:66
+msgid "Add New Property"
+msgstr "Neue Immobilie hinzuf&uuml;gen"
+
+#: functions.php:67
+msgid "Edit Property"
+msgstr "Immobilie bearbeiten"
+
+#: functions.php:68
+msgid "View Property"
+msgstr "Immobilie anschauen"
+
+#: functions.php:70
+msgid "Search Property"
+msgstr "Immobilie suchen"
+
+#: functions.php:80
+msgid "Property Categories"
+msgstr "Immobilien-Rubriken"
+
+#: functions.php:90
+msgid "Property Category"
+msgstr "Immobilien-Rubrik"
+
+#: functions.php:93
+msgid "All Property Categories"
+msgstr "Alle Immobilien-Rubriken"
+
+#: functions.php:95
+msgid "Search Property Category"
+msgstr "Immobilien-Rubrik suchen"
+
+#: functions.php:80
+msgid "Add New Property Category"
+msgstr "Neue Immobilien-Rubrik hinzuf&uuml;gen"
+
+#: functions.php:80
+msgid "New Property Category"
+msgstr "Neue Immobilien-Rubrik"
+
+#: functions.php:80
+msgid "Update Property Category"
+msgstr "Immobilien-Rubrik aktualisieren"
+
+#: functions.php:109
+msgid "Locations"
+msgstr "Standorte"
+
+#: functions.php:110 single-property.php:20
+msgid "Location"
+msgstr "Standort"
+
+#: functions.php:111
+msgid "Add New Location"
+msgstr "Neuen Standort hinzuf&uuml;gen"
+
+#: functions.php:112
+msgid "Edit Location"
+msgstr "Standort bearbeiten"
+
+#: functions.php:113
+msgid "Update Location"
+msgstr "Standort aktualisieren"
+
+#: functions.php:114
+msgid "Search Location"
+msgstr "Standort suchen"
+
+#: functions.php:114
+msgid "All Locations"
+msgstr "Alle Standorte"
+
+#: functions.php:130 single-property.php:20
+msgid "Rooms"
+msgstr "Zimmer"
+
+#: functions.php:131
+msgid "Room"
+msgstr "Zimmer"
+
+#: archive.php:30 single-property.php:20
+msgid "Rooms "
+msgstr "Zimmern"
+
+#: functions.php:136
+msgid "Add New Room Category"
+msgstr "Neue Zimmer-Rubrik hinzuf&uuml;gen"
+
+#: functions.php:134
+msgid "Edit Room Category"
+msgstr "Zimmer-Rubrik bearbeiten"
+
+#: functions.php:134
+msgid "Search Room Category"
+msgstr "Zimmer-Rubrik suchen"
+
+#: functions.php:135
+msgid "New Room Category"
+msgstr "Neue Zimmer-Rubrik"
+
+#: functions.php:136
+msgid "Update Room Category"
+msgstr "Zimmer-Rubrik aktualisieren"
+
+#: functions.php:136
+msgid "All Room Categories"
+msgstr "Alle Zimmer-Rubriken"
+
+#: functions.php:149 edit-tags.php:10
+msgid "Sizes"
+msgstr "Gr&ouml;&szlig;en"
+
+#: functions.php:150 edit-tags.php:10
+msgid "Size"
+msgstr "Gr&ouml;&szlig;e"
+
+#: functions.php:157 edit-tags.php:10
+msgid "Add New Size Category"
+msgstr "Neue Gr&ouml;&szlig;en-Rubrik hinzuf&uuml;gen"
+
+#: functions.php:158 edit-tags.php:10
+msgid "New Size Category"
+msgstr "Neue Gr&ouml;&szlig;en-Rubrik"
+
+#: functions.php:156 edit-tags.php:10
+msgid "Update Size"
+msgstr "Gr&ouml;&szlig;e aktualisieren"
+
+#: functions.php:152
+msgid "All Sizes"
+msgstr "Alle Gr&ouml;&szlig;en"
+
+#: functions.php:152
+msgid "Search Sizes"
+msgstr "Gr&ouml;&szlig;en-Rubrik suchen"
+
+#: functions.php:170
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: functions.php:171
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: functions.php:334
+msgid "Property Sidebar"
+msgstr "Immobilien Sidebar"
+
+#: functions.php:335
+msgid "This sidebar will be shown on property lists"
+msgstr "Diese Seitenleiste wird auf allen Immobilien-Listen angezeigt"
+
+#: functions.php:343
+msgid "Service Sidebar"
+msgstr "Service Sidebar"
+
+#: functions.php:344
+msgid "This sidebar will be shown on service pages"
+msgstr "Diese Seitenleiste wird auf allen Service-Seiten angezeigt"
+
+#: functions.php:352
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: functions.php:353
+msgid "This sidebar will be shown on article posts and blog lists"
+msgstr ""
+"Diese Seitenleiste wird auf allen (News-)Artikeln und Artikellisten angezeigt"
+
+#: functions.php:362
+msgid "Page Sidebar"
+msgstr "Seiten Sidebar"
+
+#: functions.php:363
+msgid "This sidebar will be shown on static pages"
+msgstr "Diese Seitenleiste wird auf allen statischen Seiten angezeigt (pages)"
+
+#: functions.php:372
+msgid "Footer Widgets"
+msgstr "Fu&szlig;leiste"
+
+#: includes/class-easy-google-fonts-admin.php:388 views/admin-page/tabs.php:11
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: search.php:50
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: contact-form.php:133
+msgid "EMail Address"
+msgstr "E-Mail Adresse"
+
+#: contact-form.php:141
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: contact-form.php:147
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+#: contact-form.php:153
+msgid "Street"
+msgstr "Stra&szlig;e"
+
+#: contact-form.php:159
+msgid "City"
+msgstr "PLZ/Ort"
+
+#: contact-form.php:171
+msgid "Message"
+msgstr "Nachricht"
+
+#: contact-form.php:185
+msgid "Send Message"
+msgstr "Nachricht absenden"
+
+#: plugin-activation.php:66
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: plugin-activation.php:67
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Dieses Theme erfordert das folgende Plugin: %1$s."
+
+#: plugin-activation.php:67
+msgid "This theme requires the following plugins: %1$s."
+msgstr "Dieses Theme erfordert folgende Plugins: %1$s."
+
+#: plugin-activation.php:68
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Für dieses Theme wird folgendes Plugin empfohlen: %1$s"
+
+#: plugin-activation.php:69
+msgid "This theme recommends the following plugins: %1$s."
+msgstr "Für dieses Theme werden folgende Plugins empfohlen: %1$s"
+
+#: plugin-activation.php:70
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgstr "Sorry, aber Sie haben nicht die erforderlichen Rechte, um dieses Plugin zu installieren. Bitte kontaktieren Sie den Administrator der Webseite."
+
+#: plugin-activation.php:71
+msgid "The following required plugins are currently inactive: %1$s."
+msgstr "Folgende erforderliche Plugins sind im Moment inaktiv: %1$s."
+
+#: plugin-activation.php:72
+msgid "The following recommended plugins are currently inactive: %1$s."
+msgstr "Folgende empfohlene Plugins sind im Moment inaktiv: %1$s."
+
+#: plugin-activation.php:73
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgstr "Sorry, aber Sie haben nicht die erforderlichen Rechte, um dieses Plugin zu aktivieren. Bitte kontaktieren Sie den Administrator der Webseite."
+
+#: plugin-activation.php:74
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr "Das folgende Plugin muss aktualisiert werden, um optimal mit dem Theme zu funktionieren: %1$s."
+
+#: plugin-activation.php:75
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgstr "Sorry, aber Sie haben nicht die erforderlichen Rechte, um dieses Plugin zu aktualisieren. Bitte kontaktieren Sie den Administrator der Webseite."
+
+#: plugin-activation.php:79
+msgid "Begin installing plugins"
+msgstr "Plugins jetzt installieren"
+
+#: plugin-activation.php:78
+msgid "Begin activating plugins"
+msgstr "Plugins jetzt aktivieren"
+
+#: plugin-activation.php:80
+msgid "Return to Required Plugins Installer"
+msgstr "Zur Plugin-Installation zurückkehren"
+
+#: plugin-activation.php:81
+msgid "Plugin activated successfully."
+msgstr "Plugin wurde erfolgreich aktiviert"
+
+#: plugin-activation.php:81
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Alle Plugins sind erfolgreich installiert und aktiviert"
+
+#: plugin-activation.php:81
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#: plugin-activation.php:81
+msgid "Installing Plugin: %s"
+msgstr "Plugin: %s wird installiert"
+
+#: plugin-activation.php:83
+msgid "Dismiss this notice"
+msgstr "Diese Nachricht ausblenden"
+
+#: plugin-activation.php:84
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: plugin-activation.php:85
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: plugin-activation.php:86
+msgid "Required"
+msgstr "Erforderlich"
+
+#: plugin-activation.php:87
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: plugin-activation.php:88
+msgid "Install"
+msgstr "Installieren"
+
+#: plugin-activation.php:89
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: plugin-activation.php:90
+msgid "No plugins are available to be installed at this time."
+msgstr "Im Moment sind keine Plugins verfügbar."

@@ -1,0 +1,21 @@
+/*
+	Theme Name: South Shore Marina
+	Theme URI: http://example.com/
+	Description: The default South Shore Marina Boat Website.
+	Version: 1.6
+	Author: 
+	Author:
+	Tags: blue, custom header, fixed width, two columns, widgets
+*/
+
+@import "css/reset.css";
+@import "css/wp.css";
+@import "css/layout.css";
+@import "css/responsive.css";
+@import "css/flexslider.css";
+@import "fonts/font.css";
+@import "css/jquery.fancybox.css";
+@import "css/jquery.fancybox-buttons.css";
+
+
+

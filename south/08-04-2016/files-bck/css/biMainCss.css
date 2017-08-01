@@ -1,0 +1,215 @@
+.nextPreviousPagination { border: 1px solid black !important; color: gray !important; margin: 2px !important; padding: 2px 2px !important; }
+.nextPreviousPaginationActive { background-color: #21759B !important; border: 2px solid #FFFFFF !important; color: #FFFFFF !important; font-weight: bold; margin: 2px !important; padding: 4px 2px !important; }
+.pagina { width: 100%; overflow: hidden; } 
+.pagina.gap { margin-top: 15px; }
+.pagina span { padding: 0  20px 0 30px; float: left; line-height: 40px; color: #555555; font-size: 15px; }
+.pagina .nextPreviousPagination { display: block; font-size: 13px; line-height: 20px; float: left; background-color: #17507e !important; border: 1px solid #043e5f !important; color: #FFFFFF !important; font-weight: bold; margin: 5px 2px 2px 2px !important; padding: 1px 7px !important; }
+.pagina .nextPreviousPaginationNext { margin: 5px 0 0 2px; width: 24px; float: left; height: 24px; text-indent: -999999px; display: block; background: url(../images/next-bg.png) top left no-repeat; }
+.pagina .nextPreviousPaginationPrev { margin: 5px 2px 0 0; width: 24px; height: 24px; float: left; text-indent: -999999px; display: block; background: url(../images/pre-btn.png) top left no-repeat; }
+.pagina .nextPreviousPaginationActive { float: left; }
+
+/* wrapper  */
+#wrapper { padding: 0 0px; position: relative; display: block; min-height: 100%; }
+
+/* layout */
+#layout { margin: 0 auto; width: 100%; }
+
+	/* banner */
+	#banner { width: 100%; overflow: hidden; }
+
+		/* banner bar */
+		.bannerBar { width: 100%; overflow: hidden; }
+		.bannerBar .head { padding: 0px 0 11px 0;  width: 100%; overflow: hidden; float: left; border-bottom: 2px solid #787878;  }
+		.bannerBar h1 { padding: 13px 0 0 6px; float: left; color: #040001; font-size: 30px;}
+		.bannerBar h1 span { font-size: 22px; line-height: 26px; font-weight: normal; display: block; }
+		.bannerBar h2 { padding: 15px 10px 0 0; color: #040001; font-size: 28px; float: right; }
+		.bannerBar h2 a { padding: 5px 24px 0 0; text-align: right; text-decoration: none; display: block; color: #040001; font-size: 13px; background: url('../images/mail.png') right 9px no-repeat; }
+		.bannerBar h2 a:hover { text-decoration: underline; }
+		.bannerBar .left { padding: 20px 0 0 6px; float: left; width: 550px; }
+		.bannerBar span.price { padding-bottom: 10px; color: #abe602; font-size: 26px; text-align: right; line-height: 42px; font-weight: bold; display: block; }
+		.bannerBar .right { padding: 25px 0 0 0px; width: 380px; min-height: 373px; float: right; position: relative; overflow: hidden; }
+		.bannerBar .right .post-ratings IMG, .bannerBar .right .post-ratings-loading IMG, .bannerBar .right .post-ratings-image IMG { display: inline; }
+		.bannerBar address { padding: 0px 0 0 6px; font-style: normal; color: #4a4444; font-size: 13px; line-height: 16px; position: absolute; left: 0px; bottom: 0px; }
+		.bannerBar address span { padding-top: 14px; display: block; }
+		.bannerBar .post-ratings { float: right; width: auto; }
+		.bannerBar .galley { padding: 6px 7px; margin-top: 14px; width: 920px; overflow: hidden; float: left; border-top: 2px solid #787878; border-bottom: 2px solid #787878; }
+		.bannerBar ul { padding: 9px 9px 12px 9px; list-style: none; overflow: hidden; background: #000; }
+		.bannerBar li { padding-right: 10px; float: left; }
+		.textBox .type-inventory h2 { display: none; }
+		.bannerBar .ad-gallery .ad-image-wrapper .ad-image { left: 0px!important;     width: 100% !important;
+    height: auto !important; }
+		.bannerBar .ad-gallery .ad-image-wrapper .ad-image img {    width: auto !important;    margin: auto;    display: block;    height: auto !important;    max-width: 100% !important; }
+		.bannerBar .ad-gallery .ad-image-wrapper { margin-bottom: 0px; }
+		#sort { padding-top: 10px; }
+
+	/* content */
+	#content { width: 100%; }
+
+		/* center side */
+		#centerSide { width: 100%; overflow: hidden; }
+
+			/* fotm bar */
+			.fotmBar { width: 100%; overflow: hidden; }
+			.fotmBar .link { padding: 12px 0 15px 0px; }
+			.fotmBar .link ul { padding: 0px; list-style: none; overflow: hidden; }
+			.fotmBar .link li { padding: 0px; float: left; border-right: #fff solid 1px; }
+			.fotmBar .link li a { padding: 0 14px; display: block; text-decoration: none; height: 60px; line-height: 60px; color: #000; font-size: 18px; text-transform: uppercase; font-family: 'bebasregular';
+ background: #cecece; }
+			.fotmBar .link li a:hover, .fotmBar .link li.selected a { background: #98b0d9; }
+			.fotmBar .form { padding: 20px 0px 0px 0px; }
+			.fotmBar .form p { padding-bottom: 0px; font-size: 14px; float: none; width: auto; }
+			.fotmBar fieldset { border: 0px; }
+			.fotmBar p { padding-bottom: 9px; width: 100%; overflow: hidden; float: left; }
+			.fotmBar p.last { padding-bottom: 0px; }
+			.fotmBar .specific { padding-top: 10px; }
+			.fotmBar .specific ul { padding-bottom: 20px; list-style: none; overflow: hidden; }
+			.fotmBar .specific li { font-size: 14px; line-height: 24px; color: #000; }
+			.fotmBar .specific h3 { padding-bottom: 5px; font-size: 18px; text-transform: uppercase; font-family: 'bebasregular'; }
+			.fotmBar .specific { }
+			.fotmBar .left label { padding-left: 24px; display: block; line-height: 30px; color: #0a0102; font-size: 13px; background: url('../images/label-icon.png') left center no-repeat; }
+			.fotmBar .left .field { padding: 5px; margin-left: 20px; float: left; width: 275px; height: 20px; color: #343434; border: 0px; background: url('../images/field.png') no-repeat; }
+			.fotmBar textarea { padding: 10px; border: 0px; width: 275px; height: 55px; color: #343434; resize: none; background: url('../images/teaxtarea.png') no-repeat; }
+			.fotmBar input.submit, .fotmBar input.gform_button { padding-bottom: 3px; cursor: pointer; border: 0px; font-size: 11px; width: 75px; height: 34px; color: #343434; font-weight: bold; background: url('../images/button.png') no-repeat; }
+			.fotmBar .left { float: left; width: 320px; }
+			.fotmBar .right { float: right; width: 330px; }
+			.fotmBar .gform_heading h3 { padding-top:8px;}
+			.fotmBar .right label { padding-left: 2px; display: block; line-height: 30px; color: #0a0102; font-size: 13px; }
+			.fotmBar .right .field { padding: 5px; float: left; width: 275px; height: 20px; color: #343434; border: 0px; background: url('../images/field.png') no-repeat; }
+			.fotmBar .calc { padding: 10px 24px 10px 10px; }
+			.fotmBar .calc #calcTable1 { width: 100%; }
+			.fotmBar .calc_disclaimer br { display: none; }
+			.fotmBar .calc h3 { padding-top: 4px; font-size: 14px; font-weight: bold; }
+			.fotmBar .calc input[type="text"] { padding: 0px 5px; border-radius: 0px; -webkit-border-radius: 0px; height: 25px; line-height: 25px; float: left; width: 65px !important; }
+			.fotmBar .calc #Table2 { width: 100%; }
+			.fotmBar .gform_body ul { list-style: none; }
+			.fotmBar .gform_body li { padding: 0px 10px 10px 0px; float: left; width: 295px; clear: none!important; background: none; }
+			.fotmBar .gform_body label { display: block; font-weight:bold;  }
+			.fotmBar .gform_footer { float: left; width: 100%; height: 50px; overflow: hidden; }
+			.fotmBar .gform_body input[type="text"], .fotmBar .gform_body input[type="password"], .fotmBar .gform_body input[type="email"], .fotmBar .gform_body textarea { width: 270px; background: none repeat scroll 0 0 #FAFAFA;  border: 1px solid #DDDDDD; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset; color: #888888;}
+			.fotmBar .gform_body input[type="text"], .fotmBar .gform_body input[type="password"], .fotmBar .gform_body input[type="email"] { height:25px;}
+			.fotmBar .gform_body li.gfield_html { padding-top: 10px; width: 660px; font-weight: bold; }
+			.fotmBar .gform_body select { width: 300px!important; padding: 2px 0!important; }
+			.fotmBar .gform_body textarea { background: none repeat scroll 0 0 #FAFAFA; border: 1px solid #DDDDDD; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset; color: #888888; }
+			.fotmBar .gform_body ul.gfield_radio li { padding-bottom: 4px; }
+			.fotmBar .gform_body .ginput_container { float: left; width: auto!important; }
+			.ginput_container label { font-weight: bold; float: left !important; }
+			.fotmBar .trade .gform_wrapper h3.gform_title { color: #333; font-family: "bebasregular"; padding-bottom: 5px; }
+			.fotmBar .trade .gform_body ul { padding: 0 0 20px 20px; list-style: none; overflow: hidden; }
+			.fotmBar .trade .gform_body ul li { float: left; width: 100%; font-size: 14px; line-height: 24px; }
+			.fotmBar .trade .gform_wrapper .top_label .gfield_label { float: left; font-size: 13px; padding-bottom: 0px; text-indent: 0; width: 200px; }
+			.fotmBar .trade li.gfield input[type="text"] { border: 1px solid #ccc; height: 30px; padding: 5px; border-radius: 2px; -webkit-border-radius: 2px; width: 300px; }
+			.fotmBar .trade .gform_body ul li ul { padding: 0px; }
+			.fotmBar .gform_wrapper .gfield_checkbox li label, .fotmBar .gform_wrapper .gfield_radio li label { margin-left: 10px; }
+			.fotmBar .trade li.gfield_html { color: #98b0d9; font-family: "bebasregular"; font-size: 18px; font-weight: normal; padding-bottom: 12px; text-transform: uppercase; }
+			.fotmBar .trade input.gform_button { border: 0; color: #fff; cursor: pointer; font-family: "bebasregular"; font-size: 30px !important; height: 55px; padding: 12px 0; text-transform: uppercase; width: 224px; background: #98b0d9; }
+			.fotmBar .specific .right { padding-top: 10px; float: none; border: 0px; }
+
+			/* comment box */
+			#commentBox { overflow: hidden; border-top: 2px solid #787878; padding-top: 20px; }
+			#commentBox ul { list-style: none; overflow: hidden; }
+			#commentBox li { padding-bottom: 15px; float: left; width: 100%; overflow: hidden; }
+			#commentBox label { float: left; width: 180px; line-height: 22px; }
+			#commentBox textarea { width: 300px; height: 100px; }
+			#commentBox input { float: left; }
+			#commentBox input.submit { padding: 3px 5px; color: #FFF; font-weight: bold; cursor: pointer; border: #999 solid 1px; background: #999; }
+			#commentBox input.submit:hover { background: #666; }
+			#commentBox img.cap { float: left; margin-left: 10px; }
+			.commentdetails { overflow: hidden; border-top: 2px solid #787878; padding: 20px 0 10px 0; }
+			.commentdetails ul { list-style: none; }
+			.commentdetails li { padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; }
+			.biFeaturedInventorySearch_widget { padding: 0px 16px 15px 16px; margin: 0px; }
+			.biFeaturedInventoryWidget_widget #sidebar { border-bottom: 0px solid #fff; padding: 0px; margin: 0px; }
+			.biFeaturedInventoryWidget_widget #sidebar h4 { padding-bottom: 10px; color: #fff; font-size: 15px; text-transform: uppercase; font-weight: bold; }
+			.biFeaturedInventoryWidget_widget #sidebar input[type="text"], .biFeaturedInventorySearch_widget #sidebar input[type="password"], .biFeaturedInventorySearch_widget #sidebar textarea { width: 172px; }
+			.biFeaturedInventoryWidget_widget #sidebar select { width: 295px!important; }
+			.biFeaturedInventoryWidget_widget strong { padding-bottom: 5px; display: block; font-size: 12px; color: #FFF; }
+			.biFeaturedInventoryWidget_widget .option br { display: none; }
+			.biFeaturedInventoryWidget_widget #sidebar input.button { margin-right: 25px; }
+			.biFeaturedInventoryWidget_widget { padding: 0px 0px 25px 0px; margin-bottom: 10px; border-bottom: 2px solid #fff; }
+			.biFeaturedInventoryWidget_widget ul.homefeatured { overflow: hidden; list-style: none; }
+			.biFeaturedInventoryWidget_widget li.homefeatured { padding: 10px; height: 145px; margin: 0px 15px 0px 0px; float: left; width: 182px; border: 1px solid #EBEBEB; overflow: hidden; background: #FFF url(../images/featurebg.jpg) bottom left repeat-x; }
+			.biFeaturedInventoryWidget_widget li.homefeatured img { float: left; margin-right: 10px; }
+			.biFeaturedInventoryWidget_widget h3 { padding-bottom: 15px; color: #fff; font-size: 15px; text-transform: uppercase; }
+			.biFeaturedInventoryWidget_widget ul ul { margin: 0px; }
+			.biFeaturedInventoryWidget_widget li li { line-height: 18px; }
+			.biFeaturedInventoryWidget_widget li li h1 { font-size: 11px; }
+			.biFeaturedInventoryWidget_widget ul li { font-size: 11px; }
+			.biFeaturedInventoryWidget_widget p.homefeaturedtext { padding-bottom: 3px; font-size: 13px; font-weight: bold; }
+			.biFeaturedInventoryWidget_widget a { color: #333; }
+			.biFeaturedInventoryWidget_widget a:hover { text-decoration: none; }
+			.biFeaturedInventoryWidget_widget p.homefeaturedtext a { text-decoration: none; }
+			.biFeaturedInventoryWidget_widget p.homefeaturedtext a:hover { text-decoration: underline; }
+			.biFeaturedInventoryWidget_widget li.last-child { margin: 0px; }
+
+			/* text bar */
+			.textBar { padding: 21px 15px 20px 15px; width: 848px; overflow: hidden; }
+			.textBar p { padding-bottom: 14px; color: #040404; font-size: 13px; line-height: 17px; }
+			.textBar p strong { font-family: "bebasregular"; font-size: 20px; line-height: 32px; }
+			.textBar .left { padding-top: 2px; float: left; width: 450px; }
+			.textBar ul { list-style: none;  }
+			.textBar li { padding-left: 0px; font-size: 14px; color: #0a0102; line-height: 22px; background: none; }
+			.textBar li h3 { padding-bottom: 10px; font-weight: normal; font-size: 20px; line-height: normal; font-family: "bebasregular"; }
+			.textBar .right { padding-top: 19px; float: right; width: 427px; }
+
+			/* gallery bar */
+			.galleryBar { padding-top: 10px; width: 100% !important; overflow: hidden !important;  }
+			.galleryBar ul { list-style: none !important; padding: 0px; overflow: hidden; }
+			.galleryBar li { padding: 16px 0px; width: 100%!important; overflow: hidden!important; float: left!important; border-bottom: 2px solid #787878; background: none; }
+			.galleryBar .left { padding-top: 4px!important; float: left!important; width: 238px!important; }
+			.galleryBar .left img { width: 225px; }
+			.galleryBar .center { float: left!important; width: 484px!important; text-align: left; }
+			.galleryBar .center h2 { padding-bottom: 10px; color: #333; min-height: 44px; font-size: 18px; font-weight: bold; }
+			.galleryBar .center h2 a { text-decoration: none; }
+			.galleryBar .center ul { list-style: none!important; overflow: hidden; width: 100%; height: 81px; }
+			.galleryBar .center li { padding: 0 13px 0 2px!important; width: 85px!important; float: left!important; border-width: 0px !important; }
+			.galleryBar .center li img { width: 85px!important;border-radius: 0; -webkit-border-radius: 0; }
+			.galleryBar .right span.price { padding: 0 0px 3px 0; text-align: right; font-weight: bold; line-height: 30px; color: #444; display: block; font-size: 13px; }
+			.galleryBar .right { padding-right: 20px!important; float: right!important; width: 170px!important; }
+			.galleryBar .right ul { padding: 4px 0px 0 0!important; float: right!important; overflow: hidden!important; list-style: none!important; }
+			.galleryBar .right li { padding: 0 25px 0px 0!important; width: 125px!important; overflow: hidden!important; float: left!important; border: 0px; }
+			.galleryBar .right li a { text-decoration: none; text-align: right!important; font-weight: bold!important; display: block!important; color: #cecece; font-size: 13px; }
+			.galleryBar .right li a:hover { text-decoration: underline; }
+			.galleryBar .right li.photo { background: url('../images/photo-img.png') right center no-repeat; }
+			.galleryBar .right li.view { background: url('../images/folder.png') right center no-repeat; }	
+
+			/* Admin Pagination */
+			div.pagination {padding: 6px;margin: 0px;}
+			div.pagination a {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #FFFFFF;background-color:#CCCCCC; text-decoration: none;color:#000;}
+			div.pagination a:hover, div.pagination a:active {border: 1px solid #FFFFFF;color: #000;}
+			div.pagination span.current {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #FFFFFF; font-weight: bold;background-color:#21759B;color: #FFF;}
+			div.pagination span.disabled {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #FFFFFF;color: #DDD;}
+			.column-desc{ width:50%}
+			.column-del{ width:60px}
+			.column-delimg{ padding-left:2px; }
+
+	/* footer */
+	#footer { padding-top: 25px; overflow: hidden; }
+
+		/* footer bar */
+		.footerBar { width: 950px; overflow: hidden; }
+		.footerBar .left { padding-left: 15px; float: left; width: 370px; } 	
+		.footerBar .center { float: left; text-align: left; width: 375px; } 	
+		.footerBar .right { float: right; width: 250px; } 	
+		.footerBar ul { padding-bottom: 15px; overflow: hidden; list-style: none; } 	
+		.footerBar li { float: left; width: 100%; overflow: hidden; color: #060000; font-size: 13px; line-height: 18px; } 	
+		.footerBar h2 { padding-bottom: 10px; color: #060000; font-size: 13px; line-height: 15px; }
+		#descriptions { padding-top: 20px; border-top: 2px solid #787878; }
+		#descriptions ul { padding-bottom: 20px; list-style: none; overflow: hidden; }
+		#descriptions h4 { padding: 0px 0 5px 0; color: #060000; font-size: 13px; font-weight: bold; line-height: 15px; }
+		#descriptions p { padding-bottom: 15px; font-size: 12px; line-height: 18px; }
+		#descriptions li { float: left; width: 100%; overflow: hidden; color: #060000; font-size: 13px; line-height: 18px; }
+		#descriptions .first, #descriptions .third { padding-right: 20px; float: left; }
+		#sidebar input.button { padding: 3px 10px 3px 10px; margin-right: 13px; float: right; cursor: pointer; border: 1px solid #D7D7D7; font-size: 15px; width: 105px; height: 34px; color: #fff; font-weight: bold; background: #324A84; }
+		#sidebar input[type="text"], #sidebar input[type="password"], #sidebar textarea { padding: 4px; background: none repeat scroll 0 0 #FAFAFA; border: 1px solid #DDDDDD; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset; color: #888888; height: 22px; line-height: 24px; border-radius: 0; }
+		#sidebar { height: auto !important; float: left; width: 100%; margin-bottom: 20px; padding: 10px 0px; overflow: hidden; border-bottom: #666 solid 2px; }
+		#sidebar h4 { padding-bottom: 10px; }
+		#sidebar select { width: 246px!important; height: 24px; }
+		.option { float: left; height: auto !important; margin-bottom: 0 !important; padding: 0 13px 15px 13px; }
+		#short_code_si_icon { float: right; }
+		.featuredInventoryDiv ul{ list-style:none;}
+		.featuredInventoryDiv ul li{ background:none; margin:0px; padding:0px;}
+		.featuredInventoryDiv ul li h1{ float:left; width:40px; font-weight:bold;}
+		.stockNo{ float:left; margin:1px; font-size: 14px; line-height: 28px; font-weight: bold; }
+		.stockNoHead{font-family:arial; font-size:14px!important; font-weight:bold!important}
+		.stockListing{font-family:arial; font-size:13px!important; font-weight:bold!important; line-height:13px!important; }
+		.stockListing label{ margin-right:3px;}

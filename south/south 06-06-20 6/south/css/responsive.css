@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1263px) {  
+.centring3 { width:1140px; }
+.single-inventory .bannerBar .left { width:64%; }
+	.single-inventory .bannerBar .right { width:100%; }
+	.single-inventory .form-right { width:34%; }
+	.single-inventory .bannerBar .right  { padding:9px; }
+	.bannerBar .ad-gallery .ad-image-wrapper .ad-image img { max-width:100% !important; height:auto; }
+	#header #mega-menu-wrap-primary { width:72%; }
+}
+@media only screen and (max-width: 1139px) {
+	.centring3 { width:990px; }
+	.centring { width:990px; }
+	.logo {  width: 34%; top:21px; left:0px; }
+	.box .home_box { width:23%; margin:15px 6px; }
+	.rental { width:49%; }
+	.service { width:49%; }
+	.service iframe { width:100% !important; }
+	#content img { max-width:100%; height:auto; }
+	#leftCntr { width:75%; }
+	#rightCntr { width:23%; }
+	.listview{ width:75%; }
+	.gridview{ width:75%; }
+	#calender-right { width:25%; }
+	.gridview ul li { width:45%; padding: 0 2%; }
+	.gridview h2 { font-size:30px; }
+	.gridview .day h1 { font-size:40px; display:block; text-align:center; padding:8px; }
+	.gridview .day { width:auto; height:auto; }
+	.gridview .day h1 span { display:block; top:0px; font-size:25px;  }
+	.gridview .text { margin: 15px 0 0; }
+	.listview img { width:55%; }
+	.listview .text { width:40%; }
+	.family-block .box-block  { width:32.6%; }
+	.inner-brand { min-height:200px; }
+	.blog-right { width:70%; }
+	.blog-left { width:25%; }
+	.blog-left .slides span { display:block!important; width:85% !important; margin-left:23px; }
+	.blog-left ul li { overflow:hidden; }
+	.team-block .image { width:40%; }
+	.team-block .text { width:60%; padding: 0 21px; }
+	.text-left { width:70%; }
+	.text-right { width:25%; }
+	.text-right ul li a { font-size:12px; padding: 10px; }
+	.team-blockright .image { width:40%; }
+	.list li a { font-size:16px; }
+	#banner-wrap .bran-logo { right:0px; }
+	.team-blockright .text { width:60%;  padding: 0 21px; }
+	.text { margin-top:0px; }
+	.inner-banner { min-height:200px; }
+	.gallery-block .gallery-right { width:40%; }
+	.gallery-block .gallery-left { width:55%; }
+	.gallery-block .gallery-right h1 { font-size:35px; line-height:40px; }
+	.gallery-block .gallery-right .flexslider { width:98%; box-sizing:border-box; margin-top:0px;} 
+	.gallery-block .gallery-right .flexslider ul li {   margin-right: 3px;  }	
+	.flex-direction-nav .flex-prev { right: -16px !important;  }
+	.gallery-block .gallery-right .flexslider .flex-direction-nav { position:relative; text-align:center; }
+	#inner-gallery .left-side { width:48%; }
+	.page-template-inventory-page #sidebar select { width:100% !important; }
+	.page-template-inventory-page .selectopt, .page-template-inventory-page .option { width:98% !important; } 
+	.page-template-inventory-page .selectopt strong, .page-template-inventory-page .option strong { float:none; display:block; }
+	
+	.page-template-inventory-page .galleryBar .gridview li { width:28% !important; }
+	.rental-Detail-Block .checkBlock .aleft { width: 67%; }
+	.listingBox li { width: 31%; }
+	.finalBlock .left { width: auto; float: none; overflow: hidden;  }
+	.finalBlock .left  .clear { clear: none; }
+	.finalBlock .account { margin-top: 50px;  padding-left: 0px;  width: auto; float: none; }
+	.finalBlock .grtandBock { float: left; padding-top: 67px;  }
+	
+}
+@media only screen and (max-width: 989px) { 
+.centring3 { width:95%; }
+	.centring { width:95%; }
+	.text { width:98%;} 
+	.dipartureBox .dbox1 { padding: 50px 20px 0 20px;}
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link { font-size:12px !important; padding:0 5px; }
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu { width:476%; }
+	.nav-block #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu { background-position:25px !important; }
+	.box .home_box { margin: 15px 4px;	} 
+	.top-right { font-size:15px; }
+	.inner-banner { min-height:210px; }
+	.gridview h2 { width:65%; }
+	.gridview .text { width:100%; }
+	.listview .text {font-size:15px; margin:16px 0 0; }
+	.listview li a.more { font-size:20px; }
+.family-block .box-block { width:32.2%; margin-right:1.5%;  }	
+.family-block .box-block .data a.names { display:block; padding:5px 40px 5px 0; }
+.family-block .box-block h1 { font-size:18px; }
+.family-block .image { height:125px; }
+.family-block .box-block h1 { line-height:25px; }
+.list li a { font-size:12px; }
+.list li a { padding:9px; }
+.links ul li { display: inline-block;  padding: 20px 0;   width: 185px; }
+.links ul li a {  color: #4d5a7a;  font-size: 12px; padding-left: 60px;   text-transform: uppercase;}
+.text-right ul li a {  font-size: 8px;    padding: 8px;  }
+.page-template-inventory-page .galleryBar .left { width: 295px !important; margin-right: 15px; }
+.page-template-inventory-page .galleryBar .center {  width: 225px !important;}
+.galleryBar .right { width:140px !important; }
+.page-template-inventory-page .galleryBar .center h2 a { font-size:18px; }
+.single-inventory .bannerBar .left { float:none; width:100% ; }
+.single-inventory .bannerBar .right {float:none; width:100%; }
+.single-inventory .form-right { float:none; width:100%; }
+.dipartureBox .dbox2 { width: 52%; }
+.rental-Detail-Block .checkBlock .aleft { width: 60%; }
+.rental-Detail-Block .checkBlock .accessoriesBlock li { width: auto; }
+
+.box .home_box a.inv-link { top:20px; font-size: 16px; }
+
+}
+@media only screen and (max-width: 767px) { 
+#header #mega-menu-wrap-primary { width:100%; }
+.page-template-rental-form-page #rightCntr { width:100%; }
+.single-inventory .fotmBar .link li span {  font-size:18px; padding:10px 25px; line-height:25px; }
+.single-inventory .fotmBar .link li a { height:auto; line-height:0px;}
+.nav-block #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu { background:none !important; }
+.blog-right h2 a { font-size:35px; }
+.family-block .box-block { float:none; width:100%; } 
+	.logo { position:relative; display:inline-block; float:left; width:50%; top:0px; }
+	.top-right { width:50%; font-size: 15px; text-align:right; }
+	.home #banner-wrap { margin-top:0px; }
+	.top-right span { font-size:13px; text-align:right; display:block; }
+	#mega-menu-wrap-primary .mega-menu-toggle::before { float:left; }
+	.rental { float:none; width:100%; }
+	.service { float:none; width:100%; }
+	#content img { width:100%; height:auto; }
+	.textwidget { margin-top:25px; }
+	#banner-wrap { margin-top:0px; }
+	.inner-banner { min-height:0px; }
+	#leftCntr { float:none; width:100%; }
+	#rightCntr { float:none; width:100%; }
+	.gridview  { float:none; width:100%; }
+	#calender-right { float:none; width:100%; clear:both; }
+	#calender-right  img{ width:25% !important; margin:auto ; }
+	.gridview ul li { width:100%; border-right:0px; padding:0px; }
+	.gridview li a.more { width:100%;box-sizing:border-box; text-align:center; }
+	.gridview h1 { display:block; }
+	.listgrid { float:none; display:block; margin:auto; }
+	.gridview .day { width:20%; }
+	.gridview h2 { width:75%; }
+	.listview li { width:100%; }
+	.listview .text { width:100%; }
+	.family-block .image { height:auto !important; }
+	.inner-brand { min-height:0px; }
+	#banner-wrap .bran-logo { right:0px !important; }
+	.family-block .box-block { clear:both;  }
+	.blog-left { float:none; width:100%; }
+	.blog-right { float:none; width:100%; }
+	.list li { display:block; }
+	.list li a { display:block; width:100%; box-sizing:border-box; }
+	.text-left { float:none; width:100%; }
+	.text-right { float:none; width:100%; margin-bottom:20px; }
+	.team-block .image { float:none; width:100%; }
+	.text-right ul li a { font-size:15px; padding:12px; }
+	.team-block .text { width:100%; }
+	.team-blockright .text { float:none; width:100%; }
+	.team-blockright .image { float:none; width:100%; }
+	.gallery-block .gallery-left { float:none; width:100%; }
+	.gallery-block .gallery-right {float:none; width:100%; } 
+	.gallery-block .gallery-right h1 { margin-top:20px; }
+	#inner-gallery .left-side { margin-right:15px; }
+	.gform_wrapper textarea.medium { width:92% !important; }
+	.page-template-inventory-page .galleryBar .left { float:none; margin:auto !important; width:100% !important; }
+	.page-template-inventory-page .galleryBar .center { float:none; margin:auto !important; width:100% !important; }
+	.page-template-inventory-page .galleryBar .gridview li {float:none; width:100% !important;  }
+	
+	.page-template-inventory-page #sidebar select { width:97% !important; }
+	.ad-gallery .ad-thumbs li{ height:100px !important; width:100px;  }
+	#mega-menu-item-widget_sp_image-13  { margin-left:10px; position:absolute !important;  top: 777% !important; }
+	
+	.dipartureBox .dbox1 { width: auto; float: none; margin-bottom: 55px; }
+	.dipartureBox .dbox2 { width: auto; float: none; margin-bottom: 55px; margin-left: 0px; margin-right: 0px;   }
+	.dipartureBox .dbox3 { width: auto; float: none; margin-bottom: 55px;  }
+	.listingBox li { width: auto; float: none; margin-right: 0px; }
+	.avaText{ font-size: 16px; }
+	.dipartureBox { padding-bottom: 0px; }
+	.rental-Detail-Block .left { float: none; width: auto; }
+	.rental-Detail-Block .right { margin-top: 20px; float: none; width: auto; }
+	.rental-Detail-Block .checkBlock .aleft { float: none; width: auto; }
+	.rental-Detail-Block .checkBlock .aright { float: none; width: auto; }
+	.rental-Detail-Block .checkBlock .accessoriesBlock li { float: none; width: auto; margin-right: 0px; }
+	.rental-Detail-Block .damageBlock li { width: auto; }
+	.finalBlock .left { float: none; width: auto; }
+	.finalBlock .account { margin-top: 20px; float: none; width: auto; padding-left: 0px; }
+	.finalBlock .account .logBox { width: auto; float: none; margin-right: 0px;  }
+	.finalBlock .account .logBox.newCus { margin-top: 45px; border-left: 0px; border-top: solid 1px #4c5979; }
+	.finalBlock { padding-bottom: 20px;}
+	.box .home_box a.brand-link span img{ width:50% !important; height:auto !important; }
+}
+@media only screen and (max-width: 640px) {
+	.box .home_box a.inv-link {    font-size: 10px;    top: 10px;}
+	.single-inventory .fotmBar .link li span {
+    font-size: 10px;
+    padding: 12px 26px;
+	line-height:25px;
+}
+	
+}
+@media only screen and (max-width: 480px) {
+	.box .home_box a.inv-link {    font-size: 16px;    top: 15px;}
+	#mega-menu-item-widget_sp_image-13  {  top: 600% !important; }
+	.finalBlock h2 { font-size: 22px; }
+	.logo { display:block; float:none; margin:auto; }  
+	.top-right { display:block; float:none; margin:auto; width:100%; text-align:center; }
+	.top-right span  { text-align:center; }
+	.box .home_box { width:48%; }
+	.box .home_box:first-child { margin-left:3px; }
+	.box .home_box { margin:5px 3px; }
+	.gridview ul li { width:100%; border-right:0px; padding:0px; }
+	#calender-right img { width:98% !important;}
+	.gridview h2 { display:block; float:none; width:100%;  }
+	.gridview .day { float:none; margin:auto; width:100%; }
+	#inner-gallery .left-side { width:100%; }
+	.dipartureBox .dbox h2 , .avaText{ font-size: 16px; }
+	.dipartureBox { padding-bottom: 0px; }
+	
+	
+}

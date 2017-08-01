@@ -1,0 +1,23 @@
+[05-Jun-2017 07:05:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 314
+[05-Jun-2017 09:56:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 313
+[05-Jun-2017 09:58:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 337
+[05-Jun-2017 10:41:03 UTC] PHP Parse error:  syntax error, unexpected ''numbe' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 317
+[05-Jun-2017 10:41:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 50
+[05-Jun-2017 10:48:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/blog-page.php on line 167
+[05-Jun-2017 11:01:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/popular-post-page.php on line 203
+[05-Jun-2017 11:01:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/popular-post-page.php on line 203
+[05-Jun-2017 11:03:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/popular-post-page.php on line 203
+[05-Jun-2017 11:03:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/popular-post-page.php on line 203
+[05-Jun-2017 11:03:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/popular-post-page.php on line 203
+[05-Jun-2017 11:30:46 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'aletheme_comment' not found or invalid function name in /home/devdemo/public_html/studieus/wp-includes/class-walker-comment.php on line 180
+[05-Jun-2017 11:30:46 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'aletheme_comment' not found or invalid function name in /home/devdemo/public_html/studieus/wp-includes/class-walker-comment.php on line 180
+[05-Jun-2017 11:30:46 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'aletheme_comment' not found or invalid function name in /home/devdemo/public_html/studieus/wp-includes/class-walker-comment.php on line 180
+[05-Jun-2017 13:37:02 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 25
+[05-Jun-2017 13:38:12 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 25
+[05-Jun-2017 13:38:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 25
+[05-Jun-2017 13:38:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 27
+[05-Jun-2017 13:39:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 27
+[05-Jun-2017 13:39:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 27
+[05-Jun-2017 13:41:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 93
+[05-Jun-2017 13:41:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 93
+[05-Jun-2017 13:42:06 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/devdemo/public_html/studieus/wp-content/themes/design-studios/comments.php on line 25

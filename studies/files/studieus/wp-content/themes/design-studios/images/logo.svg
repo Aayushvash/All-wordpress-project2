@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="80px" viewBox="0 0 255 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-33.000000, -59.000000)">
+            <g id="logo">
+                <g transform="translate(30.000000, 59.000000)">
+                    <text id="LEREN-LEREN" font-family="AvenirNext-Heavy, Avenir Next" font-size="50" font-weight="600" line-spacing="40" fill="#25348B">
+                        <tspan x="0" y="50">LEREN</tspan>
+                        <tspan x="0" y="90">LEREN</tspan>
+                    </text>
+                    <polygon id="Polygon" fill="#EA5B0D" points="180.574202 39.7568422 198 49.8176316 198 69.9392105 180.574202 80 163.148403 69.9392105 163.148403 49.8176316"></polygon>
+                    <text id="met-dyslexie" transform="translate(267.911968, 47.632399) rotate(-8.000000) translate(-267.911968, -47.632399) " font-family="Angelina" font-size="25" font-weight="normal" line-spacing="13">
+                        <tspan x="165.911968" y="57.1323987" fill="#FFFFFF">met</tspan>
+                        <tspan x="194.042921" y="57.1323987" fill="#000000"> dyslexie</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

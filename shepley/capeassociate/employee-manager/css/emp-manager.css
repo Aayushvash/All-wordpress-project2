@@ -1,0 +1,30 @@
+
+.teampage { margin-left: 4px; margin-top: 12px; margin-bottom: 30px;  width: 962px; background: url(images/mid.jpg) repeat-y; }
+.teampage .mid { width: 962px; background: url(images/top.jpg) top left no-repeat; }
+.teampage .bottom { width: 962px; background: url(images/bottom.jpg) left bottom no-repeat;  }
+.teampage .topthumb { padding: 28px 0 23px 53px;  float: left; width: 550px; }
+.teampage .teaminfo { padding-top: 70px; width: 355px; float: right ;}
+.teampage .teaminfo h3 { padding-bottom: 20px; font-size: 18px !important; line-height: 18px; color: #390907 !important; text-align: center; background: url(images/h3-border.png) bottom center no-repeat;  font-family: 'trajanbold' !important; font-weight: normal;   }
+.teampage .teaminfo p { padding: 15px 30px; text-align: center; font-size: 13px; line-height: 18px;  color: #390907 !important;  }
+
+.team-member { padding-top: 127px; margin: 0 8px 18px 12px; position: relative; width: 457px; float: left; background: url(images/team-top.png) left top no-repeat; }
+.team-bottom { padding-bottom: 137px; width: 100%; float: left; background: url(images/team-bottom.png) left bottom no-repeat; }
+.team-mid { width: 100%; float: left; background: url(images/team-mid.png) repeat-y; }
+.team-center { margin: -127px 0 -137px 0; min-height: 293px; width: 457px; float: left; position: relative; }
+.team-member .thumb { padding: 15px 10px; width: 150px; float: left; }
+.team-member h3 { padding-bottom: 20px; font-size: 18px !important; line-height: 18px; color: #390907 !important; text-align: center; background: url(images/h3-border.png) bottom center no-repeat;  font-family: 'trajanbold' !important; font-weight: normal;   }
+
+.team-member .details { padding-top: 20px; float: right; width: 280px;  }
+.team-member .details img { float: left; position: absolute; left: 167px; bottom: 30px; }
+.team-member p { padding: 15px 12px; text-align: center; font-size: 13px; line-height: 18px;  color: #390907 !important; }
+
+.team-member img.logo { margin: 5px; float: left; }
+
+.team-member a.fax { padding: 0 40px 0 0 ; float: right; font-size: 13px; line-height: 18px;  color: #390907 !important; text-decoration: none; }
+
+.team-member a.phone { padding: 0 40px 0 0 ; float: right; font-size: 13px; line-height: 18px;  color: #390907 !important; text-decoration: none; }
+
+.team-member a.email { padding: 10px 40px 10px 0 ; float: right; background: url(images/mail-icon.png) right center no-repeat; font-size: 13px; line-height: 18px;  color: #390907 !important; text-decoration: none; }
+
+h3.team { padding: 10px 0px; clear: both; margin: 0 15px; border-top: 2px solid #60180c; font-size: 13px !important; line-height: 18px; color: #60180c !important; text-transform: uppercase; } 
+

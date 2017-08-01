@@ -1,0 +1,876 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Property\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-09 16:11+0800\n"
+"PO-Revision-Date: 2015-08-12 10:25+0100\n"
+"Last-Translator: sabine brings <mail@brings-online.com>\n"
+"Language-Team: sabine brings <mail@brings-online.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:33
+msgid "Header Main-Menu"
+msgstr "Header Main-Menu"
+
+#: functions.php:34
+msgid "Footer-Menu"
+msgstr "Footer-Menu"
+
+#: functions.php:45
+msgid "Services"
+msgstr "Services"
+
+#: functions.php:46
+msgid "Service"
+msgstr "Service"
+
+#: plugin-activation.php:66
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: plugin-activation.php:67
+msgid "This theme requires the following plugin: %1$s."
+msgstr "This theme requires the following plugin: %1$s."
+
+#: plugin-activation.php:67
+msgid "This theme requires the following plugins: %1$s."
+msgstr "This theme requires the following plugins: %1$s."
+
+#: plugin-activation.php:68
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "This theme recommends the following plugin: %1$s."
+
+#: plugin-activation.php:68
+msgid "This theme recommends the following plugins: %1$s."
+msgstr "This theme recommends the following plugins: %1$s."
+
+#: functions.php:100
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+
+#: functions.php:100
+msgid "The following required plugins are currently inactive: %1$s."
+msgstr "The following required plugins are currently inactive: %1$s."
+
+#: functions.php:100
+msgid "The following recommended plugins are currently inactive: %1$s."
+msgstr "The following recommended plugins are currently inactive: %1$s."
+
+#: functions.php:100
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+
+#: functions.php:100
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+
+#: functions.php:100
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+
+#: plugin-activation.php:79
+msgid "Begin installing plugins"
+msgstr "Begin installing plugins"
+
+#: plugin-activation.php:78
+msgid "Begin activating plugins"
+msgstr "Begin activating plugins"
+
+#: functions.php:100
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: functions.php:100
+msgid "All plugins installed and activated successfully. %s"
+msgstr "All plugins installed and activated successfully. %s"
+
+#: functions.php:100
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: functions.php:100
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: plugin-activation.php:83
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: functions.php:100
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: functions.php:100
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: functions.php:100
+msgid "Required"
+msgstr "Required"
+
+#: functions.php:100
+msgid "Recommended"
+msgstr "Recommended"
+
+#: functions.php:100
+msgid "Install"
+msgstr "Install"
+
+#: functions.php:100
+msgid "Activate"
+msgstr "Activate"
+
+#: functions.php:100
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: contact-form.php:100
+msgid "Send"
+msgstr "Send"
+
+#: functions.php:47
+msgid "Add New"
+msgstr "Add New"
+
+#: functions.php:48
+msgid "Add New Service Entry"
+msgstr "Add New Service Entry"
+
+#: functions.php:49
+msgid "Search Service Entries"
+msgstr "Search Service Entries"
+
+#: functions.php:50
+msgid "View Service"
+msgstr "View Service"
+
+#: functions.php:51
+msgid "Edit Service"
+msgstr "Edit Service"
+
+#: functions.php:63
+msgid "Real Estates"
+msgstr "Real Estates"
+
+#: functions.php:64
+msgid "Property"
+msgstr "Property"
+
+#: functions.php:64
+msgid "Type"
+msgstr "Type"
+
+#: functions.php:66
+msgid "Add New Property"
+msgstr "Add New Property"
+
+#: functions.php:67
+msgid "Edit Property"
+msgstr "Edit Property"
+
+#: functions.php:68
+msgid "View Property"
+msgstr "View Property"
+
+#: functions.php:70
+msgid "Search Property"
+msgstr "Search Property"
+
+#: functions.php:201
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions.php:201
+msgid "Portfolio-Entry"
+msgstr "Portfolio-Entry"
+
+#: functions.php:201
+msgid "Add new Portfolio"
+msgstr "Add new Portfolio"
+
+#: functions.php:201
+msgid "Edit Portfolio"
+msgstr "Edit Portfolio"
+
+#: functions.php:201
+msgid "New Portfolio"
+msgstr "New Portfolio"
+
+#: functions.php:201
+msgid "View Portfolio"
+msgstr "View Portfolio"
+
+#: functions.php:201
+msgid "Search Portfolio"
+msgstr "Search Portfolio"
+
+#: functions.php:80
+msgid "Property Categories"
+msgstr "Property Categories"
+
+#: functions.php:90
+msgid "Property Category"
+msgstr "Property Category"
+
+#: functions.php:93
+msgid "All Property Categories"
+msgstr "All Property Categories"
+
+#: functions.php:95
+msgid "Search Property Category"
+msgstr "Search Property Category"
+
+#: functions.php:80
+msgid "Add New Property Category"
+msgstr "Add New Property Category"
+
+#: functions.php:80
+msgid "New Property Category"
+msgstr "New Property Category"
+
+#: functions.php:80
+msgid "Update Property Category"
+msgstr "Update Property Category"
+
+#: functions.php:109
+msgid "Locations"
+msgstr "Locations"
+
+#: functions.php:110 single-property.php:20
+msgid "Location"
+msgstr "Location"
+
+#: functions.php:111
+msgid "Add New Location"
+msgstr "Add New Location"
+
+#: functions.php:112
+msgid "Edit Location"
+msgstr "Edit Location"
+
+#: functions.php:113
+msgid "Update Location"
+msgstr "Update Location"
+
+#: functions.php:114
+msgid "Search Location"
+msgstr "Search Location"
+
+#: functions.php:114
+msgid "All Locations"
+msgstr "All Locations"
+
+#: functions.php:130 single-property.php:20
+msgid "Rooms"
+msgstr "Rooms"
+
+#: functions.php:131
+msgid "Room"
+msgstr "Room"
+
+#: archive.php:30 single-property.php:20
+msgid "Rooms "
+msgstr "Rooms "
+
+#: functions.php:136
+msgid "Add New Room Category"
+msgstr "Add New Room Category"
+
+#: functions.php:134
+msgid "Edit Room Category"
+msgstr "Edit Room Category"
+
+#: functions.php:134
+msgid "Search Room Category"
+msgstr "Search Room Category"
+
+#: functions.php:135
+msgid "New Room Category"
+msgstr "New Room Category"
+
+#: functions.php:136
+msgid "All Room Categories"
+msgstr "All Room Categories"
+
+#: functions.php:149 edit-tags.php:10
+msgid "Sizes"
+msgstr "Sizes"
+
+#: functions.php:150 edit-tags.php:10
+msgid "Size"
+msgstr "Size"
+
+#: functions.php:157 edit-tags.php:10
+msgid "Add New Size Category"
+msgstr "Add New Size Category"
+
+#: functions.php:158 edit-tags.php:10
+msgid "New Size Category"
+msgstr "New Size Category"
+
+#: functions.php:156 edit-tags.php:10
+msgid "Update Size"
+msgstr "Update Size"
+
+#: functions.php:152
+msgid "All Sizes"
+msgstr "All Sizes"
+
+#: functions.php:152
+msgid "Search Sizes"
+msgstr "Search Sizes"
+
+#: functions.php:170
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: functions.php:171
+msgid "Tag"
+msgstr "Tag"
+
+#: functions.php:334
+msgid "Property Sidebar"
+msgstr "Property Sidebar"
+
+#: functions.php:335
+msgid "This sidebar will be shown on property lists"
+msgstr "This sidebar will be shown on property lists"
+
+#: functions.php:343
+msgid "Service Sidebar"
+msgstr "Service Sidebar"
+
+#: functions.php:344
+msgid "This sidebar will be shown on service pages"
+msgstr "Diese Seitenleiste wird auf allen Service-Seiten angezeigt"
+
+#: functions.php:352
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: functions.php:353
+msgid "This sidebar will be shown on article posts and blog lists"
+msgstr "This sidebar will be shown on article posts and blog lists"
+
+#: functions.php:362
+msgid "Page Sidebar"
+msgstr "Page Sidebar"
+
+#: functions.php:363
+msgid "This sidebar will be shown on static pages"
+msgstr "This sidebar will be shown on pages"
+
+#: functions.php:372
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: includes/class-easy-google-fonts-admin.php:388 views/admin-page/tabs.php:11
+msgid "Advanced"
+msgstr "Advanced"
+
+#: contact-form.php:133
+msgid "EMail Address"
+msgstr "EMail Address"
+
+#: contact-form.php:141
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: contact-form.php:147
+msgid "Mobile Phone"
+msgstr "Mobile Phone"
+
+#: contact-form.php:153
+msgid "Street"
+msgstr "Street"
+
+#: contact-form.php:159
+msgid "City"
+msgstr "City"
+
+#: contact-form.php:171
+msgid "Message"
+msgstr "Message"
+
+#: contact-form.php:185
+msgid "Send Message"
+msgstr "Send Message"
+
+#: contact-form.php:230
+msgid "See conditions here to download or print."
+msgstr "See conditions here to download or print."
+
+#: contact-form.php:235
+msgid "Yes, I have read the conditions and agree to them."
+msgstr "Yes, I have read the conditions and agree to them."
+
+#: contact-form.php:235
+msgid "Contact Data"
+msgstr "Contact Data"
+
+#: contact-form.php:235
+msgid "Required Fields"
+msgstr "Required Fields"
+
+#: contact-form.php:235
+msgid "Only necessary if you want us to call you back"
+msgstr "Only necessary if you want us to call you back"
+
+#: contact-form.php:235
+msgid "Please contact me about the following property"
+msgstr "Please contact me about the following property"
+
+#: contact-form.php:235
+msgid "Your request"
+msgstr "Your request"
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "This post is password protected. Enter the password to view comments."
+
+#: comments.php:14
+msgid "No Responses"
+msgstr "No Responses"
+
+#: comments.php:14
+msgid "One Response"
+msgstr "One Response"
+
+#: comments.php:14
+msgid "% Responses"
+msgstr "% Responses"
+
+#: comments.php:38
+msgid "Leave a Reply"
+msgstr "Leave a Reply"
+
+#: comments.php:38
+msgid "Leave a Reply for %s"
+msgstr "Leave a Reply for %s"
+
+#: comments.php:72
+msgid "Submit Comment"
+msgstr "Submit Comment"
+
+#: 404.php:15
+msgid "Not Found"
+msgstr "Not Found"
+
+#: 404.php:17
+msgid "Apologies, but the content you requested could not be found."
+msgstr "Apologies, but the content you requested could not be found."
+
+#: archive.php:27
+msgid "Category: "
+msgstr "Category: "
+
+#: archive.php:27
+msgid "by: "
+msgstr "by: "
+
+#: archive.php:27
+msgid "Published at: "
+msgstr "Published at: "
+
+#: archive.php:30
+msgid "This category has currently no entries"
+msgstr "This category has currently no entries"
+
+#: archive.php:54
+msgid "Properties with: "
+msgstr "Properties with: "
+
+#: archive.php:57
+msgid "Properties tagged with: "
+msgstr "Properties tagged with: "
+
+#: archive.php:54
+msgid "Your Selection"
+msgstr "Your Selection"
+
+#: archive.php:82
+msgid "Learn more about %s"
+msgstr "Learn more about %s"
+
+#: archive.php:159
+msgid "<span class=\"meta-nav\">&larr;</span> More Entries"
+msgstr "<span class=\"meta-nav\">&larr;</span> More Entries"
+
+#: archive.php:159
+msgid "Back <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Back <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:165
+msgid "Browse back to the previously visited page"
+msgstr "Browse back to the previously visited page"
+
+#: contact-form.php:14
+msgid "Please enter your name"
+msgstr "Please enter your name"
+
+#: contact-form.php:27
+msgid "You forgot to enter your email address."
+msgstr "You forgot to enter your email address."
+
+#: contact-form.php:36
+msgid "You forgot to enter your message."
+msgstr "You forgot to enter your message."
+
+#: contact-form.php:84
+msgid "Thanks"
+msgstr "Thanks"
+
+#: contact-form.php:115
+msgid "Back to the offer details"
+msgstr "Back to the offer details"
+
+#: contact-form.php:121
+msgid "There was an error submitting the form."
+msgstr "There was an error submitting the form."
+
+#: homepage.php:44
+msgid "Read more"
+msgstr "Read more"
+
+#: homepage.php:44
+msgid "Read more &rarr;"
+msgstr "Read more &rarr;"
+
+#: page_properties.php:131
+msgid "<span class=\"meta-nav\">&larr;</span> More Properties"
+msgstr "<span class=\"meta-nav\">&larr;</span> More Properties"
+
+#: search.php:12
+msgid "Search Results"
+msgstr "Search Results"
+
+#: search.php:13
+msgid "You searched for"
+msgstr "You searched for"
+
+#: search.php:36
+msgid "Sorry, no results were found for"
+msgstr "Sorry, no results were found for"
+
+#: searchform.php:5
+msgid "Search Website"
+msgstr "Search Website"
+
+#: single-property.php:35
+msgid "Gallery"
+msgstr "Gallery"
+
+#: single-property.php:35
+msgid "Object Data"
+msgstr "Objektdaten"
+
+#: single-property.php:35
+msgid "Object ID"
+msgstr "Object ID"
+
+#: single-property.php:39
+msgid "Offertype"
+msgstr "Offertype"
+
+#: single-property.php:39
+msgid "Objecttype"
+msgstr "Objecttype"
+
+#: single-property.php:43
+msgid "Room Category"
+msgstr "Room Category"
+
+#: single-property.php:47
+msgid "Size Category"
+msgstr "Size Category"
+
+#: single-property.php:52
+msgid "Address"
+msgstr "Address"
+
+#: single-property.php:77
+msgid "Download object information"
+msgstr "Download object information"
+
+#: single-property.php:77
+msgid "Energy certificate"
+msgstr "Energy certificate"
+
+#: single-property.php:77
+msgid "See more images"
+msgstr "See more images"
+
+#: single-property.php:77
+msgid "Print object information"
+msgstr "Print object information"
+
+#: single-property.php:77
+msgid "Send this offer by email"
+msgstr "Send this offer by email"
+
+#: single-property.php:138
+msgid "Click to enlarge images"
+msgstr "Click to enlarge images"
+
+#: single-property.php:186
+msgid "Purchase price"
+msgstr "Purchase price"
+
+#: single-property.php:186
+msgid "Rent"
+msgstr "Rent"
+
+#: single-property.php:186
+msgid "Additional costs"
+msgstr "Additional costs"
+
+#: single-property.php:186
+msgid "House costs"
+msgstr "House costs"
+
+#: single-property.php:186
+msgid "Total rent"
+msgstr "Total rent"
+
+#: single-property.php:186
+msgid "Heating costs"
+msgstr "Heating costs"
+
+#: single-property.php:186
+msgid "Rent garage/carport"
+msgstr "Rent garage/carport"
+
+#: single-property.php:186
+msgid "Commission for tenant"
+msgstr "Commission for tenant"
+
+#: single-property.php:186
+msgid "Commission for buyer"
+msgstr "Commission for buyer"
+
+#: single-property.php:186
+msgid "Deposit"
+msgstr "Deposit"
+
+#: single-property.php:186
+msgid "Living space"
+msgstr "Wohnfläche"
+
+#: single-property.php:186
+msgid "Total area"
+msgstr "Total area"
+
+#: single-property.php:186
+msgid "Land area"
+msgstr "Land area"
+
+#: single-property.php:186
+msgid "Floorspace"
+msgstr "Floorspace"
+
+#: single-property.php:186
+msgid "Sales area"
+msgstr "Sales area"
+
+#: single-property.php:186
+msgid "Bedrooms"
+msgstr "Bedrooms"
+
+#: single-property.php:186
+msgid "Bathrooms"
+msgstr "Bathrooms"
+
+#: single-property.php:186
+msgid "Basement rooms"
+msgstr "Basement rooms"
+
+#: single-property.php:186
+msgid "Floor"
+msgstr "Floor"
+
+#: single-property.php:186
+msgid "Floors"
+msgstr "Floors"
+
+#: single-property.php:186
+msgid "Heating"
+msgstr "Heating"
+
+#: single-property.php:186
+msgid "Type of heating"
+msgstr "Type of heating"
+
+#: single-property.php:186
+msgid "Energy consumption value"
+msgstr "Energy consumption value"
+
+#: single-property.php:186
+msgid "Type of energy certificate"
+msgstr "Type of energy certificate"
+
+#: single-property.php:186
+msgid "Energy efficiency class"
+msgstr "Energy efficiency class"
+
+#: single-property.php:186
+msgid "Year of construction"
+msgstr "Year of construction"
+
+#: single-property.php:186
+msgid "Last renovation"
+msgstr "Last renovation"
+
+#: single-property.php:186
+msgid "Property condition"
+msgstr "Property condition"
+
+#: single-property.php:186
+msgid "Available from"
+msgstr "Available from"
+
+#: single-property.php:186
+msgid "Miscellaneous info"
+msgstr "Miscellaneous info"
+
+#: single-property.php:186
+msgid "Garden"
+msgstr "Garden"
+
+#: single-property.php:186
+msgid "Balkony"
+msgstr "Balkony"
+
+#: single-property.php:186
+msgid "Kitchen"
+msgstr "Kitchen"
+
+#: single-property.php:186
+msgid "Basement"
+msgstr "Basement"
+
+#: single-property.php:186
+msgid "Pets"
+msgstr "Pets"
+
+#: single-property.php:186
+msgid "Lift"
+msgstr "Lift"
+
+#: single-property.php:186
+msgid "Wheelchair accessible"
+msgstr "Wheelchair accessible"
+
+#: single-property.php:186
+msgid "Carport"
+msgstr "Carport"
+
+#: single-property.php:186
+msgid "Patio"
+msgstr "Patio"
+
+#: single-property.php:186
+msgid "Guest WC"
+msgstr "Guest WC"
+
+#: single-property.php:186
+msgid "Laundry"
+msgstr "Laundry"
+
+#: single-property.php:186
+msgid "Bicycle storage"
+msgstr "Bicycle storage"
+
+#: single-property.php:186
+msgid "Send an inquiry"
+msgstr "Send an inquiry"
+
+#: page_properties.php:186
+msgid "&larr; browse back"
+msgstr "&larr; browse back"
+
+#: homepage.php:186
+msgid "See all properties"
+msgstr "See all properties"
+
+#: comments.php:53
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Logged in as <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:53
+msgid "Log out of this account."
+msgstr "Log out of this account."
+
+#: comments.php:53
+msgid "Log out &raquo;"
+msgstr "Log out &raquo;"
+
+#: comments.php:53
+msgid "Mail (will not be published)"
+msgstr "Mail (will not be published)"
+
+#: comments.php:53
+msgid "(required)"
+msgstr "(required)"
+
+#: page_portfolio.php:78
+msgid "Sold"
+msgstr "Sold"
+
+#: page_portfolio.php:78
+msgid "Rented"
+msgstr "Rented"
+
+#: page_properties.php:78
+msgid "NEW"
+msgstr "NEW"
+
+#: page_properties.php:81
+msgid "View details"
+msgstr "View details"
+
+#: page_properties.php:82
+msgid "View offer"
+msgstr "View offer"
+
+#: page_properties.php:83
+msgid "Description"
+msgstr "Description"
+
+#: page_properties.php:84
+msgid "Details"
+msgstr "Details"
+
+#: page_properties.php:85
+msgid "Location "
+msgstr "Location "
+
+#: page_properties.php:85
+msgid "Related objects"
+msgstr "Related objects"

@@ -1,0 +1,16 @@
+table.vs_pretty tr td:nth-child(1)
+{
+	width:50%;
+}
+table.vs_pretty tr td:nth-child(2)
+{
+	width:25%;
+}
+table.vs_pretty  tr td.alignRight, table.vs_pretty  tr th.alignRight
+{
+	text-align:right;
+}
+table.vs_pretty tr td.topAlign, table.vs_pretty tr th.topAlign
+{
+	vertical-align:top;
+}

@@ -1,0 +1,78 @@
+<?php 
+/**
+ * The Template for displaying all single blog posts
+ *
+ * @package SimpleMag
+ * @since 	SimpleMag 1.0
+**/
+//global $ti_option;
+?>
+
+<?php get_header(); ?>
+		
+    <section id="content" role="main" class="clearfix animated">
+
+	<?php 
+    if ( have_posts() ) :
+      while ( have_posts() ) : the_post(); 
+    ?>
+           
+      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                      
+        
+        <div class="wrapper">
+			
+            <div class="grids single-vendor">
+				<div class="grid-4">
+				<div class="full-box"> 
+					<div class="logo-box">
+					<?php the_post_thumbnail(); ?>
+					
+					</div>
+					<div class="center">
+					<span><?php the_field('phone'); ?></span>
+					<span><?php the_field('location'); ?></span>
+					<span><?php the_field('email'); ?></span>
+					<span><?php the_field('website'); ?></span>								  
+					</div>	
+				</div>	
+					
+				</div>
+			
+                <div class="grid-8">
+					<div class="single-text">
+					<?php the_content(); ?>
+					
+					</div>
+                    </div><!-- .grid-8 -->
+			 <div class="grid-12">
+			 
+
+			 
+			 
+				 
+			 
+			 </div>
+                
+                  
+                </div><!-- .grids -->
+               
+            
+            </div><!-- .wrapper -->
+        </article>
+              
+        <?php endwhile; endif; ?>
+		
+		
+				<?php if(have_rows('slider_option')): while(have_rows('slider_option')): the_row();
+					$img = get_sub_field('slider_image');
+					?>
+				 <div class="grid-2">
+					<a href=""><img src="<?php echo $img['sizes']['gallery-vendor']; ?>"></img></a> 
+				 </div>
+				 <?php endwhile;  endif; ?>
+
+    </section><!-- #content -->
+   
+    
+<?php get_footer(); ?>

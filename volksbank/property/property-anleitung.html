@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anleitung zum Property-Theme von brings-online.com</title>
+
+<style>
+body { margin:0; padding:0; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; color:#444; text-align:center;}
+#page {max-width:900px; margin:100px auto; text-align:left; padding:0 20px;}
+h3 { font-size:18px; font-weight:normal; line-height:1.5em; }
+h2 { font-size:20px; font-weight:normal; line-height:1.3em; }
+p { margin:10px 0; padding:0; line-height:1.5em;}
+ul { margin:10px 0;}
+li { line-height:1.6em;}
+a { color:#c00; text-decoration:none;}
+a:hover { text-decoration:underline;}
+.top {font-size:50px; display:block; text-align:right; position:fixed; bottom:70px; right:150px;}
+.top a:hover { text-decoration:none;}
+.separator { height:1px; background:#ddd; border-bottom:1px solid #999; display:block; margin:12px 0;}
+
+.topinfo { font-family:Verdana, Geneva, sans-serif; font-size:11px; width:100%; position:fixed; bottom:0; left:0; text-align:center; padding:15px 0; background: #39404A; color:#eee;}
+.topinfo a { color:#eee; text-decoration:underline; }
+code { margin:25px 0; padding:10px; background:#f6f6f6; font-size:.9em; display:block;   }
+.shot { float:right; clear:both; max-width:400px; background:#f1f1f1; padding:4px; border:1px solid #eee; border-radius:4px; box-shadow:#ccc 2px 2px 2px; margin:10px;}
+.shot img { width:100%; height:auto; display:block;}
+
+
+@media screen and (max-width: 600px) { .top { display:none;}}
+
+</style>
+
+
+</head>
+
+<body>
+<div id="page">
+<h1>Infos zum Property-Theme </h1>
+<div class="shot"><img src="http://brings-online.com/demo/wp-theme-property/wp-content/themes/property/screenshot.png" /></div>
+<p><a href="http://brings-online.com/demo/wp-theme-property/">Die Demo-Installation finden Sie hier &rarr;</a></p>
+<h3>Übersicht</h3>
+<ul>
+<li><a href="#templates">Templates</a></li> 
+<li><a href="#home">Startseiten</a></li> 
+<li><a href="#settings">Grundsätzliche Einstellungen</a></li>
+<li><a href="#wr">Einstellungen zur Widerufsbelehrung</a></li>  
+<li><a href="#pages">Einstellungen auf den Seiten</a></li> 
+<li><a href="#blog">Blogfunktionen</a></li> 
+<li><a href="#menu">Menus</a></li> 
+<li><a href="#sidebars">Sidebars / Widgets</a></li> 
+<li><a href="#content">Muster Content</a></li> 
+<li><a href="#help">Hilfe</a></li> 
+
+</ul>
+
+
+<h3>Theme hochladen und aktivieren</h3>
+<p>Entpacken Sie die geladene .zip Datei und laden den kompletten Theme-Ordner mit Namen &quot;property&quot; auf Ihren Webserver in das WordPress Theme Verzeichnis. Standardmäßig heißt dieses: wordpress/wp-content/themes. Anschließend kann das neue Theme im WP Admin-Bereich unter “Design – Themes” aktiviert werden. Alternativ können Sie die Theme .zip-Datei auch direkt unter &quot;Design - Themes&quot; hochladen und installieren. </p>
+<p>Anschließend werden Sie aufgefordert, die  empfohlenen Plugins zu installieren: </p>
+<ul>
+  <li>Query-Multiple-Taxonomies - für die Auswahl der Immobilien</li>
+  <li>Easy Google Fonts - um beliebige Google Webfonts auszuwählen </li>
+  <li>Contactform7 - um evtl. weitere Formulare einzurichten. </li>
+    <li>Post Type Switcher - um Immobilien nach Verkauf/Vermietung direkt in die Rubrik &quot;Referenzen&quot; zu verschieben</li>
+</ul>
+<p>&nbsp;</p>
+<div class="separator"></div>
+<a name="templates" id="templates"></a>
+<h3>1. Seiten-Templates</h3>
+<p>Wenn eine neue Seite erstellt oder eine vorhandene editiert wird, können Sie in der Edit-Ansicht rechts unter “Attribute” das gewünschte Template auswählen. Nach dem Speichern wird das neue Template für die Seite genutzt. Folgende Templates stehen zur Verfügung:</p>
+<ul>
+  <li> Standardseiten mit Sidebar =&gt; Standardtemplate</li>
+  <li>Standardseiten mit voller Breite =&gt; Template: Seiten ohne Sidebar</li>
+  <li> Eine Liste aller Immobilien =&gt; Template: Immobilienliste</li>
+  <li>Eine Liste aller Services  =&gt; Template: Serviceliste</li>
+  <li> Seite mit dem Kontaktformular =&gt; Template: Kontaktformular, </li>
+  <li> Startseite mit ausgewählten Immobilien, Infoboxen und Content =&gt; Template: Startseite1</li>
+  <li>Startseite mit Bildergalerie, InfoboxenContent und Immobilien-Karussel =&gt; Template: Startseite2</li>
+  <li>Startseite mit Bildergalerie, Content und Immobilien-Karussel =&gt; Template: Startseite3</li>
+  <li>Startseite mit individuell positionierten Elementen =&gt; Template: Individuelle Startseite</li>
+  <li>Seite mit Referenzobjekten mit Sidebar =&gt; Template: Referenzobjekte mit Sidebar</li>
+  <li>Seite mit Referenzobjekten ohne Sidebar =&gt; Template: Referenzobjekte ohne Sidebar</li>
+</ul>
+
+<p>  
+    Wenn z.B. eine Startseite  als Template ausgewählt wird, werden die entsprechenden Inhalte automatisch zusammengestellt. Bitte beachten Sie, dass zuerst Seiten unter der Rubrik &quot;Immobilien&quot; erstellt werden und evtl. Bilder in den Theme-Einstellungen hochgeladen werden müssen, damit diese   automatisch auf den Startseiten angezeigt werden können. <br>
+    <br>
+</p> 
+
+
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+  <a name="home" id="home"></a>
+<h3>2. Die Startseite</h3>
+<p>WordPress listet nach der Installation standardmäßig die aktuellsten Beiträge (Posts) auf der Startseite. Dies kann unter “Einstellungen / Lesen” verändert werden. Erstellen Sie dazu eine neue Seite und weisen  ihr das  gewünschte Startseiten-Template zu, s.o. Anschließend können Sie in der Liste unter “Einstellungen / Lesen” die gewünschte Seite auswählen und als Startseite aktivieren. Nun startet WordPress auch mit der ausgesuchten Seite. </p>
+<p><br>
+  </p>
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="settings" id="settings"></a>
+<h3>3. Grundsätzliche Theme-Einstellungen </h3>
+<p>Unter dem Admin-Menupunkt &quot;Design/Theme-Einstellungen finden Sie alle individuellen Einstellungsmöglichkeiten. </p>
+<h4>Basiseinstellungen</h4>
+<ul>
+  <li>Logo Upload oder alternativ</li>
+  <li>Eingabe von Website Titel/Untertitel</li>
+  <li>Alternative Währung für die Immobilienseiten</li>
+  </ul>
+  
+  <h4>Startseiten</h4>
+  <ul>
+  <li>Willkommenstexte bzw. Slogans </li>
+  <li>Einstellungen für den internen Slider</li>
+  <li>Upload für  Bilder (Template: Startseite2 und 3)</li>
+  <li>Zusammenstellung der individuellen Startseite aus beliebigen Abschnitten</li>
+  </ul>
+  
+  <h4>Infoboxen</h4>
+  <ul>
+  <li>Beliebig viele Infoboxen für die Starsteite inkl.</li>
+  <li>Icon-Feld, Headline-Feld, Textfeld, Buttonbeschriftung und Link</li>
+  </ul>
+  
+    <h4>Layout</h4>
+  <ul>
+  <li>Hintergrundfarben und Bilder </li>
+  <li>Textfarbe, Headlinefarbe, Linkfarbe</li>
+  <li>Farbe des Menüs</li>
+  <li>Hintergrundfarben für Button und Icons </li>
+  <li>Hintergrundfarbe für die Sidebar-Headlines</li>
+  </ul>
+<h4>Button und Kontakt</h4>
+<ul>
+  <li>Headline für die Immobilien-Auswahlbox</li>
+  <li>Linkziel für die Immobiliensuche</li>
+<li>Linkziel für den Kontakt</li>
+<li>Empfängeradresse für die eMails </li>
+<li>Text für die Betreffzeile der eMails</li>
+<li>Text für Anzeige nach dem Versand der eMails </li>
+<li>Einstellungen für die Widerrufsbelehrung</li>
+</ul>
+
+<h4>Social Media</h4>
+<ul>
+  <li>Eingabe der Ziel-URLs zu den einzelnen Diensten (Facebook, Twitter, Xing usw.)</li>
+</ul>
+
+<h4>Blog</h4>
+<ul>
+<li>Überschrift über die Blogseite (index.php), wenn gewünscht </li>
+<li>Auswahl der Darstellung</li>
+</ul>
+
+<h4>SEO</h4>
+<ul>
+<li>Allgemeine Meta-Tags, die standardmäßig genutzt werden können. </li>
+<li>(Auf allen Seiten können title, description und keywords auch individuell überschrieben werden.) </li>
+</ul>
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="wr" id="wr"></a>
+<h3>3a. Einstellungen für die Widerrufsbelehrung </h3>
+<p>Wenn Sie Ihre Besucher bei Anfragen direkt über das Widerrufsrecht belehren möchten, dann können Sie entsprechende Voreinstellungen übernehmen. Wenn Sie nicht über das Widerufsrecht belehren oder keine automatische Antwortmail inkl. Hinweis zum sofortigem Tätigkeitsbeginn versenden möchten, können Sie die Auswahlboxen auf &quot;Nein&quot; setzen und die übrigen Felder einfach leer lassen. </p>
+<p><br>
+  Folgender Ablauf ist voreingestellt: </p>
+<ul>
+<li>Bei einer Anfrage über den Button auf den Immobilienseiten wird zum Kontaktformular (Template Kontaktformular) weitergeleitet.</li>
+<li>Dort werden Besucher aufgefordert, die verlinkte Widerrufsbelehrung vor Absenden des Formulars zu bestätigen.</li>
+<li>Nach Absenden des Formulars werden zwei Mails verschickt: </li>
+<li>1. An den Besucher - inkl. Immobiliendaten und Hinweise zum Widerruf zwecks sofortigem Tätigkeitsbeginn.</li>
+<li>2. An die in WP hinterlegte Mail-Adresse (d.h. an Sie) - inkl. Kontaktdaten des Besuchers und Immobiliendaten.</li>
+</ul>
+
+<p>Den Text zur Widerrufsbelehrung (Datei: widerrufsbelehrung.php) und den Inhalt der automatischen Mail (Datei: wrmail.php) können Sie, falls erforderlich, direkt in WordPress (Design/Editor) oder lokal mit einem Texteditor bearbeiten. <br />
+  Sämtliche Textvorlagen entsprechen den Vorgaben lt. <a href="http://www.immobilienscout24.de/anbieten/gewerbliche-anbieter/lp/widerrufsbelehrung.html">immobilienscout24.de</a>. Eine Gewährleistung für Aktualität, Vollständigkeit und Richtigkeit kann selbstverständlich nicht gegeben werden!</p>
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="pages" id="pages"></a>
+<h3>4. Einstellungen auf den einzelnen Seiten </h3>
+<p>Auch auf den einzelnen Seiten (d.h. allen Immobilien/Services/Artikeln/Seiten) lassen sich zusätzliche Einstellungen vornehmen: </p>
+<ul>
+  <li>Anzeige dieser Seite auf der Startseite aktivieren (wenn Sie möchten, dass z.B. eine bestimmte Seite oder Serviceleistung auf der Startseite in einer Teaserbox gelistet wird)</li>
+  <li>Daten für die Immobilien (alle Datenfelder sind optional und werden nur angezeigt, wenn Daten enthalten sind)</li>
+  <li>Zusätzliche individuelle Datenfelder für Immobilien können erstellt werden</li>
+  <li>Unbegrenzter Upload von Bildern für die Galerie</li>
+  <li>Upload von Infos als pdf</li>
+  <li>Einbindung von Google Map Standorten*</li>
+  <li>Meta-Tags &quot;title/description/keywords&quot; für diese Seite  </li>
+  
+</ul>
+<p>Den passenden Google-Code mit den Adressdaten des Objektes bekommen Sie auf <a href="http://maps.google.de/" target="_blank">maps.google.de</a>. Geben Sie dort die (ungefähre) Adresse ein und klicken anschließend auf das Hyperlink-Symbol oben links. Dort wird Ihnen der entsprechende HTML-Code zur Verfügung gestellt. Kopieren Sie ihn und fügen ihn komplett in das dafür vorgesehene Feld in den Immobilien-Daten. </p>
+
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="blog" id="blog"></a>
+<h3>5. Blog / News</h3>
+<p>Nutzen Sie die Blogfunktion, z.B. um Neuigkeiten zu veröffentlichen, zu kategorisieren und zu archivieren. Die Kommentarfunktion kann nach Wunsch entweder komplett oder von Fall zu Fall auf den einzelnen Artikelseiten deaktiviert werden. <br>
+  <br>
+  Um eine Übersichtseite der aktuellsten Artikel zu erhalten, erstellen Sie eine leere Seite mit einem Standardtemplate und benennen Sie sie nach Wunsch (z.B. Aktuelles). Im Admin-Menu: Einstellungen/Lesen können Sie nun Ihre eben erstellte Seite als &quot;Artikelseite&quot; eintragen. WordPress weist dieser Seite nun automatisch das richtige Template (index.php) zu, die Artikel werden entsprechend angzeigt. </p>
+<p>Weitere Einstellungen, z.B. zur Anzeige von Datum, Autor, Kategorie usw. können unter &quot;Design/Theme-Einstellungen&quot; vorgenommen werden.</p>
+
+
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="menu" id="menu"></a>
+<h3>6. Haupt-Menu - individuelle Menus für die Sidebar</h3>
+<p>Im Admin-Bereich unter “Design/Menüs” werden die Menus aus den vorhandenen Seiten*  zusammengestellt.  Per Drag&amp;Drop können die gewünschten Seiten zum jeweiligen Menu gefügt werden. Dort können Sie auch die Bezeichnungen für die Menu-Einträge ändern, z.B. lange Seitentitel einfach verkürzen. </p>
+<p>*<em> alle vorhandenen Datensätze sind als Menupunkt nutzbar, d.h. Seiten, Artikel, Angebote genauso wie Kategorien, Schlagworte oder Angebotskategorien. Auch externe URLs sind nutzbar. Um alle Menuoptionen zu sehen, klicken Sie oben auf &quot;Optionen einblenden&quot; und aktivieren die entsprechenden Checkboxen. WordPress zeigt standardmäßig nicht alle vorhandenen Optionen an.</em><br>
+  <br>
+  Um das DropDown-Menu für die Menuleiste oben zu erhalten, erstellen Sie  ein neues Menu und fügen dort die gewünschten Seiten ein. Um die Seiten  hierarchisch anzuordnen, schieben Sie die entsprechenden Unterpunkte ein  wenig nach rechts, bis diese automatisch ihre eingerückte Position  finden. Auf diese Weise entsteht die gewünschte Menuhierarchie. Links in  der obersten Box &ldquo;Anordnung im Theme&rdquo; wählen Sie dann das erstellte  Menu für die Darstellung in der Menuleiste oben aus. </p>
+<p> <em style="color:#c00;">Bitte beachten Sie, dass eine Auswahl der Menufarbe (Theme-Einstellungen) und eine responsive Darstellung erst möglich ist, wenn ein hier erstelltes Menu der "Hauptnavigation im Header" zugeordnet wurde.<br>
+</em></p>
+
+<p>Ebenso können beliebig viele weitere Menus aus den vorhandenen Seiten erstellt werden. Diese Menus stehen Ihnen dann anschließend unter "Design/Widgets" zum Einbinden in die verschiedenen Sidebars zur Verfügung. </p>
+<h4>Automatisch hervorgehobene Menüpunkte </h4>
+<p><em>Wenn Sie für alle relevanten Seiten mit Immobilien (Archivlisten, Taxonomielisten) auch einen Hauptmenupunkt z.B. &quot;Immobilien&quot; (Template: Immobilienliste) hervorheben möchten, so fügen Sie bei diesem die CSS-Klasse <strong>&quot;immo&quot;</strong> hinzu. </em></p>
+<p><em>Wenn für alle relevanten Seiten oder Listen mit News auch ein Hauptmenupunkt z.B. &quot;News&quot; hervorgehoben werden soll, dann fügen Sie hier die CSS-Klasse<strong> &quot;blog&quot;</strong> hinzu. </em></p>
+<p><em>Wenn für alle relevanten Seiten oder Listen mit Referenzen auch ein Hauptmenupunkt z.B. &quot;Referenzen&quot; hervorgehoben werden soll, dann fügen Sie hier die CSS-Klasse<strong> &quot;referenz&quot;</strong> hinzu</em></p>
+
+<p><a href="http://brings-online.com/demo/wp-theme-immo-mobil/immomobil-menu.jpg"  title="zum Vergrößern auf das Bild klicken" target="_blank"><img src="http://brings-online.com/demo/wp-theme-immo-mobil/immomobil-menu.jpg" width="300px" height="208px" alt="ImmoMobil" /></a></p>
+
+<p><em style="color:#c00;">Bitte beachten Sie, dass WordPress nicht standardmäßig alle Menuoptionen einbindet. Klicken Sie oben auf den Button &quot;Optionen&quot;, um alle vorhandenen Rubriken und/oder Einstellungsmöglichkeiten anzuzeigen. </em></p>
+
+
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="sidebars" id="sidebars"></a>
+<h3>7. Sidebars und Widgets </h3>
+<p>Es stehen verschiedene Sidebars für verschiedene Templates zur Verfügung. So können z.B. auf Standardseiten andere Informationen eingebunden werden als auf Serviceseiten oder Newsartikeln.  Um vorab erstellte Menus einzubinden, nutzen Sie das Widget &quot;Individuelle Menus&quot;.  </p>
+<p>&nbsp;</p>
+<p>Für die Ausgabe der neuesten Immobilien stehen zwei zusätzliche Widgets zur Verfügung: </p>
+<p>+ &quot;Immobilien-Liste&quot; und &quot;Immobilien-Slider&quot; </p>
+<p>&nbsp;</p>
+
+
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="content" id="content"></a>
+<h3>8. Muster-Content übernehmen</h3>
+<p>Wenn Sie eine <strong>ganz neue</strong> Webseite mit WordPress aufbauen, können Sie Musterinhalte importieren und diese  überschreiben. Sie finden im Theme-Ordner  eine xml-Datei mit dem Muster-Content der <a href="http://brings-online.com/demo/wp-theme-immo-mobil/" target="_blank">Demo-Seite</a>, die Sie zu diesem Zweck in Ihre WordPress Installation importieren können. Gehen Sie dazu im Admin-Menu auf "Werkzeuge/Daten importieren" und folgen den Anweisungen.</p>
+<p><strong>Bitte beachten Sie, dass die Bilder, die auf der <a href="http://brings-online.com/demo/wp-theme-immo-mobil/" target="_blank">Demo-Seite</a> eingesetzt wurden, nicht geladen oder genutzt werden dürfen.</strong></p>
+<p>&nbsp;</p>
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+
+<h3>Wird das Theme auf einer bereits aktiven WordPress-Webseite eingebunden, sollten Sie sicherheitshalber, wie bei jedem Update, vorab ein Backup Ihrer Dateien und Datenbanken durchführen!</h3>
+<h3>Die jeweils neueste Version von WordPress finden Sie <a href="http://wpde.org/" title="WordPress Deutschland" target="_blank">hier zum Download</a></h3>
+<div class="top"><a href="" target="_top">&uarr;</a></div>
+<div class="separator"></div>
+<a name="help" id="help"></a>
+<h3>  Wenn Sie außerdem noch Fragen haben,  <a href="http://brings-online.com/kontakt/" title="Kontakt und Anfragen">schreiben Sie hier eine eMail.</a> Sie erhalten schnellstmöglich Antwort.</h3>
+<h3>Wenn Sie darüber hinaus Hilfe benötigen oder die erste Einrichtung des Themes erledigen lassen möchten, können Sie  <a href="http://brings-online.com/support-anfrage/">hier auch eine Anfrage senden</a> - Sie erhalten  umgehend ein individuelles Angebot für Ihren konkreten Bedarf. </h3>
+
+
+
+</div>
+
+
+<div class="topinfo">
+<a href="http://brings-online.com/themes/">brings-online.com</a> - büro für webentwicklung - design, entwicklung und service</div>
+
+</body>
+</html>

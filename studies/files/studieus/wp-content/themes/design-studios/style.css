@@ -1,0 +1,13 @@
+/*
+	Theme Name: design-studios
+	Theme URI: http://example.org/
+	Description: The design-studios WordPress theme based on the famous <a href="http://example.com/kubrick/">design-studios</a>.
+	Version: 1.6
+	Author: design-studios
+	Author URI: http://example.com/
+	Tags: blue, custom header, fixed width, two columns, widgets
+*/
+
+@import "css/reset.css";
+@import "css/wp.css";
+

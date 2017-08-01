@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url(montserrat-bold-webfont.eot);
+    src: url(montserrat-bold-webfont.eot) format('embedded-opentype'),
+         url(montserrat-bold-webfont.woff2) format('woff2'),
+         url(montserrat-bold-webfont.woff) format('woff'),
+         url(montserrat-bold-webfont.ttf) format('truetype'),
+         url(montserrat-bold-webfont.svg#montserratbold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinregular';
+    src: url(cabin-regular-webfont.eot);
+    src: url(cabin-regular-webfont.eot) format('embedded-opentype'),
+         url(cabin-regular-webfont.woff2) format('woff2'),
+         url(cabin-regular-webfont.woff) format('woff'),
+         url(cabin-regular-webfont.ttf) format('truetype'),
+         url(cabin-regular-webfont.svg#cabinregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url(droidserif-regular-webfont.eot);
+    src: url(droidserif-regular-webfont.eot) format('embedded-opentype'),
+         url(droidserif-regular-webfont.woff2) format('woff2'),
+         url(droidserif-regular-webfont.woff) format('woff'),
+         url(droidserif-regular-webfont.ttf) format('truetype'),
+         url(droidserif-regular-webfont.svg#droid_serifregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+	font-family:'Cabin-SemiBold';
+	src: url(Cabin-SemiBold_gdi.eot);
+	src: url(Cabin-SemiBold_gdi.eot) format('embedded-opentype'),
+		url(Cabin-SemiBold_gdi.woff) format('woff'),
+		url(Cabin-SemiBold_gdi.ttf) format('truetype'),
+		url(Cabin-SemiBold_gdi.otf) format('opentype'),
+		url(Cabin-SemiBold_gdi.svg#Cabin-SemiBold) format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+@font-face {
+	font-family:'DroidSerif-BoldItalic';
+	src: url(DroidSerif-BoldItalic_gdi.eot);
+	src: url(DroidSerif-BoldItalic_gdi.eot) format('embedded-opentype'),
+		url(DroidSerif-BoldItalic_gdi.woff) format('woff'),
+		url(DroidSerif-BoldItalic_gdi.ttf) format('truetype'),
+		url(DroidSerif-BoldItalic_gdi.otf) format('opentype'),
+		url(DroidSerif-BoldItalic_gdi.svg#DroidSerif-BoldItalic) format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url(montserrat-black-webfont.eot);
+    src: url(montserrat-black-webfont.eot) format('embedded-opentype'),
+         url(montserrat-black-webfont.woff2) format('woff2'),
+         url(montserrat-black-webfont.woff) format('woff'),
+         url(vmontserrat-black-webfont.ttf) format('truetype'),
+         url(montserrat-black-webfont.svg#montserratblack) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family:'Montserrat-Regular';
+	src: url(Montserrat-Regular_gdi.eot);
+	src: url(Montserrat-Regular_gdi.eot) format('embedded-opentype'),
+		url(Montserrat-Regular_gdi.woff) format('woff'),
+		url(Montserrat-Regular_gdi.ttf) format('truetype'),
+		url(Montserrat-Regular_gdi.otf) format('opentype'),
+		url(Montserrat-Regular_gdi.svg#Montserrat-Regular) format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+	font-family:'DroidSans-Bold';
+	src: url(DroidSans-Bold_gdi.eot);
+	src: url(DroidSans-Bold_gdi.eot) format('embedded-opentype'),
+		url(DroidSans-Bold_gdi.woff) format('woff'),
+		url(DroidSans-Bold_gdi.ttf) format('truetype'),
+		url(DroidSans-Bold_gdi.otf) format('opentype'),
+		url(DroidSans-Bold_gdi.svg#DroidSans-Bold) format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Cabin-Bold';
+	src: url(Cabin-Bold_gdi.eot);
+	src: url(Cabin-Bold_gdi.eot) format('embedded-opentype'),
+		url(Cabin-Bold_gdi.woff) format('woff'),
+		url(Cabin-Bold_gdi.ttf) format('truetype'),
+		url(Cabin-Bold_gdi.otf) format('opentype'),
+		url(Cabin-Bold_gdi.svg#Cabin-Bold) format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+@font-face {
+	font-family:'DroidSerif-Italic';
+	src: url(DroidSerif-Italic_gdi.eot);
+	src: url(DroidSerif-Italic_gdi.eot) format('embedded-opentype'),
+		url(DroidSerif-Italic_gdi.woff) format('woff'),
+		url(DroidSerif-Italic_gdi.ttf) format('truetype'),
+		url(DroidSerif-Italic_gdi.otf) format('opentype'),
+		url(DroidSerif-Italic_gdi.svg#DroidSerif-Italic) format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'DroidSerif-Bold';
+	src: url(DroidSerif-Bold_gdi.eot);
+	src: url(DroidSerif-Bold_gdi.eot) format('embedded-opentype'),
+		url(DroidSerif-Bold_gdi.woff) format('woff'),
+		url(DroidSerif-Bold_gdi.ttf) format('truetype'),
+		url(DroidSerif-Bold_gdi.otf) format('opentype'),
+		url(DroidSerif-Bold_gdi.svg#DroidSerif-Bold) format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+	font-family:'Courgette-Regular';
+	src: url(Courgette-Regular_gdi.eot);
+	src: url(Courgette-Regular_gdi.eot) format('embedded-opentype'),
+		url(Courgette-Regular_gdi.woff) format('woff'),
+		url(Courgette-Regular_gdi.ttf) format('truetype'),
+		url(Courgette-Regular_gdi.otf) format('opentype'),
+		url(Courgette-Regular_gdi.svg#Courgette-Regular) format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+
+@font-face {
+  font-family: 'Lora-Italic';
+  src: url(Lora-Italic.eot);
+  src: url(Lora-Italic.eot?#iefix) format('embedded-opentype'),
+       url(Lora-Italic.woff2) format('woff2'),
+       url(Lora-Italic.woff) format('woff'),
+       url(Lora-Italic.ttf) format('truetype'),
+       url(Lora-Italic.svg#Lora-Italic) format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+000D-25CA;
+
+}
+

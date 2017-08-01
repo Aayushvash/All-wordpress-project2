@@ -1,0 +1,371 @@
+.loadingIndicator .loadBarContainer
+{
+	width:inherit;
+	height:60px;
+	background-color:#FFF;
+	position:relative;
+	outline:solid 1px rgba(0,0,0,0.3);
+}
+.stepButtons .background .line
+{
+	background-color:#FFF;
+}
+.stepButtons .background .line .lineContainer .slider
+{
+	background-color:#fac12f;
+}
+.stepButtons .steps .step .bgColor
+{
+	background-color:#fac12f;
+}
+.stepButtons .steps .step .cell
+{
+	background-color:#FFF;
+}
+.stepButtons .steps .step.active .cell .centeredStr
+{
+	color:#fac12f;
+}
+.clear
+{
+	clear:both;
+}
+form br
+{
+	clear:both;
+	display:block;
+}
+
+fieldset.loginForm
+{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	position:relative;
+}
+fieldset.loginForm .message
+{
+	height:25px;
+}
+fieldset.loginForm .message#error
+{
+	color:#F00;
+}
+fieldset.loginForm .loadingGif
+{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-8px;
+	margin-top:-8px;
+}
+.loadingIndicator
+{
+	/*
+	width:714px;
+	*/
+	width:100%;
+	height:125px;
+}
+.loadingIndicator .loadBarContainer .loadBar
+{
+	width:0px;
+	height:inherit;/*
+	background: rgba(250,193,47,0.5);
+	background: -moz-linear-gradient(left, rgba(250,193,47,0.5) 0%, rgba(250,193,47,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,193,47,0.5)), color-stop(100%, rgba(250,193,47,1)));
+	background: -webkit-linear-gradient(left, rgba(250,193,47,0.5) 0%, rgba(250,193,47,1) 100%);
+	background: -o-linear-gradient(left, rgba(250,193,47,0.5) 0%, rgba(250,193,47,1) 100%);
+	background: -ms-linear-gradient(left, rgba(250,193,47,0.5) 0%, rgba(250,193,47,1) 100%);
+	background: linear-gradient(to right, rgba(250,193,47,0.5) 0%, rgba(250,193,47,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac12f', endColorstr='#fac12f', GradientType=1 );*/
+}
+.loadingIndicator .loadBarContainer .status
+{
+	position:absolute;
+	width:inherit;
+	height:20px;
+	text-align:center;
+	top:50%;
+	margin-top:-10px;
+}
+.planningContainer
+{
+	background-color:none;
+	height:inherit;
+	/*
+	width:714px;
+	*/
+	width:100%;
+	overflow:hidden;
+	opacity:0;
+	
+}
+.stepButtons .background
+{
+	background-color:#f3f3f3;
+	width:100%;
+	height:100px;
+	position:relative;
+}
+.stepButtons .background .line
+{
+	position:absolute;
+	top:50%;
+	margin-top:-5px;
+	height:10px;
+	width:100%;
+}
+.stepButtons .background .line .lineContainer
+{
+	position:relative;
+}
+.stepButtons .background .line .lineContainer .slider
+{
+	position:absolute;
+	height:10px;
+	width:50px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+}
+.stepButtons .steps
+{
+	position:absolute;
+	height:100px;
+	width:inherit;
+	margin-top:-100px;
+}
+.stepButtons .steps .step
+{
+	background-color:#FFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius:50px;
+	height:100px;
+	width:100px;
+	float:left;
+	margin:53.1px;
+	margin-top:0;
+	margin-bottom:0;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+.stepButtons .steps .step:nth-child(1)
+{
+	margin-left:0;
+}
+.stepButtons .steps .step:nth-last-child(1)
+{
+	margin-right:0;
+}
+.stepButtons .steps .step .bgColor
+{
+	width:0;
+	height:inherit;
+	position:absolute;
+}
+.stepButtons .steps .step .cell
+{
+	position:absolute;
+	width:90px;
+	height:90px;
+	margin:5px;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius:45px;
+}
+.stepButtons .steps .step .cell .centeredStr
+{
+	line-height:85px;
+	text-align:center;
+	font-size:30px;
+	width:100%;
+	height:100%;
+	font-weight:bold;
+	color:#E0E0E0;
+}
+
+.stepContent
+{
+	width:100%;
+	min-height:300px;
+	overflow:hidden;
+}
+.stepContent .contentContainer
+{
+	width:auto;
+	min-height:inherit;
+	position:relative;
+}
+.contentContainer{width:600%!important;}
+.stepContent .contentContainer .stepContentView
+{
+	/*
+	width:600px;*/
+	min-height:inherit;
+	float:left;
+	background-color:none;
+	display:block;
+}
+/*
+.stepContent .contentContainer .stepContentView:nth-child(1)
+{
+	background-color:#0C0;	
+}
+.stepContent .contentContainer .stepContentView:nth-child(2)
+{
+	background-color:#099;	
+}
+.stepContent .contentContainer .stepContentView:nth-child(3)
+{
+	background-color:#C60;	
+}
+.stepContent .contentContainer .stepContentView:nth-child(4)
+{
+	background-color:#939;	
+}
+.stepContent .contentContainer .stepContentView:nth-child(5)
+{
+	background-color:#FC0;	
+}
+.stepContent .contentContainer .stepContentView:nth-child(6)
+{
+	background-color:#C90;	
+}*/
+.stepContent .contentContainer .stepContentView .topBar
+{
+	width:inherit;
+	min-height:45px;
+}
+.stepContent .contentContainer .stepContentView .topBar h1, .stepContent .contentContainer .stepContentView .topBar h2, .stepContent .contentContainer .stepContentView .topBar h3, .stepContent .contentContainer .stepContentView .topBar h4
+{
+	margin:0;
+}
+.stepContent .contentContainer .stepContentView .topBar .tBD,.stepContent .contentContainer .stepContentView .topBar .midden
+{
+	font-size:30px;
+	width:33.333333%;
+	float:left;
+	height:inherit;
+}
+.stepContent .contentContainer .stepContentView .topBar .midden{width:90%;}
+.greyButton{cursor:pointer;margin-right: 18px;}
+.wzError{color:red;}
+/*
+.wzText table{width:96%;margin-top:20px;}
+.wzText table tr th:nth-child(2){width:80px;}
+.wzText table tr th:nth-child(3){width:50px;}
+.wzText table tr th:nth-child(4){width:50px;}*/
+.stepContent .contentContainer .stepContentView .topBar .tBD:nth-child(2)
+{
+	text-align:center;
+}
+.stepContent .contentContainer .stepContentView .topBar .tBD:nth-child(3)
+{
+	text-align:right;
+}
+.stepContent .contentContainer .stepContentView .wizardContent
+{
+	width:100%;
+	min-height:100px;
+	margin-bottom:30px;
+	background-color:none;
+}
+.stepContentView .wizardContent .wzHalf
+{
+	float:left;
+	width:48.7%
+}
+.stepContentView .wizardContent .wzHalf:nth-child(2)
+{
+}
+.stepContentView .wizardContent .wzTitle
+{
+	font-weight:bold;
+	font-size:22px;
+}
+.stepContentView .wizardContent .cursist
+{
+	display:none;
+	visibility:inherit;
+	margin-bottom:10px;
+	border:solid 1px rgba(0,0,0,0.5);
+	min-height:10px;
+	padding-top:4px;
+	padding-left:2px;
+}
+.stepContentView .wizardContent .cursist label, .stepContentView .wizardContent .cursist input
+{
+	float:left;
+	width:45%;
+	margin-bottom:4px;
+}
+.stepContentView .wizardContent .cursist input[type=radio]
+{
+	width:auto;
+}
+.stepContentView .wizardContent .cursist br
+{
+	clear:both;
+}
+.stepContentView .wizardContent .cursist:nth-child(even)
+{
+	background-color:rgba(0,0,0,0.05);
+}
+.stepContentView .wizardContent .cursist:nth-child(odd)
+{
+	background-color:none;
+}
+.stepContentView .wizardContent .cursist .exists
+{
+	display:none;
+}
+.stepContentView .wizardContent .cursist .exists input
+{
+	width:auto;
+}
+.stepContentView .wizardContent .cursist.disabled
+{
+	display:none !important;
+}
+.stepContentView .wizardContent .cursist span
+{
+	float:left;
+}
+.stepContentView .wizardContent .cursist span.last_date_box
+{
+	clear:both;
+	font-style:oblique;
+}
+.stepContentView .wizardContent .bestaandeCursisten
+{
+	display:none;
+}
+.stepContentView .wizardContent fieldset
+{
+	width:95%;
+}
+.stepContentView .wizardContent fieldset .notLogged input[type=text], .stepContentView .wizardContent fieldset .notLogged input[type=email]
+{
+	width:100%;
+}
+.stepContentView .wizardContent form.sendData
+{
+	display:none;
+}
+.stepButtons
+{
+	margin-bottom:20px;	
+}
+.colorSettings
+{
+	display:none !important;
+}
+.vs_fl_left
+{
+	float:left;
+}

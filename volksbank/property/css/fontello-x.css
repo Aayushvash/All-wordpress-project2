@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?61041499');
+  src: url('../font/fontello.eot?61041499#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?61041499') format('woff'),
+       url('../font/fontello.ttf?61041499') format('truetype'),
+       url('../font/fontello.svg?61041499#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?61041499#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  float:left;
+  margin-right: .4em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.3em;
+  margin-left: .1em;
+  font-size: 100%;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-search-1:before { content: '\e801'; } /* '' */
+.icon-school:before { content: '\e800'; } /* '' */
+.icon-mail-alt:before { content: '\e803'; } /* '' */
+.icon-male:before { content: '\e81e'; } /* '' */
+.icon-female:before { content: '\e81f'; } /* '' */
+.icon-ok:before { content: '\e80f'; } /* '' */
+.icon-plus:before { content: '\e81d'; } /* '' */
+.icon-info:before { content: '\e81a'; } /* '' */
+.icon-home:before { content: '\e804'; } /* '' */
+.icon-flag:before { content: '\e80e'; } /* '' */
+.icon-print:before { content: '\e805'; } /* '' */
+.icon-location-1:before { content: '\e81b'; } /* '' */
+.icon-phone:before { content: '\e806'; } /* '' */
+.icon-phone-squared:before { content: '\e807'; } /* '' */
+.icon-wrench:before { content: '\e80a'; } /* '' */
+.icon-calendar:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-clock:before { content: '\e80b'; } /* '' */
+.icon-desktop:before { content: '\e80c'; } /* '' */
+.icon-briefcase:before { content: '\e80d'; } /* '' */
+.icon-user-md:before { content: '\e810'; } /* '' */
+.icon-stethoscope:before { content: '\e811'; } /* '' */
+.icon-medkit:before { content: '\e812'; } /* '' */
+.icon-hospital:before { content: '\e813'; } /* '' */
+.icon-wheelchair:before { content: '\e814'; } /* '' */
+.icon-users-1:before { content: '\e815'; } /* '' */
+.icon-quote:before { content: '\e819'; } /* '' */
+.icon-easel:before { content: '\e817'; } /* '' */
+.icon-at:before { content: '\e818'; } /* '' */
+.icon-bus:before { content: '\e816'; } /* '' */
+.icon-college:before { content: '\e81c'; } /* '' */
+.icon-calendar-empty:before { content: '\e809'; } /* '' */

@@ -1,0 +1,618 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleMag\n"
+"POT-Creation-Date: 2013-07-28 14:51+0200\n"
+"PO-Revision-Date: 2013-07-28 14:51+0200\n"
+"Last-Translator: Vasili <vladart@gmail.com>\n"
+"Language-Team: ThemesIndep <admin@themesindep.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\Web\\Server\\xampp\\htdocs\\themesindep\\wp-content"
+"\\themes\\simplemag\n"
+"X-Poedit-SearchPath-0: D:\\Web\\Server\\xampp\\htdocs\\themesindep\\wp-"
+"content\\themes\\simplemag\n"
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/archive.php:40
+msgid "Author Archive"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/archive.php:91
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/content-post.php:44
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:27
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/category-posts.php:62
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/featured-posts.php:68
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/format-posts.php:113
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/latest-reviews.php:112
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/posts-slider.php:51
+msgid "By"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/archive.php:99
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/index.php:52
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/search.php:63
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/posts-slider.php:61
+msgid "Read More"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/archive.php:151
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/index.php:87
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/latest-posts.php:72
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/latest-posts.php:111
+msgid "Sorry, no posts were found"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:36
+msgid "Website"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:41
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:203
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/user-fields.php:19
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:38
+msgid "Twitter"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:46
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:200
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/user-fields.php:28
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:42
+msgid "Facebook"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:51
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/user-fields.php:37
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:46
+msgid "Google+"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:56
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:207
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/user-fields.php:46
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:58
+msgid "Pinterest"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/author.php:83
+msgid "This author has no posts yet"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:22
+msgid "No Comments"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:22
+msgid "% Comments"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:36
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:52
+msgid "You must be"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:53
+msgid "logged in"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:54
+msgid "to post a comment"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:58
+msgid "Be first to comment"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:60
+msgid "Leave a Reply"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/comments.php:72
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/footer.php:22
+msgid "Back to top"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:37
+msgid "Main Menu"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:38
+msgid "Secondary Menu"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:109
+msgid "Magazine"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:111
+msgid "Sidebar for categories and single posts"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:121
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/sitemap.php:72
+msgid "Pages"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:123
+msgid "Sidebar for static pages"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:133
+msgid "Footer Area One"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:144
+msgid "Footer Area Two"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/functions.php:155
+msgid "Footer Area Three"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/header.php:83
+msgid "Define your site secondary menu"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/header.php:130
+msgid "Define your site main menu"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/search.php:16
+msgid "<small>Search Results for:</small><br />"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/search.php:78
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:138
+msgid "Pages:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:177
+msgid "Total Score"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:197
+msgid "Share on:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:210
+msgid "Google +"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:234
+msgid "Previous article"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/single.php:246
+msgid "Next article"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/sitemap.php:58
+msgid "Categories"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/sitemap.php:65
+msgid "Authors"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/sitemap.php:79
+msgid "Archives"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/classes/class.options_machine.php:556
+msgid "Last Backup : "
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/front-end/options.php:43
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/category-posts.php:80
+msgid "This category does not contain any posts yet"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/featured-posts.php:86
+msgid "There are no featured posts yet"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/format-posts.php:140
+msgid "There are no posts with this format yet"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/latest-reviews.php:138
+msgid "There are no reviews yet"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/posts-slider.php:75
+msgid "Sorrry, there are no posts in the slider"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/composer/static-image.php:35
+msgid "Advertisement"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/author-box.php:22
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/comment-template.php:29
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/mega-menu.php:82
+msgid "No image"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/related-posts.php:81
+msgid ""
+"<p class=\"grid-12 message\">Sorry, this category has just one post and you "
+"already here</p>"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/inc/user-fields.php:14
+msgid "Social Profiles"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:24
+msgid "TI About The Site"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:25
+msgid ""
+"Display info about your magazine. Such as logo, text & social profile links"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:34
+msgid "RSS URL"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:35
+msgid "feed"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:39
+msgid "twitter"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:43
+msgid "facebook"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:47
+msgid "google-plus"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:50
+msgid "LinkedIn"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:51
+msgid "linkedin"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:54
+msgid "Instagram"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:55
+msgid "instagram"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:59
+msgid "pinterest"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:62
+msgid "Vimeo"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:63
+msgid "vimeo"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:66
+msgid "YouTube"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:67
+msgid "youtube"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:70
+msgid "Flickr"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:71
+msgid "flickr"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:74
+msgid "Behance"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:75
+msgid "behance"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:78
+msgid "Sound Cloud"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:79
+msgid "soundcloud"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:82
+msgid "Dribbble"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:83
+msgid "dribbble"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:86
+msgid "Last.fm"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:87
+msgid "lastfm"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:90
+msgid "App.net"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:91
+msgid "app-net"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:94
+msgid "Apple"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:95
+msgid "apple"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:98
+msgid "Windows"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:99
+msgid "windows"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:102
+msgid "Android"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:103
+msgid "android"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:106
+msgid "StumbleUpon"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:107
+msgid "stumbleupon"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:110
+msgid "Picassa"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:111
+msgid "picassa"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:114
+msgid "Skype"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:115
+msgid "skype"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:203
+msgid "Title"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:207
+msgid "Logo URL"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:211
+msgid "Short text about the site"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:216
+msgid "Center the social icons"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-about-site.php:220
+msgid "Open social links in new window"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-authors.php:21
+msgid "TI Site Authors"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-authors.php:22
+msgid "Display the site authors"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-authors.php:114
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-code-banner.php:85
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-featured-posts.php:125
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:90
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-comments.php:116
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:128
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-reviews.php:139
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-most-commented.php:121
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-video.php:90
+msgid "Title:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-authors.php:118
+msgid "Maximum thumbs to show:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-code-banner.php:21
+msgid "TI Code Banner"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-code-banner.php:22
+msgid "Paste your banner JS or Google Adsense code"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-code-banner.php:89
+msgid "JS or Google AdSense Code"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-code-banner.php:94
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:103
+msgid "Do not display the title"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-featured-posts.php:21
+msgid "TI Featured Posts"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-featured-posts.php:22
+msgid "Show featured posts, defined in post edit page"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-featured-posts.php:129
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:132
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-reviews.php:143
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-most-commented.php:125
+msgid "Maximum posts to show:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:21
+msgid "TI Image Banner"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:22
+msgid "Add image banner 300x300, 300x250 or 250x250"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:94
+msgid "Image Banner URL:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-image-banner.php:98
+msgid "Image Banner Link:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-comments.php:21
+msgid "TI Latest Comments"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-comments.php:22
+msgid "Display the most latest comments "
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-comments.php:120
+msgid "Comments to show:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:21
+msgid "TI Latest Posts"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:22
+msgid "Show latest posts"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:136
+msgid "flexslider"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:137
+msgid "Display posts as Slider"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:139
+msgid "entries"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-posts.php:140
+msgid "Display posts as List"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-reviews.php:21
+msgid "TI Latest Reviews"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-latest-reviews.php:22
+msgid "Display the latest posts with reviews"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-most-commented.php:21
+msgid "TI Most Commented Posts"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-most-commented.php:22
+msgid "Show a list of the most commented posts with comments count"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-video.php:21
+msgid "TI Video"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-video.php:22
+msgid "Add video from Vimeo, YouTube or other video site."
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-video.php:94
+msgid "Video page URL:"
+msgstr ""
+
+#: D:\Web\Server\xampp\htdocs\themesindep\wp-content\themes\simplemag/widgets/ti-video.php:99
+msgid "Video Title:"
+msgstr ""

@@ -1,0 +1,88 @@
+/* #Reset & Basics */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+.clear { clear: both; height: 0px; }
+
+/* #Basic Styles */
+body { background: #C7F900; font: 14px/160% PTSansRegular, sans-serif; color: #666666; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+
+/* #Typography */
+h1, h2, h3, h4, h5, h6, .subheader { color: #2c2c2c; line-height: 110%; font-weight: normal; text-transform: uppercase; font-family: BebasNeueRegular, sans-serif; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1, .icy-slogan-title { font-size: 42px; margin-bottom: 16px; }
+h1.title { font-size: 50px; }
+h2 { font-size: 28px; margin-bottom: 10px; }
+h3 { font-size: 22px; margin-bottom: 8px; }
+h4 { font-size: 17px; margin-bottom: 20px; line-height: 160%; font-family: PTSansBold, sans-serif; text-transform: none; font-weight: normal; }
+h5, .subheader { display: block; font-size: 15px; font-family: PTSansBold, sans-serif; text-transform: none; }
+h6 { font-size: 13px; font-family: PTSansRegular, sans-serif; text-transform: none; }
+p { margin: 0 0 17px 0; color: #666666; }
+p img { margin: 0; }
+p a { font-weight: bold; }
+.slides p a, #articlesList p a, .featureArticles p a { font-weight: normal; color: #666666;}
+.slides p a:hover, #articlesList p a:hover, .featureArticles p a:hover { color: #2c2c2c; }
+p.lead { font-size: 21px; line-height: 27px; color: #777; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+.date { font-size: 13px; color: #666666; }
+.subheader { margin-bottom: 6px; font-weight: normal; font-family: PTSansBold; text-transform: uppercase; font-size: 14px; }
+.spl-text { font-size: 14px; color: #FF0066; font-weight: normal; font-family: PTSansBold; margin-bottom: 6px; text-transform: uppercase; }
+.special-text { font-size: 12px; color: #999999; }
+#articlesList .article:hover p.special-text { color: #999999; }
+.cat-title { width: 100%; margin-bottom: 10px; overflow: hidden; text-transform: uppercase; }
+.cat-title a, .cat-title span.widgetTitle { padding: 0 18px; display: block; line-height: 40px; float: left; color: #c7f900; font-size: 13px; background: #2C2C2C; }
+.cat-title a i, .cat-title span.widgetTitle i { margin-left: 6px; font-size: 15px; }
+.cat-title a:hover { color: #fff; }
+.cat-title a img { display: inline; vertical-align: middle; width: auto; height: auto; margin-left: 5px; margin-top: -2px; }
+
+/*	Blockquotes  */
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+/* #Links */
+a { color: #2C2C2C; text-decoration: none; outline: 0; }
+a:hover, a:hover span { color: #B2DF00; }
+
+/* #Images */
+img { max-width: 100%; height: auto; display: block; }
+@media \0screen { img.resize-img { width: auto; /* for ie 8 */ } }
+
+/* #Buttons */
+.button, button, button.newsman-button, input[type="submit"], input[type="reset"], input[type="button"] { background: #C7F900; border: 0; color: #2C2C2C; display: inline-block; font-size: 13px; text-decoration: none; cursor: pointer; line-height: normal; padding: 9px 17px 8px 17px; font-weight: normal; font-family: PTSansBold, sans-serif; text-transform: uppercase; -webkit-border-radius: 0; border-radius: 0;  }
+.button.small { padding: 8px 15px 7px 15px; }
+.button:hover, button:hover, button.newsman-button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover { color: #C7F900; background: #2C2C2C; }
+.button.full-width, button.full-width, input[type="submit"].full-width, input[type="reset"].full-width, input[type="button"].full-width { width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align: center; }
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* #Forms */
+form { }
+fieldset { }
+input[type="text"], input[type="password"], input[type="email"], textarea, select { border: 0; padding: 10px 8px; padding-bottom: 7px; outline: none; font: 13px PTSansRegular, sans-serif; color: #2c2c2c; margin: 0; height: 18px; width: 210px; background: #fff; -webkit-border-radius: 0; border-radius: 0;  }
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus { }
+textarea { min-height: 60px; resize:none; }
+select { width: 220px; }
+input[type="checkbox"] { display: inline; }
+
+/* # Other */
+.centering { margin: 0 10px; }
+.inner { padding: 25px 15px 15px 15px; }
+
+/* # pagination */
+#page-nav { text-align: center; width: 100%; overflow: hidden; }
+
+/* # error forms */
+#right span.wpcf7-form-control-wrap { display: block; }
+#right span.wpcf7-not-valid-tip{ width: auto; padding: 11px 12px; line-height: 100%; color: #FFFFFF !important; background: #CB211A !important; border: none; white-space: nowrap; }
+#right div.wpcf7-validation-errors { margin: 0 0 20px 0; padding: 11px 12px; line-height: 100%; background: #F7E700; border: none; color: #2C2C2C; }

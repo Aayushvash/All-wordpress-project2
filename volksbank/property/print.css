@@ -1,0 +1,83 @@
+/*
+ImmoMobil Print Stylesheet
+
+*/
+
+html { overflow-y:scroll;}
+body { margin:0; padding:0; text-align:left; font-family: Verdana, Geneva, sans-serif; font-size:83%; color:#212629; background: #fff;}
+img { border:none;}
+h1,h2,h3,h4,h5,h6,p,ul,li,form, table, td { margin:0; padding:0;}
+ul, li { list-style:none;}
+a { text-decoration:none;}
+.clear { clear:both;}
+
+/* ======================= */ 
+
+
+#wrapper { width:100%; margin:0; padding:0; border:none; background:none; }
+#bottom-wrapper { width:100%; height:100%; margin:0; padding:0 0 25px 0;}
+
+#page { width:800px; margin:0 auto; padding:0; text-align:left; box-shadow:none; border:none; background:none; }
+#header { display:none;}
+#content { margin:0; padding:0; }
+#columnLeft {}
+#sidebar { }
+
+#footer { width:100%; margin:0; padding:0; background:none; }
+.footer-content { width:800px; margin:0 auto; padding:20px 0; text-align:left;  }
+
+
+.tabtext { display:block;}
+
+
+
+/* ======================= font ============================= */
+
+h1 { font-size:18px; font-weight:normal;}
+h2 {font-size:16px; font-weight:normal;}
+h3 {font-size:15px; font-weight:normal;}
+p { margin:10px 0 20px 0; padding:0 15px 0 0; line-height:1.65em; font-size:12px;}
+a { color:#555;}
+
+
+
+
+#main-menu { display:none; }
+
+
+
+
+/* ==========================================  property single  =========================================== */
+
+
+#top-single { position:relative; margin:0; padding:0; width:400px; height:240px; overflow:hidden;}
+
+.prop-map {display:none;}
+.prop-map small {display:none;}
+.cycle-single-pager {display:none;}
+#prop-toolbar { display:none;}
+
+
+#bottom-single {width:800px; margin:20px 0 0 0; padding:0; }
+.prop-description { width:400px; padding:5px 10px; float:left;}
+
+.related-objects { display:none;}
+.prop-info ul li.list-mailfwd, .prop-info ul li.list-download, .prop-info ul li.list-requestbutton, .prop-info ul li.list-printer { display:none;} 
+.prop-info ul li.list-address { font-size:14px; padding:10px 0;}
+
+
+
+.prop-all-data { width:300px; float:right; font-size:11px; border:1px solid #fff; padding:0; margin-bottom:50px }
+.prop-all-data table { margin:0; padding:0; line-height:2em; width:100%; border-spacing:0; }
+.prop-all-data table td { padding:5px 10px; border-bottom:1px solid #D6D6D6; border-top:1px solid #fff; vertical-align:top;}
+.prop-all-data table tr:hover { background:#ebebeb;}
+.prop-all-data table tr:first-child td { border-top:none;}
+.prop-all-data table tr:last-child td { border-bottom:none;}
+.prop-all-data .yes { background:url(images/yes.png) center no-repeat; width:20px; height:20px; display:block;}
+
+.prop-all-data .keys, .prop-data .keys { color:#7d7d7d;}
+
+.prop-all-data td.showmore  { display:none;}
+.prop-all-data .moredata {display:block;}
+
+.footer-box, .searchbox, .openoptions { display:none;}

@@ -1,0 +1,1971 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Default_Theme
+ * Template Name: Order
+ */
+get_header(); ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
+<script type="text/javascript">
+function OrderValidation()
+{
+var price011311 = document.getElementById('price011311').value;
+var price011312 = document.getElementById('price011312').value;
+var price011313 = document.getElementById('price011313').value;
+var price011314 = document.getElementById('price011314').value;
+var price011315 = document.getElementById('price011315').value;
+
+var price011321 = document.getElementById('price011321').value;
+var price011322 = document.getElementById('price011322').value;
+var price011323 = document.getElementById('price011323').value;
+var price011324 = document.getElementById('price011324').value;
+var price011325 = document.getElementById('price011325').value;
+
+var price011331 = document.getElementById('price011331').value;
+var price011332 = document.getElementById('price011332').value;
+var price011333 = document.getElementById('price011333').value;
+var price011334 = document.getElementById('price011334').value;
+
+
+
+var price011511 = document.getElementById('price011511').value;
+var price011512 = document.getElementById('price011512').value;
+var price011513 = document.getElementById('price011513').value;
+
+var price011521 = document.getElementById('price011521').value;
+var price011522 = document.getElementById('price011522').value;
+var price011523 = document.getElementById('price011523').value;
+
+var price011611 = document.getElementById('price011611').value;
+var price011612 = document.getElementById('price011612').value;
+var price011613 = document.getElementById('price011613').value;
+var price011614 = document.getElementById('price011614').value;
+var price011615 = document.getElementById('price011615').value;
+var price011616 = document.getElementById('price011616').value;
+var price011617 = document.getElementById('price011617').value;
+var price011618 = document.getElementById('price011618').value;
+var price011619 = document.getElementById('price011619').value;
+var price0116110 = document.getElementById('price0116110').value;
+var price0116111 = document.getElementById('price0116111').value;
+var price0116112 = document.getElementById('price0116112').value;
+var price0116113 = document.getElementById('price0116113').value;
+var price0116114 = document.getElementById('price0116114').value;
+var price0116115 = document.getElementById('price0116115').value;
+var price0116116 = document.getElementById('price0116116').value;
+var price0116117 = document.getElementById('price0116117').value;
+
+var price011621 = document.getElementById('price011621').value;
+var price011622 = document.getElementById('price011622').value;
+var price011623 = document.getElementById('price011623').value;
+var price011624 = document.getElementById('price011624').value;
+var price011625 = document.getElementById('price011625').value;
+var price011626 = document.getElementById('price011626').value;
+var price011627 = document.getElementById('price011627').value;
+var price011628 = document.getElementById('price011628').value;
+var price011629 = document.getElementById('price011629').value;
+var price0116210 = document.getElementById('price0116210').value;
+var price0116211 = document.getElementById('price0116211').value;
+var price0116212 = document.getElementById('price0116212').value;
+var price0116213 = document.getElementById('price0116213').value;
+var price0116214 = document.getElementById('price0116214').value;
+var price0116215 = document.getElementById('price0116215').value;
+var price0116216 = document.getElementById('price0116216').value;
+var price0116217 = document.getElementById('price0116217').value;
+
+var price011711 = document.getElementById('price011711').value;
+var price011712 = document.getElementById('price011712').value;
+
+var price011721 = document.getElementById('price011721').value;
+
+var price011731 = document.getElementById('price011731').value;
+
+var price011741 = document.getElementById('price011741').value;
+
+var price011751 = document.getElementById('price011751').value;
+var price011752 = document.getElementById('price011752').value;
+
+var price011811 = document.getElementById('price011811').value;
+var price011812 = document.getElementById('price011812').value;
+var price011813 = document.getElementById('price011813').value;
+var price011814 = document.getElementById('price011814').value;
+
+var price011911 = document.getElementById('price011911').value;
+
+var price011912 = document.getElementById('price011912').value;
+var price011913 = document.getElementById('price011913').value;
+var price011914 = document.getElementById('price011914').value;
+var price011915 = document.getElementById('price011915').value;
+
+var price011921 = document.getElementById('price011921').value;
+var price011922 = document.getElementById('price011922').value;
+var price011923 = document.getElementById('price011923').value;
+var price011924 = document.getElementById('price011924').value;
+var price011925 = document.getElementById('price011925').value;
+
+
+
+
+var price011931 = document.getElementById('price011931').value;
+var price011932 = document.getElementById('price011932').value;
+var price011933 = document.getElementById('price011933').value;
+var price011934 = document.getElementById('price011934').value;
+var price011935 = document.getElementById('price011935').value;
+
+var price011941 = document.getElementById('price011941').value;
+var price011942 = document.getElementById('price011942').value;
+var price011943 = document.getElementById('price011943').value;
+var price011944 = document.getElementById('price011944').value;
+var price011945 = document.getElementById('price011945').value;
+var price011946 = document.getElementById('price011946').value;
+var price011947 = document.getElementById('price011947').value;
+var price011948 = document.getElementById('price011948').value;
+
+var price011951 = document.getElementById('price011951').value;
+
+var quatity1201 = document.getElementById('quatity1201').value;
+var quatity1202 = document.getElementById('quatity1202').value;
+
+var price012111 = document.getElementById('price012111').value;
+
+
+
+var quatity1211 = document.getElementById('quatity1211').value;
+var quatity1212 = document.getElementById('quatity1212').value;
+var quatity1213 = document.getElementById('quatity1213').value;
+var quatity1214 = document.getElementById('quatity1214').value;
+var quatity1215 = document.getElementById('quatity1215').value;
+
+
+if(price011311 !='' || price011312 !='' || price011313 !='' || price011314 !='' || price011315 !='' || price011321 !='' || price011322 !='' || price011323 !='' || price011324 !='' || price011325 !='' || price011331 !='' || price011332 !='' || price011333 !='' || price011334 !='' || price011511 !='' || price011512 !='' || price011513 !='' || price011521 !='' || price011522 !='' || price011523 !='' || price011611 !='' || price011612 !='' || price011613 !='' || price011614 !='' || price011615 !='' || price011616 !='' || price011617 !='' || price011618 !='' || price011619 !='' || price0116110 !='' || price0116111 !='' || price0116112 !='' || price0116113 !='' || price0116114 !='' || price0116115 !='' || price0116116 !='' || price0116117 !='' || price011621 !='' || price011622 !='' || price011623 !='' || price011624 !='' || price011625 !='' || price011626 !='' || price011627 !='' || price011628 !='' || price011629 !='' || price0116210 !='' || price0116211 !='' || price0116212 !='' || price0116213 !='' || price0116214 !='' || price0116215 !='' || price0116216 !='' ||price0116217 !='' || price011711 !='' || price011712 !='' || price011721 !='' || price011731 !='' || price011741 !='' || price011751 !='' || price011752 !='' || price011811 !='' || price011812 !='' || price011813 !='' || price011814 !='' || price011911 !='' || price011912 !='' || price011913 !='' || price011914 !='' || price011915 !='' || price011921 !='' || price011922 !='' || price011923 !='' || price011924 !='' || price011925 !='' || price011931 !='' || price011932 !='' || price011933 !='' || price011934 !='' || price011935 !='' || price011941 !='' || price011942 !='' || price011943 !='' || price011944 !='' || price011945 !='' || price011946 !='' || price011947 !='' || price011948 !='' || price011951 !='' || quatity1201 !='' || quatity1202 !='' || price012111 !='' || quatity1211 !='' || quatity1212 !='' || quatity1213 !='' || quatity1214 !='' || quatity1215 !='')
+{
+
+if(quatity1211!='')
+{
+
+var quantity012111 = document.getElementById('quantity012111').value;
+if(quantity012111==''){quantity012111=0;}
+var quantity012112 = document.getElementById('quantity012112').value;
+if(quantity012112==''){quantity012112=0;}
+var quantity012113 = document.getElementById('quantity012113').value;
+if(quantity012113==''){quantity012113=0;}
+var quantity012114 = document.getElementById('quantity012114').value;
+if(quantity012114==''){quantity012114=0;}
+var quantity012115 = document.getElementById('quantity012115').value;
+if(quantity012115==''){quantity012115=0;}
+var quantity012116 = document.getElementById('quantity012116').value;
+if(quantity012116==''){quantity012116=0;}
+var quantity012117 = document.getElementById('quantity012117').value;
+if(quantity012117==''){quantity012117=0;}
+var quantity012118 = document.getElementById('quantity012118').value;
+if(quantity012118==''){quantity012118=0;}
+var quantity012119 = document.getElementById('quantity012119').value;
+if(quantity012119==''){quantity012119=0;}
+var quantity0121110 = document.getElementById('quantity0121110').value;
+if(quantity0121110==''){quantity0121110=0;}
+var quantity0121111 = document.getElementById('quantity0121111').value;
+if(quantity0121111==''){quantity0121111=0;}
+var quantity0121112 = document.getElementById('quantity0121112').value;
+if(quantity0121112==''){quantity0121112=0;}
+var quantity0121113 = document.getElementById('quantity0121113').value;
+if(quantity0121113==''){quantity0121113=0;}
+var quantity0121114 = document.getElementById('quantity0121114').value;
+if(quantity0121114==''){quantity0121114=0;}
+var quantity0121115 = document.getElementById('quantity0121115').value;
+if(quantity0121115==''){quantity0121115=0;}
+var quantity0121116 = document.getElementById('quantity0121116').value;
+if(quantity0121116==''){quantity0121116=0;}
+var quantity0121117 = document.getElementById('quantity0121117').value;
+if(quantity0121117==''){quantity0121117=0;}
+var totalQuatity1211 = parseInt(quantity012111,10)+parseInt(quantity012112,10)+parseInt(quantity012113,10)+parseInt(quantity012114,10)+parseInt(quantity012115,10)+parseInt(quantity012116,10)+parseInt(quantity012117,10)+parseInt(quantity012118,10)+parseInt(quantity012119,10)+parseInt(quantity0121110,10)+parseInt(quantity0121111,10)+parseInt(quantity0121112,10)+parseInt(quantity0121113,10)+parseInt(quantity0121114,10)+parseInt(quantity0121115,10)+parseInt(quantity0121116,10)+parseInt(quantity0121117,10);
+var count1=(3*quatity1211);
+if(totalQuatity1211!= count1 || count1 ==0)
+{
+	alert('Please enter 3*Quantity  for (3) 3lb Side Dish Choices ');
+	return false;
+}
+}
+
+
+if(quatity1212!='')
+{
+
+var quantity012121 = document.getElementById('quantity012121').value;
+if(quantity012121==''){quantity012121=0;}
+var quantity012122 = document.getElementById('quantity012122').value;
+if(quantity012122==''){quantity012122=0;}
+var quantity012123 = document.getElementById('quantity012123').value;
+if(quantity012123==''){quantity012123=0;}
+var quantity012124 = document.getElementById('quantity012124').value;
+if(quantity012124==''){quantity012124=0;}
+var quantity012125 = document.getElementById('quantity012125').value;
+if(quantity012125==''){quantity012125=0;}
+var quantity012126 = document.getElementById('quantity012126').value;
+if(quantity012126==''){quantity012126=0;}
+var quantity012127 = document.getElementById('quantity012127').value;
+if(quantity012127==''){quantity012127=0;}
+var quantity012128 = document.getElementById('quantity012128').value;
+if(quantity012128==''){quantity012128=0;}
+var quantity012129 = document.getElementById('quantity012129').value;
+if(quantity012129==''){quantity012129=0;}
+var quantity0121210 = document.getElementById('quantity0121210').value;
+if(quantity0121210==''){quantity0121210=0;}
+var quantity0121211 = document.getElementById('quantity0121211').value;
+if(quantity0121211==''){quantity0121211=0;}
+var quantity0121212 = document.getElementById('quantity0121212').value;
+if(quantity0121212==''){quantity0121212=0;}
+var quantity0121213 = document.getElementById('quantity0121213').value;
+if(quantity0121213==''){quantity0121213=0;}
+var quantity0121214 = document.getElementById('quantity0121214').value;
+if(quantity0121214==''){quantity0121214=0;}
+var quantity0121215 = document.getElementById('quantity0121215').value;
+if(quantity0121215==''){quantity0121215=0;}
+var quantity0121216 = document.getElementById('quantity0121216').value;
+if(quantity0121216==''){quantity0121216=0;}
+var quantity0121217 = document.getElementById('quantity0121217').value;
+if(quantity0121217==''){quantity0121217=0;}
+var totalQuatity1212 = parseInt(quantity012121,10)+parseInt(quantity012122,10)+parseInt(quantity012123,10)+parseInt(quantity012124,10)+parseInt(quantity012125,10)+parseInt(quantity012126,10)+parseInt(quantity012127,10)+parseInt(quantity012128,10)+parseInt(quantity012129,10)+parseInt(quantity0121210,10)+parseInt(quantity0121211,10)+parseInt(quantity0121212,10)+parseInt(quantity0121213,10)+parseInt(quantity0121214,10)+parseInt(quantity0121215,10)+parseInt(quantity0121216,10)+parseInt(quantity0121217,10);
+var count2=(3*quatity1212);
+if(totalQuatity1212!= count2 || count2 ==0)
+{
+	alert('Please enter 3*Quantity  for (3) 5lb Side Dish Choices ');
+	return false;
+}
+}
+
+
+
+if(quatity1213!='')
+{
+var quantity012131 = document.getElementById('quantity012131').value;
+if(quantity012131==''){quantity012131=0;}
+var quantity012132 = document.getElementById('quantity012132').value;
+if(quantity012132==''){quantity012132=0;}
+var quantity012133 = document.getElementById('quantity012133').value;
+if(quantity012133==''){quantity012133=0;}
+var quantity012134 = document.getElementById('quantity012134').value;
+if(quantity012134==''){quantity012134=0;}
+var quantity012135 = document.getElementById('quantity012135').value;
+if(quantity012135==''){quantity012135=0;}
+var quantity012136 = document.getElementById('quantity012136').value;
+if(quantity012136==''){quantity012136=0;}
+var quantity012137 = document.getElementById('quantity012137').value;
+if(quantity012137==''){quantity012137=0;}
+var quantity012138 = document.getElementById('quantity012138').value;
+if(quantity012138==''){quantity012138=0;}
+var quantity012139 = document.getElementById('quantity012139').value;
+if(quantity012139==''){quantity012139=0;}
+var quantity0121310 = document.getElementById('quantity0121310').value;
+if(quantity0121310==''){quantity0121310=0;}
+var quantity0121311 = document.getElementById('quantity0121311').value;
+if(quantity0121311==''){quantity0121311=0;}
+var quantity0121312 = document.getElementById('quantity0121312').value;
+if(quantity0121312==''){quantity0121312=0;}
+var quantity0121313 = document.getElementById('quantity0121313').value;
+if(quantity0121313==''){quantity0121313=0;}
+var quantity0121314 = document.getElementById('quantity0121314').value;
+if(quantity0121314==''){quantity0121314=0;}
+var quantity0121315 = document.getElementById('quantity0121315').value;
+if(quantity0121315==''){quantity0121315=0;}
+var quantity0121316 = document.getElementById('quantity0121316').value;
+if(quantity0121316==''){quantity0121316=0;}
+var quantity0121317 = document.getElementById('quantity0121317').value;
+if(quantity0121317==''){quantity0121317=0;}
+var quantity0121318 = document.getElementById('quantity0121318').value;
+if(quantity0121318==''){quantity0121318=0;}
+var quantity0121319 = document.getElementById('quantity0121319').value;
+if(quantity0121319==''){quantity0121319=0;}
+var quantity0121320 = document.getElementById('quantity0121320').value;
+if(quantity0121320==''){quantity0121320=0;}
+var quantity0121321 = document.getElementById('quantity0121321').value;
+if(quantity0121321==''){quantity0121321=0;}
+var quantity0121322 = document.getElementById('quantity0121322').value;
+if(quantity0121322==''){quantity0121322=0;}
+var quantity0121323 = document.getElementById('quantity0121323').value;
+if(quantity0121323==''){quantity0121323=0;}
+var quantity0121324 = document.getElementById('quantity0121324').value;
+if(quantity0121324==''){quantity0121324=0;}
+var quantity0121325 = document.getElementById('quantity0121325').value;
+if(quantity0121325==''){quantity0121325=0;}
+var quantity0121326 = document.getElementById('quantity0121326').value;
+if(quantity0121326==''){quantity0121326=0;}
+var quantity0121327 = document.getElementById('quantity0121327').value;
+if(quantity0121327==''){quantity0121327=0;}
+var quantity0121328 = document.getElementById('quantity0121328').value;
+if(quantity0121328==''){quantity0121328=0;}
+var quantity0121329 = document.getElementById('quantity0121329').value;
+if(quantity0121329==''){quantity0121329=0;}
+var quantity0121330 = document.getElementById('quantity0121330').value;
+if(quantity0121330==''){quantity0121330=0;}
+var quantity0121331 = document.getElementById('quantity0121331').value;
+if(quantity0121331==''){quantity0121331=0;}
+var quantity0121332 = document.getElementById('quantity0121332').value;
+if(quantity0121332==''){quantity0121332=0;}
+var quantity0121333 = document.getElementById('quantity0121333').value;
+if(quantity0121333==''){quantity0121333=0;}
+
+var totalQuatity1213 = parseInt(quantity012131,10)+parseInt(quantity012132,10)+parseInt(quantity012133,10)+parseInt(quantity012134,10)+parseInt(quantity012135,10)+parseInt(quantity012136,10)+parseInt(quantity012137,10)+parseInt(quantity012138,10)+parseInt(quantity012139,10)+parseInt(quantity0121310,10)+parseInt(quantity0121311,10)+parseInt(quantity0121312,10)+parseInt(quantity0121313,10)+parseInt(quantity0121314,10)+parseInt(quantity0121315,10)+parseInt(quantity0121316,10)+parseInt(quantity0121317,10);
+
+var totalQuatity121310lb = parseInt(quantity0121318,10)+parseInt(quantity0121319,10)+parseInt(quantity0121320,10)+parseInt(quantity0121321,10)+parseInt(quantity0121322,10)+parseInt(quantity0121323,10)+parseInt(quantity0121324,10)+parseInt(quantity0121325,10)+parseInt(quantity0121326,10)+parseInt(quantity0121327,10)+parseInt(quantity0121328,10)+parseInt(quantity0121329,10)+parseInt(quantity0121330,10)+parseInt(quantity0121331,10)+parseInt(quantity0121332,10)+parseInt(quantity0121333,10);
+
+var count5lb=(1*quatity1213);
+var count10lb=(2*quatity1213);
+if(totalQuatity1213!=count5lb || count5lb==0 )
+	{  
+	alert('Please enter 1*Quantity for (1) 5lb Side Dish Choices and 2*Quantity for 10lb Side Dish Choices');
+	return false;
+	}
+	if( totalQuatity121310lb!=count10lb || count10lb==0)
+	{
+		alert('Please enter 1*Quantity for (1) 5lb Side Dish Choices and 2*Quantity for 10lb Side Dish Choices');
+		return false;
+	}
+}
+
+
+if(quatity1214!='')
+{
+var quantity012141 = document.getElementById('quantity012141').value;
+if(quantity012141==''){quantity012141=0;}
+var quantity012142 = document.getElementById('quantity012142').value;
+if(quantity012142==''){quantity012142=0;}
+var quantity012143 = document.getElementById('quantity012143').value;
+if(quantity012143==''){quantity012143=0;}
+var quantity012144 = document.getElementById('quantity012144').value;
+if(quantity012144==''){quantity012144=0;}
+var quantity012145 = document.getElementById('quantity012145').value;
+if(quantity012145==''){quantity012145=0;}
+var quantity012146 = document.getElementById('quantity012146').value;
+if(quantity012146==''){quantity012146=0;}
+var quantity012147 = document.getElementById('quantity012147').value;
+if(quantity012147==''){quantity012147=0;}
+var quantity012148 = document.getElementById('quantity012148').value;
+if(quantity012148==''){quantity012148=0;}
+var quantity012149 = document.getElementById('quantity012149').value;
+if(quantity012149==''){quantity012149=0;}
+var quantity0121410 = document.getElementById('quantity0121410').value;
+if(quantity0121410==''){quantity0121410=0;}
+var quantity0121411 = document.getElementById('quantity0121411').value;
+if(quantity0121411==''){quantity0121411=0;}
+var quantity0121412 = document.getElementById('quantity0121412').value;
+if(quantity0121412==''){quantity0121412=0;}
+var quantity0121413 = document.getElementById('quantity0121413').value;
+if(quantity0121413==''){quantity0121413=0;}
+var quantity0121414 = document.getElementById('quantity0121414').value;
+if(quantity0121414==''){quantity0121414=0;}
+var quantity0121415 = document.getElementById('quantity0121415').value;
+if(quantity0121415==''){quantity0121415=0;}
+var quantity0121416 = document.getElementById('quantity0121416').value;
+if(quantity0121416==''){quantity0121416=0;}
+var totalQuatity1214 = parseInt(quantity012141,10)+parseInt(quantity012142,10)+parseInt(quantity012143,10)+parseInt(quantity012144,10)+parseInt(quantity012145,10)+parseInt(quantity012146,10)+parseInt(quantity012147,10)+parseInt(quantity012148,10)+parseInt(quantity012149,10)+parseInt(quantity0121410,10)+parseInt(quantity0121411,10)+parseInt(quantity0121412,10)+parseInt(quantity0121413,10)+parseInt(quantity0121414,10)+parseInt(quantity0121415,10)+parseInt(quantity0121416,10);
+var count4=(4*quatity1214);
+if(totalQuatity1214!=count4 || count4==0)
+{
+	alert('Please enter 4*Quantity for (4) 10 lb Side Dish Choices ');
+	return false;
+}
+}
+
+if(quatity1215!='')
+{
+var quantity012151 = document.getElementById('quantity012151').value;
+if(quantity012151==''){quantity012151=0;}
+var quantity012152 = document.getElementById('quantity012152').value;
+if(quantity012152==''){quantity012152=0;}
+var quantity012153 = document.getElementById('quantity012153').value;
+if(quantity012153==''){quantity012153=0;}
+var quantity012154 = document.getElementById('quantity012154').value;
+if(quantity012154==''){quantity012154=0;}
+var quantity012155 = document.getElementById('quantity012155').value;
+if(quantity012155==''){quantity012155=0;}
+var quantity012156 = document.getElementById('quantity012156').value;
+if(quantity012156==''){quantity012156=0;}
+var quantity012157 = document.getElementById('quantity012157').value;
+if(quantity012157==''){quantity012157=0;}
+var quantity012158 = document.getElementById('quantity012158').value;
+if(quantity012158==''){quantity012158=0;}
+var quantity012159 = document.getElementById('quantity012159').value;
+if(quantity012159==''){quantity012159=0;}
+var quantity0121510 = document.getElementById('quantity0121510').value;
+if(quantity0121510==''){quantity0121510=0;}
+var quantity0121511 = document.getElementById('quantity0121511').value;
+if(quantity0121511==''){quantity0121511=0;}
+var quantity0121512 = document.getElementById('quantity0121512').value;
+if(quantity0121512==''){quantity0121512=0;}
+var quantity0121513 = document.getElementById('quantity0121513').value;
+if(quantity0121513==''){quantity0121513=0;}
+var quantity0121514 = document.getElementById('quantity0121514').value;
+if(quantity0121514==''){quantity0121514=0;}
+var quantity0121515 = document.getElementById('quantity0121515').value;
+if(quantity0121515==''){quantity0121515=0;}
+var quantity0121516 = document.getElementById('quantity0121516').value;
+if(quantity0121516==''){quantity0121516=0;}
+var totalQuatity1215 = parseInt(quantity012151,10)+parseInt(quantity012152,10)+parseInt(quantity012153,10)+parseInt(quantity012154,10)+parseInt(quantity012155,10)+parseInt(quantity012156,10)+parseInt(quantity012157,10)+parseInt(quantity012158,10)+parseInt(quantity012159,10)+parseInt(quantity0121510,10)+parseInt(quantity0121511,10)+parseInt(quantity0121512,10)+parseInt(quantity0121513,10)+parseInt(quantity0121514,10)+parseInt(quantity0121515,10)+parseInt(quantity0121516,10);
+var count5=(5*quatity1215);
+if(totalQuatity1215!=count5 || count5==0)
+{
+	alert('Please enter 5*Quantity for (5) 10 lb Side Dish Choices ');
+	return false;
+}
+}
+
+
+	return true;
+}
+else
+{
+	alert('!Invalid Order. All field cannot be blank.');
+	return false;
+}	
+
+}
+
+<!--san-->
+function bis() {
+		if (document.getElementById('price011915').value < 5 && document.getElementById('price011915').value !='') 
+		  {
+		//message += "Phone Number:\n";
+		alert("Please enter Minimum 5 Dozen  Biscuits Items");
+		  return false;
+		  }
+		if (document.getElementById('price011925').value < 5 && document.getElementById('price011925').value !='') 
+		  {
+		//message += "Phone Number:\n";
+		alert("Please enter Minimum 5 Dozen  Corn Muffins Items");
+		  return false;
+		  }
+		 
+		 if (document.getElementById('price011935').value < 5 && document.getElementById('price011935').value !='') 
+		  {
+		//message += "Phone Number:\n";
+		alert("Please enter Minimum 5 Dozen  Dinner Rolls Items");
+		  return false;
+		  }
+       
+        return true;
+    }
+
+<!--san-->
+function orderConfirmation()
+{
+	var first = document.getElementById('first').value; //alert(first);
+	var last = document.getElementById('last').value;//alert(last);
+	var address = document.getElementById('address').value;//alert(address);
+	var city = document.getElementById('city').value;//alert(city);
+	var state = document.getElementById('state').value;//alert(state);
+	var zip = document.getElementById('zip').value;//alert(zip);
+	var phone = document.getElementById('phone').value;//alert(phone);
+	var email = document.getElementById('email').value;//alert(email);
+	var email2 = document.getElementById('email2').value;//alert(email2);
+	var date = document.getElementById('date').value;//alert(date);
+	var timer = document.getElementById('timer').value;//alert(timer);
+	var notes = document.getElementById('notes').value;//alert(notes);
+	
+	if(first=='' || last=='' || address=='' || city=='' || state=='' || zip=='' || phone=='' || email=='' || email2=='' || date=='' || timer=='' || notes=='')
+	{
+		alert("Please fill all fields");
+		return false;
+	}
+	else
+	{
+		
+		if(email!=email2 && email!='')
+		{
+			alert('email and email retype is same');
+			return false;
+		}
+		else
+		{
+			var atpos=email.indexOf("@");
+			var dotpos=email.lastIndexOf(".");
+			if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length)
+			{
+				alert("Not a valid e-mail address");
+				return false;
+			}
+		}
+		return true;
+	}
+}
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	//Default Action
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+});
+
+$(document).ready(function() {
+	//Default Action
+	$(".tab_content1").hide(); //Hide all content
+	$("ul.tabs1 li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content1:first").show(); //Show first tab content
+	//On Click Event
+	$("ul.tabs1 li").click(function() {
+		$("ul.tabs1 li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content1").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+});
+</script>
+<!-- begin content -->
+<section id="content-wrap">
+   <?php 
+if($_POST['hdnCheck'])
+{ ?>
+
+<!-- begin centerwrap -->
+<section id="center-wrap">
+		
+    <!-- begin text block -->
+    <article class="text-block inner formsubmit">
+        	
+		<?php 
+@extract($_POST);
+/*echo '<pre>';
+print_r($_POST);
+echo '</pre>';
+*/
+$totalCost = null;
+if($price011311 !='' || 
+$price011312 !='' ||  
+$price011313 !='' ||
+$price011314 !='' ||
+$price011315 !='' ||
+
+$price011321 !='' ||
+$price011322 !='' ||
+$price011323 !='' ||
+$price011324 !='' ||
+$price011325 !='' ||
+
+$price011331 !='' ||
+$price011332 !='' ||
+$price011333 !='' ||
+$price011334 !='' ||
+
+
+$price011511 !='' ||
+$price011512 !='' ||
+$price011513 !='' ||
+
+$price011521 !='' ||
+$price011522 !='' ||
+$price011523 !='' ||
+
+$price011611 !='' ||
+$price011612 !='' ||
+$price011613 !='' ||
+$price011614 !='' ||
+$price011615 !='' ||
+$price011616 !='' ||
+$price011617 !='' ||
+$price011618 !='' ||
+$price011619 !='' ||
+$price0116110 !='' ||
+$price0116111 !='' ||
+$price0116112 !='' ||
+$price0116113 !='' ||
+$price0116114 !='' ||
+$price0116115 !='' ||
+$price0116116 !='' ||
+$price0116117 !='' ||
+
+$price011621 !='' ||
+$price011622 !='' ||
+$price011623 !='' ||
+$price011624 !='' ||
+$price011625 !='' ||
+$price011626 !='' ||
+$price011627 !='' ||
+$price011628 !='' ||
+$price011629 !='' ||
+$price0116210 !='' ||
+$price0116211 !='' ||
+$price0116212 !='' ||
+$price0116213 !='' ||
+$price0116214 !='' ||
+$price0116215 !='' ||
+$price0116216 !='' ||
+$price0116217 !='' ||
+
+$price011711 !='' ||
+$price011712 !='' ||
+
+$price011721 !='' ||
+
+$price011731 !='' ||
+
+$price011741 !='' ||
+
+$price011751 !='' ||
+$price011752 !='' ||
+
+$price011811 !='' ||
+$price011812 !='' ||
+$price011813 !='' ||
+$price011814 !='' ||
+
+$price011911 !='' ||
+$price011912 !='' ||
+$price011913 !='' ||
+$price011914 !='' ||
+$price011915 !='' ||
+
+$price011921 !='' ||
+$price011922 !='' ||
+$price011923 !='' ||
+$price011924 !='' ||
+$price011925 !='' ||
+
+$price011931 !='' ||
+$price011932 !='' ||
+$price011933 !='' ||
+$price011934 !='' ||
+$price011935 !='' ||
+
+$price011941 !='' ||
+$price011942 !='' ||
+$price011943 !='' ||
+$price011944 !='' ||
+$price011945 !='' ||
+$price011946 !='' ||
+$price011947 !='' ||
+$price011948 !='' ||
+
+$price011951 !='' ||
+
+$quatity1201 !='' ||
+$quatity1202 !='' ||
+
+$price012111 !='' ||
+
+
+
+$quatity1211 !='' ||
+$quatity1212 !='' ||
+$quatity1213 !='' ||
+$quatity1214 !='' ||
+$quatity1215 !='')
+{
+$message ='&nbsp;';
+
+if($price011311 || $price011312 || $price011313 || $price011314 || $price011315 || $price011321 || $price011322 || $price011323 || $price011324 || $price011325 || $price011331 || $price011332 || $price011333 || $price011334 )
+{
+	 $message.='<tr><td><h2>Traditional Chicken</h2></td><td></td><td></td></tr>';
+}
+
+if($price011311 || $price011312 || $price011313 || $price011314 || $price011315 )
+{
+	 $message.='<tr><td><h5>Fried Chicken</h5></td><td></td><td></td></tr>';
+}
+if($price011311!='')
+ { $message.='<tr><td>50 pcs $66.45</td><td>'.$price011311.'</td><td>$ '.(66.45*$price011311).'</td></tr>'; $totalCost += (66.45*$price011311);   }
+if($price011312!='')
+ {$message.='<tr><td>75 pcs. $98.89</td><td>'.$price011312.'</td><td>$ '.(98.89*$price011312).'</td></tr>'; $totalCost += (98.89*$price011312);   }
+if($price011313!='')
+ {$message.='<tr><td>100 pcs. $131.79</td><td>'.$price011313.'</td><td>$ '.(131.79*$price011313).'</td></tr>'; $totalCost += (131.79*$price011313);   }
+if($price011314!='')
+ {$message.='<tr><td>150 pcs. $198.09</td><td>'.$price011314.'</td><td>$ '.(198.09*$price011314).'</td></tr>'; $totalCost += (198.09*$price011314);   }
+if($price011315!='')
+ {$message.='<tr><td>200 pcs. $263.49</td><td>'.$price011315.'</td><td>$ '.(263.49*$price011315).'</td></tr>'; $totalCost += (263.49*$price011315);   }
+
+if($price011321 || $price011322 || $price011323 || $price011324 || $price011325 )
+{
+	 $message.='<tr><td><h5>Baked Chicken</h5></td><td></td><td></td></tr>';
+}
+
+if($price011321!='')
+{
+$message.='<tr><td>50 pcs. $76.75</td><td>'.$price011321.'</td><td>$ '.(76.75*$price011321).'</td></tr>'; $totalCost += (76.75*$price011321); 
+}
+if($price011322!='')
+{
+$message.='<tr><td>75 pcs. $114.35</td><td>'.$price011322.'</td><td>$ '.(114.35*$price011322).'</td></tr>';$totalCost += (114.35*$price011322);
+}
+if($price011323!='')
+{
+$message.='<tr><td>100 pcs. $152.39</td><td>'.$price011323.'</td><td>$ '.(152.39*$price011323).'</td></tr>';$totalCost += (152.39*$price011323);
+}
+if($price011324!='')
+{
+$message.='<tr><td>150 pcs. $228.95</td><td>'.$price011324.'</td><td>$ '.(228.95*$price011324).'</td></tr>';$totalCost += (228.95*$price011324);
+}
+if($price011325!='')
+{
+$message.='<tr><td>200 pcs. $304.69</td><td>'.$price011325.'</td><td>$ '.(304.69*$price011325).'</td></tr>';$totalCost += (304.69*$price011325);
+}
+
+if($price011331 || $price011332 || $price011333 || $price011334 )
+{
+	 $message.='<tr><td><h5>Whole Wings</h5></td><td></td><td></td></tr>';
+}
+
+
+if($price011331!='')
+{
+$message.='<tr><td>25 Wings $28.49</td><td>'.$price011331.'</td><td>$ '.(28.49*$price011331).'</td></tr>';$totalCost += (28.49*$price011331);
+}
+if($price011332!='')
+{
+$message.='<tr><td>50 Wings $56.59</td><td>'.$price011332.'</td><td>$ '.(56.59*$price011332).'</td></tr>';$totalCost += (56.59*$price011332);
+}
+if($price011333!='')
+{
+$message.='<tr><td>75 Wings $84.45</td><td>'.$price011333.'</td><td>$ '.(84.45*$price011333).'</td></tr>';$totalCost += (84.45*$price011333);
+}
+if($price011334!='')
+{
+$message.='<tr><td>100 Wings $111.75</td><td>'.$price011334.'</td><td>$ '.(111.75*$price011334).'</td></tr>';$totalCost += (111.75*$price011334);
+}
+
+if( $price011511 || $price011512 || $price011513 || $price011521 || $price011522 || $price011523 )
+{
+	 $message.='<tr><td><h2>Classic Boneless Platters</h2></td><td></td><td></td></tr>';
+}
+
+if($price011511 || $price011512 || $price011513 )
+{
+	 $message.='<tr><td><h5>Boneless Wings</h5></td><td></td><td></td></tr>';
+}
+
+if($price011511!='')
+{
+$message.='<tr><td>50 pcs. $29.75</td><td>'.$price011511.'</td><td>$ '.(29.75*$price011511).'</td></tr>';$totalCost += (29.75*$price011511);
+}
+
+if($price011512!='')
+{
+$message.='<tr><td>75 pcs. $44.59</td><td>'.$price011512.'</td><td>$ '.(44.59*$price011512).'</td></tr>';$totalCost += (44.59*$price011512);
+}
+if($price011513!='')
+{
+$message.='<tr><td>100 pcs. $88.89</td><td>'.$price011513.'</td><td>$ '.(88.89*$price011513).'</td></tr>';$totalCost += (88.89*$price011513);
+}
+
+if($price011521 || $price011522 || $price011523 )
+{
+	 $message.='<tr><td><h5>Chicken Strips</h5></td><td></td><td></td></tr>';
+}
+
+
+if($price011521!='')
+{
+$message.='<tr><td>50 pcs. $61.99</td><td>'.$price011521.'</td><td>$ '.(61.99*$price011521).'</td></tr>';$totalCost += (61.99*$price011521);
+}
+if($price011522!='')
+{
+$message.='<tr><td>75 pcs. $91.99</td><td>'.$price011522.'</td><td>$ '.(91.99*$price011522).'</td></tr>';$totalCost += (91.99*$price011522);
+}
+if($price011523!='')
+{
+$message.='<tr><td>100 pcs. $183.99</td><td>'.$price011523.'</td><td>$ '.(183.99*$price011523).'</td></tr>';$totalCost += (183.99*$price011523);
+}
+
+if( $price011611 || $price011612 || $price011613 || $price011614 || $price011615 || $price011616 || $price011617 || $price011618 || $price011619 || $price0116110 || $price0116111 || $price0116112 || $price0116113 || $price0116114 || $price0116115 || $price0116116 || $price0116117 || $price011621 || $price011622 || $price011623 || $price011624 || $price011625 || $price011626 || $price011627 || $price011628 || $price011629 || $price0116210 || $price0116211 || $price0116212 || $price0116213 || $price0116214 || $price0116215 || $price0116216 || $price0116217  )
+{
+	 $message.='<tr><td><h2>Side Dishes</h2></td><td></td><td></td></tr>';
+}
+
+if($price011611 || $price011612 || $price011613 || $price011614 || $price011615 || $price011616 || $price011617 || $price011618 || $price011619 || $price0116110 || $price0116111 || $price0116112 || $price0116113 || $price0116114 || $price0116115 || $price0116116 || $price0116117 )
+{
+	 $message.='<tr><td><h5>5 lb. Side Dishes (serves 20 people) $14.99</h5></td><td></td><td></td></tr>';
+}
+
+if($price011611!='')
+{
+$message.='<tr><td>Our Legendary Cole Slaw</td><td>'.$price011611.'</td><td>$ '.(14.99*$price011611).'</td></tr>';$totalCost += (14.99*$price011611);
+}
+if($price011612!='')
+{
+$message.='<tr><td>Mashed Potatoes w/ Gravy</td><td>'.$price011612.'</td><td>$ '.(14.99*$price011612).'</td></tr>';$totalCost += (14.99*$price011612);
+}
+if($price011613!='')
+{
+$message.='<tr><td>Hearty Baked Beans</td><td>'.$price011613.'</td><td>$ '.(14.99*$price011613).'</td></tr>';$totalCost += (14.99*$price011613);
+}
+if($price011614!='')
+{
+$message.='<tr><td>Homestyle Green Beans</td><td>'.$price011614.'</td><td>$ '.(14.99*$price011614).'</td></tr>';$totalCost += (14.99*$price011614);
+}
+if($price011615!='')
+{
+$message.='<tr><td>Cheddar Macaroni & Cheese</td><td>'.$price011615.'</td><td>$ '.(14.99*$price011615).'</td></tr>';$totalCost += (14.99*$price011615);
+}
+if($price011616!='')
+{
+$message.='<tr><td>Cut Sweet Corn</td><td>'.$price011616.'</td><td>$ '.(14.99*$price011616).'</td></tr>';$totalCost += (14.99*$price011616);
+}
+if($price011617!='')
+{
+$message.='<tr><td>Stuffing w/ Gravy</td><td>'.$price011617.'</td><td>$ '.(14.99*$price011617).'</td></tr>';$totalCost += (14.99*$price011617);
+}
+
+if($price011618!='')
+{
+$message.='<tr><td>Greens w/ Turkey Wings</td><td>'.$price011618.'</td><td>$ '.(14.99*$price011618).'</td></tr>';$totalCost += (14.99*$price011618);
+}
+if($price011619!='')
+{
+$message.='<tr><td>Potato Wedges</td><td>'.$price011619.'</td><td>$ '.(14.99*$price011619).'</td></tr>';$totalCost += (14.99*$price011619);
+}
+if($price0116110!='')
+{
+$message.='<tr><td>Classic Macaroni Salad</td><td>'.$price0116110.'</td><td>$ '.(14.99*$price0116110).'</td></tr>';$totalCost += (14.99*$price0116110);
+}
+if($price0116111!='')
+{
+$message.='<tr><td>Traditional Potato Salad (Special Order)</td><td>'.$price0116111.'</td><td>$ '.(14.99*$price0116111).'</td></tr>';$totalCost += (14.99*$price0116111);
+}
+if($price0116112!='')
+{
+$message.='<tr><td>Homemade Chicken Gumbo (Special Order)</td><td>'.$price0116112.'</td><td>$ '.(14.99*$price0116112).'</td></tr>';$totalCost += (14.99*$price0116112);
+}
+if($price0116113!='')
+{
+$message.='<tr><td>Penne Pasta w/ Marinara (Special Order)</td><td>'.$price0116113.'</td><td>$ '.(14.99*$price0116113).'</td></tr>';$totalCost += (14.99*$price0116113);
+}
+if($price0116114!='')
+{
+$message.='<tr><td>Spicy Red Beans & Rice (Special Order)</td><td>'.$price0116114.'</td><td>$ '.(14.99*$price0116114).'</td></tr>';$totalCost += (14.99*$price0116114);
+}
+if($price0116115!='')
+{
+$message.='<tr><td>Creamy Scalloped Potatoes (Special Order)</td><td>'.$price0116115.'</td><td>$ '.(14.99*$price0116115).'</td></tr>';$totalCost += (14.99*$price0116115);
+}
+if($price0116116!='')
+{
+$message.='<tr><td>Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$price0116116.'</td><td>$ '.(14.99*$price0116116).'</td></tr>';$totalCost += (14.99*$price0116116);
+}
+if($price0116117!='')
+{
+$message.='<tr><td>Mashed Sweet Potatoes (Special Order)</td><td>'.$price0116117.'</td><td>$ '.(14.99*$price0116117).'</td></tr>';$totalCost += (14.99*$price0116117);
+}
+
+if($price011621 || $price011622 || $price011623 || $price011624 || $price011625 || $price011626 || $price011627 || $price011628 || $price011629 || $price0116210 || $price0116211 || $price0116212 || $price0116213 || $price0116214 || $price0116215 || $price0116216 || $price0116217 )
+{
+	 $message.='<tr><td><h5>10 lb. Side Dishes (serves 40 people) $27.99</h5></td><td></td><td></td></tr>';
+}
+
+
+if($price011621!='')
+{
+$message.='<tr><td>Our Legendary Cole Slaw</td><td>'.$price011621.'</td><td>$ '.(27.99*$price011621).'</td></tr>';$totalCost += (27.99*$price011621);
+}
+if($price011622!='')
+{
+$message.='<tr><td>Mashed Potatoes w/ Gravy</td><td>'.$price011622.'</td><td>$ '.(27.99*$price011622).'</td></tr>';$totalCost += (27.99*$price011622);
+}
+if($price011623!='')
+{
+$message.='<tr><td>Hearty Baked Beans</td><td>'.$price011623.'</td><td>$ '.(27.99*$price011623).'</td></tr>';$totalCost += (27.99*$price011623);
+}
+if($price011624!='')
+{
+$message.='<tr><td>Homestyle Green Beans</td><td>'.$price011624.'</td><td>$ '.(27.99*$price011624).'</td></tr>';$totalCost += (27.99*$price011624);
+}
+if($price011625!='')
+{
+$message.='<tr><td>Cheddar Macaroni & Cheese</td><td>'.$price011625.'</td><td>$ '.(27.99*$price011625).'</td></tr>';$totalCost += (27.99*$price011625);
+}
+if($price011626!='')
+{
+$message.='<tr><td>Cut Sweet Corn</td><td>'.$price011626.'</td><td>$ '.(27.99*$price011626).'</td></tr>';$totalCost += (27.99*$price011626);
+}
+if($price011627!='')
+{
+$message.='<tr><td>Stuffing w/ Gravy</td><td>'.$price011627.'</td><td>$ '.(27.99*$price011627).'</td></tr>';$totalCost += (27.99*$price011627);
+}
+if($price011628!='')
+{
+$message.='<tr><td>Greens w/ Turkey Wings</td><td>'.$price011628.'</td><td>$ '.(27.99*$price011628).'</td></tr>';$totalCost += (27.99*$price011628);
+}
+if($price011629!='')
+{
+$message.='<tr><td>Potato Wedges</td><td>'.$price011629.'</td><td>$ '.(27.99*$price011629).'</td></tr>';$totalCost += (27.99*$price011629);
+}
+if($price0116210!='')
+{
+$message.='<tr><td>Classic Macaroni Salad</td><td>'.$price0116210.'</td><td>$ '.(27.99*$price0116210).'</td></tr>';$totalCost += (27.99*$price0116210);
+}
+if($price0116211!='')
+{
+$message.='<tr><td>Traditional Potato Salad (Special Order)</td><td>'.$price0116211.'</td><td>$ '.(27.99*$price0116211).'</td></tr>';$totalCost += (27.99*$price0116211);
+}
+if($price0116212!='')
+{
+$message.='<tr><td>Homemade Chicken Gumbo (Special Order)</td><td>'.$price0116212.'</td><td>$ '.(27.99*$price0116212).'</td></tr>';$totalCost += (27.99*$price0116212);
+}
+if($price0116213!='')
+{
+$message.='<tr><td>Penne Pasta w/ Marinara (Special Order)</td><td>'.$price0116213.'</td><td>$ '.(27.99*$price0116213).'</td></tr>';$totalCost += (27.99*$price0116213);
+}
+if($price0116214!='')
+{
+$message.='<tr><td>Spicy Red Beans & Rice (Special Order)</td><td>'.$price0116214.'</td><td>$ '.(27.99*$price0116214).'</td></tr>';$totalCost += (27.99*$price0116214);
+}
+if($price0116215!='')
+{
+$message.='<tr><td>Creamy Scalloped Potatoes (Special Order)</td><td>'.$price0116215.'</td><td>$ '.(27.99*$price0116215).'</td></tr>';$totalCost += (27.99*$price0116215);
+}
+if($price0116216!='')
+{
+$message.='<tr><td>Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$price0116216.'</td><td>$ '.(27.99*$price0116216).'</td></tr>';$totalCost += (27.99*$price0116216);
+}
+if($price0116217!='')
+{
+$message.='<tr><td>Mashed Sweet Potatoes (Special Order)</td><td>'.$price0116217.'</td><td>$ '.(27.99*$price0116217).'</td></tr>';$totalCost += (27.99*$price0116217);
+}
+
+if( $price011711 || $price011712 || $price011721 || $price011731 || $price011741 || $price011751 ||  $price011752)
+{
+	 $message.='<tr><td><h2>Add on to Your Order</h2></td><td></td><td></td></tr>';
+}
+
+if($price011711 || $price011712  )
+{
+	 $message.='<tr><td><h5>Tossed Garden Salad </h5></td><td></td><td></td></tr>';
+}
+
+if($price011711!='')
+{
+$message.='<tr><td>5 lbs. $23.49</td><td>'.$price011711.'</td><td>$ '.(23.49*$price011711).'</td></tr>';$totalCost += (23.49*$price011711);
+}
+if($price011712!='')
+{
+$message.='<tr><td>10 lbs. $44.99</td><td>'.$price011712.'</td><td>$ '.(44.99*$price011712).'</td></tr>';$totalCost += (44.99*$price011712);
+}
+
+if($price011721 )
+{
+	 $message.='<tr><td><h5>Chicken Parmesan</h5></td><td></td><td></td></tr>';
+}
+
+if($price011721!='')
+{
+$message.='<tr><td>10 lbs. (serves 20-25 people) $51.49</td><td>'.$price011721.'</td><td>$ '.(51.49*$price011721).'</td></tr>';$totalCost += (51.49*$price011721);
+}
+
+if($price011731 )
+{
+	 $message.='<tr><td><h5>Spiral Sliced Ham</h5></td><td></td><td></td></tr>';
+}
+
+if($price011731!='')
+{
+$message.='<tr><td>Serves 20 people $45.99</td><td>'.$price011731.'</td><td>$ '.(45.99*$price011731).'</td></tr>';$totalCost += (45.99*$price011731);
+}
+
+if($price011741 )
+{
+	 $message.='<tr><td><h5>Meatballs</h5></td><td></td><td></td></tr>';
+}
+
+if($price011741!='')
+{
+$message.='<tr><td>5 lbs. (serves 25-30 people) $45.99</td><td>'.$price011741.'</td><td>$ '.(45.99*$price011741).'</td></tr>';$totalCost += (45.99*$price011741);
+}
+
+if($price011751 ||  $price011752 )
+{
+	 $message.='<tr><td><h5>Yukon Potatoes</h5></td><td></td><td></td></tr>';
+}
+
+if($price011751!='')
+{
+$message.='<tr><td>5 lbs. (serves 15 people) $22.49</td><td>'.$price011751.'</td><td>$ '.(22.49*$price011751).'</td></tr>';$totalCost += (22.49*$price011751);
+}
+if($price011752!='')
+{
+$message.='<tr><td>10 lbs. (serves 3 people) $42.89</td><td>'.$price011752.'</td><td>$ '.(42.89*$price011752).'</td></tr>';$totalCost += (42.89*$price011752);
+}
+
+if($price011811 ||  $price011812 ||  $price011813 ||  $price011814 )
+{	
+	 $message.='<tr><td><h2>Sandwiches & Wraps</h2></td><td></td><td></td></tr>';
+	 $message.='<tr><td><h5>Wraps (Served in a Wrap by the Dozen)</h5></td><td></td><td></td></tr>';
+}
+
+if($price011811!='')
+{
+$message.='<tr><td>Crispy BBQ Ranch Chicken - Full Tray $20.49</td><td>'.$price011811.'</td><td>$ '.(20.49*$price011811).'</td></tr>';$totalCost += (20.49*$price011811);
+}
+if($price011812!='')
+{
+$message.='<tr><td>Grilled BBQ Ranch Chicken - Full Tray $20.49</td><td>'.$price011812.'</td><td>$ '.(20.49*$price011812).'</td></tr>';$totalCost += (20.49*$price011812);
+}
+if($price011813!='')
+{
+$message.='<tr><td>Crispy Spicy Ranch Chicken - Full Tray $20.49</td><td>'.$price011813.'</td><td>$ '.(20.49*$price011813).'</td></tr>';$totalCost += (20.49*$price011813);
+}
+if($price011814!=''){
+$message.='<tr><td>Grilled Spicy Ranch Chicken - Full Tray $20.49</td><td>'.$price011814.'</td><td>$ '.(20.49*$price011814).'</td></tr>';$totalCost += (20.49*$price011814);
+}
+
+if( $price011911 ||  $price011912 ||  $price011913 ||  $price011914 || $price011915 || $price011921 ||  $price011922 ||  $price011923 ||  $price011924 || $price011925 || $price011931 ||  $price011932 ||  $price011933 ||  $price011934 || $price011935 || $price011941 ||  $price011942 ||  $price011943 ||  $price011944 || $price011945 || $price011946 || $price011947 || $price011948 || $price011951)
+{
+	 $message.='<tr><td><h2>Breads & Desserts</h2></td><td></td><td></td></tr>';
+}
+
+if($price011911 ||  $price011912 ||  $price011913 ||  $price011914 || $price011915 )
+{
+	 $message.='<tr><td><h5>Biscuits</h5></td><td></td><td></td></tr>';
+}
+
+if($price011911!='')
+{
+
+$message.='<tr><td>1 Dozen $6.45</td><td>'.$price011911.'</td><td>$ '.(6.45*$price011911).'</td></tr>';$totalCost += (6.45*$price011911);
+	
+	
+}
+if($price011912!='')
+{
+$message.='<tr><td>2 Dozen $12.35</td><td>'.$price011912.'</td><td>$ '.(12.35*$price011912).'</td></tr>';$totalCost += (12.35*$price011912);
+}
+if($price011913!='')
+{
+$message.='<tr><td>3 Dozen $16.99</td><td>'.$price011913.'</td><td>$ '.(16.99*$price011913).'</td></tr>';$totalCost += (16.99*$price011913);
+}
+if($price011914!='')
+{
+$message.='<tr><td>4 Dozen $21.45</td><td>'.$price011914.'</td><td>$ '.(21.45*$price011914).'</td></tr>';$totalCost += (21.45*$price011914);
+}
+if($price011915!='')
+{
+$message.='<tr><td>5 Dozen or more (ea.) $6.15</td><td>'.$price011915.'</td><td>$ '.(6.15*$price011915).'</td></tr>';$totalCost += (6.15*$price011915);
+}
+
+if($price011921 ||  $price011922 ||  $price011923 ||  $price011924 || $price011925 )
+{
+	 $message.='<tr><td><h5>Corn Muffins</h5></td><td></td><td></td></tr>';
+}
+
+
+if($price011921!='')
+{
+$message.='<tr><td>1 Dozen $6.45</td><td>'.$price011921.'</td><td>$ '.(6.45*$price011921).'</td></tr>';$totalCost += (6.45*$price011921);
+}
+if($price011922!='')
+{
+$message.='<tr><td>2 Dozen $12.35</td><td>'.$price011922.'</td><td>$ '.(12.35*$price011922).'</td></tr>';$totalCost += (12.35*$price011922);
+}
+if($price011923!='')
+{
+$message.='<tr><td>3 Dozen $16.99</td><td>'.$price011923.'</td><td>$ '.(16.99*$price011923).'</td></tr>';$totalCost += (16.99*$price011923);
+}
+if($price011924!='')
+{
+$message.='<tr><td>4 Dozen $21.45</td><td>'.$price011924.'</td><td>$ '.(21.45*$price011924).'</td></tr>';$totalCost += (21.45*$price011924);
+}
+if($price011925!='')
+{
+$message.='<tr><td>5 Dozen or more (ea.) $6.15</td><td>'.$price011925.'</td><td>$ '.(6.15*$price011925).'</td></tr>';$totalCost += (6.15*$price011925);
+}
+
+if($price011931 ||  $price011932 ||  $price011933 ||  $price011934 || $price011935 )
+{
+	 $message.='<tr><td><h5>Dinner Rolls</h5></td><td></td><td></td></tr>';
+}
+
+if($price011931!='')
+{
+$message.='<tr><td>1 Dozen $6.45</td><td>'.$price011931.'</td><td>$ '.(6.45*$price011931).'</td></tr>';$totalCost += (6.45*$price011931);
+}
+if($price011932!='')
+{
+$message.='<tr><td>2 Dozen $12.35</td><td>'.$price011932.'</td><td>$ '.(12.35*$price011932).'</td></tr>';$totalCost += (12.35*$price011932);
+}
+if($price011933!='')
+{
+$message.='<tr><td>3 Dozen $16.99</td><td>'.$price011933.'</td><td>$ '.(16.99*$price011933).'</td></tr>';$totalCost += (16.99*$price011933);
+}
+if($price011934!='')
+{
+$message.='<tr><td>4 Dozen $21.45</td><td>'.$price011934.'</td><td>$ '.(21.45*$price011934).'</td></tr>';$totalCost += (21.45*$price011934);
+}
+
+if($price011935!='')
+{
+$message.='<tr><td>5 Dozen or more (ea.) $6.15</td><td>'.$price011935.'</td><td>$ '.(6.15*$price011935).'</td></tr>';$totalCost += (6.15*$price011935);
+}
+
+if($price011941 ||  $price011942 ||  $price011943 ||  $price011944 || $price011945 || $price011946 || $price011947 || $price011948 )
+{
+	 $message.='<tr><td><h5>Fresh Baked Cookies</h5></td><td></td><td></td></tr>';
+}
+
+if($price011941!='')
+{
+$message.='<tr><td>6 Cookies (Chocolate Chip) $3.75</td><td>'.$price011941.'</td><td>$ '.(3.75*$price011941).'</td></tr>';$totalCost += (3.75*$price011941);
+}
+if($price011942!='')
+{
+$message.='<tr><td>12 Cookies (Chocolate Chip) $7.35</td><td>'.$price011942.'</td><td>$ '.(7.35*$price011942).'</td></tr>';$totalCost += (7.35*$price011942);
+}
+if($price011943!='')
+{
+$message.='<tr><td>24 Cookies (Chocolate Chip) $13.29</td><td>'.$price011943.'</td><td>$ '.(13.29*$price011943).'</td></tr>';$totalCost += (13.29*$price011943);
+}
+if($price011944!='')
+{
+$message.='<tr><td>36 Cookies (Chocolate Chip) $20.10</td><td>'.$price011944.'</td><td>$ '.(20.10*$price011944).'</td></tr>';$totalCost += (20.10*$price011944);
+}
+if($price011945!='')
+{
+$message.='<tr><td>6 Cookies (Sugar) $3.75</td><td>'.$price011945.'</td><td>$ '.(3.75*$price011945).'</td></tr>';$totalCost += (3.75*$price011945);
+}
+if($price011946!='')
+{
+$message.='<tr><td>12 Cookies (Sugar) $7.35</td><td>'.$price011946.'</td><td>$ '.(7.35*$price011946).'</td></tr>';$totalCost += (7.35*$price011946);
+}
+if($price011947!='')
+{
+$message.='<tr><td>24 Cookies (Sugar) $13.29</td><td>'.$price011947.'</td><td>$ '.(13.29*$price011947).'</td></tr>';$totalCost += (13.29*$price011947);
+}
+if($price011948!='')
+{
+$message.='<tr><td>36 Cookies (Sugar) $20.10</td><td>'.$price011948.'</td><td>$ '.(20.10*$price011948).'</td></tr>';$totalCost += (20.10*$price011948);
+}
+
+if($price011951)
+{
+	 $message.='<tr><td><h5>Assorted Dessert Tray</h5></td><td></td><td></td></tr>';
+}
+
+if($price011951!='')
+{
+$message.='<tr><td>Serves 20 $44.99</td><td>'.$price011951.'</td><td>$ '.(44.99*$price011951).'</td></tr>';$totalCost += (44.99*$price011951);
+}
+
+if( $quatity1201 || $quatity1202)
+{
+	 $message.='<tr><td><h2>Homestyle Favorites</h2></td></tr>';
+}
+
+if($quatity1201)
+{
+	 $message.='<tr><td><h5>Italian Homestyle Favorite </h5></td><td></td><td></td></tr>';
+}
+
+if($quatity1201!=''){
+$message.='<tr><td>(Serving 25 people @ $6.56 per person) $168.99</td><td>'.$quatity1201.'</td><td>$ '.(168.99*$quatity1201).'</td></tr>';$totalCost += (168.99*$quatity1201);
+}
+
+if($quatity1202)
+{
+	 $message.='<tr><td><h5>Formal Dining</h5></td><td></td><td></td></tr>';
+}
+
+if($quatity1202!=''){
+$message.='<tr><td>(Serving 25 people @ $6.36 per person) $162.99</td><td>'.$quatity1202.'</td><td>$ '.(162.99*$quatity1202).'</td></tr>';$totalCost += (162.99*$quatity1202);
+}
+
+
+
+
+
+if( $quatity1211 || $quatity1212 || $quatity1213 || $quatity1214 || $quatity1215 || $price012111 )
+{
+	 $message.='<tr><td><h2>Traditional Party Packs</h2></td><td></td><td></td></tr>';
+}
+
+
+if($quatity1211!='')
+{
+$message.='<tr><td><h5>15 People $ 73.49</h5></td><td>'.$quatity1211.'</td><td>$ '.(73.49*$quatity1211).'</td></tr>';$totalCost += (73.49*$quatity1211);
+
+	if($quantity012111) { $message.='<tr><td>(3lbs) Our Legendary Cole Slaw</td><td>'.$quantity012111.'</td></tr>'; }
+	if($quantity012112) { $message.='<tr><td>(3lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity012112.'</td></tr>'; }
+	if($quantity012113) { $message.='<tr><td>(3lbs) Hearty Baked Beans</td><td>'.$quantity012113.'</td></tr>'; }
+	if($quantity012114) { $message.='<tr><td>(3lbs) Homestyle Green Beans</td><td>'.$quantity012114.'</td></tr>'; }
+	if($quantity012115) { $message.='<tr><td>(3lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity012115.'</td></tr>'; }
+	if($quantity012116) { $message.='<tr><td>(3lbs) Cut Sweet Corn</td><td>'.$quantity012116.'</td></tr>'; }
+	if($quantity012117) { $message.='<tr><td>(3lbs) Stuffing w/ Gravy</td><td>'.$quantity012117.'</td></tr>'; }
+	if($quantity012118) { $message.='<tr><td>(3lbs) Greens w/ Turkey Wings</td><td>'.$quantity012118.'</td></tr>'; }
+	if($quantity012119) { $message.='<tr><td>(3lbs) Potato Wedges</td><td>'.$quantity012119.'</td></tr>'; }
+	if($quantity0121110) { $message.='<tr><td>(3lbs) Classic Macaroni Salad</td><td>'.$quantity0121110.'</td></tr>'; }
+	if($quantity0121111) { $message.='<tr><td>(3lbs) Traditional Potato Salad (Special Order)</td><td>'.$quantity0121111.'</td></tr>'; }
+	if($quantity0121112) { $message.='<tr><td>(3lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121112.'</td></tr>'; }
+	if($quantity0121113) { $message.='<tr><td>(3lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121113.'</td></tr>'; }
+	if($quantity0121114) { $message.='<tr><td>(3lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121114.'</td></tr>'; }
+	if($quantity0121115) { $message.='<tr><td>(3lbs) Creamy Scalloped Potatoes (Special Order)</td><td>'.$quantity0121115.'</td></tr>'; }
+	if($quantity0121116) { $message.='<tr><td>(3lbs) Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$quantity0121116.'</td></tr>'; }
+	if($quantity0121117) { $message.='<tr><td>(3lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121117.'</td></tr>'; }
+}
+
+
+if($quatity1212!='')
+{
+$message.='<tr><td><h5>25 People $ 122.50</h5></td><td>'.$quatity1212.'</td><td>$ '.(122.50*$quatity1212).'</td></tr>';$totalCost += (122.50*$quatity1212);
+
+
+	if($quantity012121) { $message.='<tr><td> (5lbs) Our Legendary Cole Slaw</td><td>'.$quantity012121.'</td></tr>'; }
+	if($quantity012122) { $message.='<tr><td>(5lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity012122.'</td></tr>'; }
+	if($quantity012123) { $message.='<tr><td> (5lbs) Hearty Baked Beans</td><td>'.$quantity012123.'</td></tr>'; }
+	if($quantity012124) { $message.='<tr><td> (5lbs) Homestyle Green Beans</td><td>'.$quantity012124.'</td></tr>'; }
+	if($quantity012125) { $message.='<tr><td>(5lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity012125.'</td></tr>'; }
+	if($quantity012126) { $message.='<tr><td> (5lbs) Cut Sweet Corn</td><td>'.$quantity012126.'</td></tr>'; }
+	if($quantity012127) { $message.='<tr><td>(5lbs) Stuffing w/ Gravy</td><td>'.$quantity012127.'</td></tr>'; }
+	if($quantity012128) { $message.='<tr><td>(5lbs) Greens w/ Turkey Wings</td><td>'.$quantity012128.'</td></tr>'; }
+	if($quantity012129) { $message.='<tr><td> (5lbs) Potato Wedges</td><td>'.$quantity012129.'</td></tr>'; }
+	if($quantity0121210) { $message.='<tr><td>(5lbs) Classic Macaroni Salad</td><td>'.$quantity0121210.'</td></tr>'; }
+	if($quantity0121211) { $message.='<tr><td> (5lbs) Traditional Potato Salad (Special Order)</td><td>'.$quantity0121211.'</td></tr>'; }
+	if($quantity0121212) { $message.='<tr><td> (5lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121212.'</td></tr>'; }
+	if($quantity0121213) { $message.='<tr><td>(5lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121213.'</td></tr>'; }
+	if($quantity0121214) { $message.='<tr><td>(5lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121214.'</td></tr>'; }
+	if($quantity0121215) { $message.='<tr><td>(5lbs) Creamy Scalloped Potatoes (Special Order)</td><td>'.$quantity0121215.'</td></tr>'; }
+	if($quantity0121216) { $message.='<tr><td>(5lbs) Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$quantity0121216.'</td></tr>'; }
+	if($quantity0121217) { $message.='<tr><td>(5lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121217.'</td></tr>'; }
+}	
+
+
+if($quatity1213!='')
+{
+$message.='<tr><td><h5>50 People $ 224.49<h5></td><td>'.$quatity1213.'</td><td>$ '.(224.49*$quatity1213).'</td></tr>';$totalCost += (224.49*$quatity1213);
+
+
+	if($quantity012131) {  $message.='<tr><td>(5lbs) Our Legendary Cole Slaw</td><td>'.$quantity012131.'</td></tr>'; }
+	if($quantity012132) {  $message.='<tr><td>(5lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity012132.'</td></tr>'; }
+	if($quantity012133) {  $message.='<tr><td>(5lbs) Hearty Baked Beans</td><td>'.$quantity012133.'</td></tr>'; }
+	if($quantity012134) {  $message.='<tr><td>(5lbs) Homestyle Green Beans</td><td>'.$quantity012134.'</td></tr>'; }
+	if($quantity012135) {  $message.='<tr><td>(5lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity012135.'</td></tr>'; }
+	if($quantity012136) {  $message.='<tr><td>(5lbs) Cut Sweet Corn</td><td>'.$quantity012136.'</td></tr>';}
+	if($quantity012137) {  $message.='<tr><td>(5lbs) Stuffing w/ Gravy</td><td>'.$quantity012137.'</td></tr>';}
+	if($quantity012138) {  $message.='<tr><td>(5lbs) Greens w/ Turkey Wings</td><td>'.$quantity012138.'</td></tr>';}
+	if($quantity012139) {  $message.='<tr><td>(5lbs) Potato Wedges</td><td>'.$quantity012139.'</td></tr>';}
+	if($quantity0121310) {  $message.='<tr><td>(5lbs) Classic Macaroni Salad</td><td>'.$quantity0121310.'</td></tr>';}
+	if($quantity0121311) {  $message.='<tr><td>(5lbs) Traditional Potato Salad (Special Order)</td><td>'.$quantity0121311.'</td></tr>';}
+	if($quantity0121312) {  $message.='<tr><td>(5lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121312.'</td></tr>';}
+	if($quantity0121313) {  $message.='<tr><td>(5lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121313.'</td></tr>';}
+	if($quantity0121314) {  $message.='<tr><td>(5lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121314.'</td></tr>';}
+	if($quantity0121315) {  $message.='<tr><td>(5lbs) Creamy Scalloped Potatoes (Special Order)</td><td>'.$quantity0121315.'</td></tr>';}
+	if($quantity0121316) {  $message.='<tr><td>(5lbs) Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$quantity0121316.'</td></tr>';}
+	if($quantity0121317) {  $message.='<tr><td>(5lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121317.'</td></tr>'; }
+	if($quantity0121318) {  $message.='<tr><td>(10lbs) Our Legendary Cole Slaw</td><td>'.$quantity0121318.'</td></tr>'; }
+	if($quantity0121319) {  $message.='<tr><td>(10lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity0121319.'</td></tr>'; }
+	if($quantity0121320) {  $message.='<tr><td>(10lbs) Hearty Baked Beans</td><td>'.$quantity0121320.'</td></tr>'; }
+	if($quantity0121321) {  $message.='<tr><td>(10lbs) Homestyle Green Beans</td><td>'.$quantity0121321.'</td></tr>'; }
+	if($quantity0121322) {  $message.='<tr><td>(10lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity0121322.'</td></tr>'; }
+	if($quantity0121323) {  $message.='<tr><td>(10lbs) Cut Sweet Corn</td><td>'.$quantity0121323.'</td></tr>'; }
+	if($quantity0121324) {  $message.='<tr><td>(10lbs) Stuffing w/ Gravy</td><td>'.$quantity0121324.'</td></tr>'; }
+	if($quantity0121325) {  $message.='<tr><td>(10lbs) Greens w/ Turkey Wings</td><td>'.$quantity0121325.'</td></tr>'; }
+	if($quantity0121326) {  $message.='<tr><td>(10lbs) Potato Wedges</td><td>'.$quantity0121326.'</td></tr>'; }
+	if($quantity0121327) {  $message.='<tr><td>(10lbs) Classic Macaroni Salad</td><td>'.$quantity0121327.'</td></tr>'; }
+	if($quantity0121328) {  $message.='<tr><td>(10lbs) Traditional Potato Salad (Special Order)</td><td>'.$quantity0121328.'</td></tr>';}
+	if($quantity0121329) {  $message.='<tr><td>(10lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121329.'</td></tr>'; }
+	if($quantity0121330) {  $message.='<tr><td>(10lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121330.'</td></tr>'; }
+	if($quantity0121331) {  $message.='<tr><td>(10lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121331.'</td></tr>';}
+    if($quantity0121332) {  $message.='<tr><td>(10lbs) Cheesy Au Gratin Potatoes(Special Order)</td><td>'.$quantity0121332.'</td></tr>';}
+	if($quantity0121333) { $message.='<tr><td>(10lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121333.'</td></tr>'; }
+}	
+if($quatity1214!='')
+{
+$message.='<tr><td><h5>75 People $335.95</h5></td><td>'.$quatity1214.'</td><td>$ '.(335.95*$quatity1214).'</td></tr>';$totalCost += (335.95*$quatity1214);
+
+	if($quantity012141) { $message.='<tr><td>(10lbs) Our Legendary Cole Slaw</td><td>'.$quantity012141.'</td></tr>'; }
+	if($quantity012142) { $message.='<tr><td>(10lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity012142.'</td></tr>'; }
+	if($quantity012143) { $message.='<tr><td>(10lbs) Hearty Baked Beans</td><td>'.$quantity012143.'</td></tr>'; }
+	if($quantity012144) { $message.='<tr><td>(10lbs) Homestyle Green Beans</td><td>'.$quantity012144.'</td></tr>'; }
+	if($quantity012145) { $message.='<tr><td>(10lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity012145.'</td></tr>'; }
+	if($quantity012146) { $message.='<tr><td>(10lbs) Cut Sweet Corn</td><td>'.$quantity012146.'</td></tr>'; }
+	if($quantity012147) { $message.='<tr><td>(10lbs) Stuffing w/ Gravy</td><td>'.$quantity012147.'</td></tr>'; }
+	if($quantity012148) { $message.='<tr><td>(10lbs) Greens w/ Turkey Wings</td><td>'.$quantity012148.'</td></tr>'; }
+	if($quantity012149) { $message.='<tr><td>(10lbs) Potato Wedges</td><td>'.$quantity012149.'</td></tr>'; }
+	if($quantity0121410) { $message.='<tr><td>(10lbs) Classic Macaroni Salad</td><td>'.$quantity0121410.'</td></tr>'; }
+	if($quantity0121411) { $message.='<tr><td>(10lbs) Traditional Potato Salad(Special Order)</td><td>'.$quantity0121411.'</td></tr>'; }
+	if($quantity0121412) { $message.='<tr><td>(10lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121412.'</td></tr>'; }
+	if($quantity0121413) { $message.='<tr><td>(10lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121413.'</td></tr>'; }
+	if($quantity0121414) { $message.='<tr><td>(10lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121414.'</td></tr>'; }
+	if($quantity0121415) { $message.='<tr><td>(10lbs) Cheesy Au Gratin Potatoes(Special Order)</td><td>'.$quantity0121415.'</td></tr>'; }
+	if($quantity0121416) { $message.='<tr><td>(10lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121416.'</td></tr>'; }
+
+}
+
+if($quatity1215!='')
+{
+$message.='<tr><td><h5>100 People $446.99</h5></td><td>'.$quatity1215.'</td><td>$ '.(446.99*$quatity1215).'</td></tr>';$totalCost += (446.99*$quatity1215);
+
+	if($quantity012151) { $message.='<tr><td>(10lbs) Our Legendary Cole Slaw</td><td>'.$quantity012151.'</td></tr>'; }
+	if($quantity012152) { $message.='<tr><td>(10lbs) Mashed Potatoes w/ Gravy</td><td>'.$quantity012152.'</td></tr>'; }
+	if($quantity012153) { $message.='<tr><td>(10lbs) Hearty Baked Beans</td><td>'.$quantity012153.'</td></tr>'; }
+	if($quantity012154) { $message.='<tr><td>(10lbs) Homestyle Green Beans</td><td>'.$quantity012154.'</td></tr>'; }
+	if($quantity012155) { $message.='<tr><td>(10lbs) Cheddar Macaroni & Cheese</td><td>'.$quantity012155.'</td></tr>'; }
+	if($quantity012156) { $message.='<tr><td>(10lbs) Cut Sweet Corn</td><td>'.$quantity012156.'</td></tr>'; }
+	if($quantity012157) { $message.='<tr><td>(10lbs) Stuffing w/ Gravy</td><td>'.$quantity012157.'</td></tr>'; }
+	if($quantity012158) { $message.='<tr><td>(10lbs) Greens w/ Turkey Wings</td><td>'.$quantity012158.'</td></tr>'; }
+	if($quantity012159) { $message.='<tr><td>(10lbs) Potato Wedges</td><td>'.$quantity012159.'</td></tr>'; }
+	if($quantity0121510) { $message.='<tr><td>(10lbs) Classic Macaroni Salad</td><td>'.$quantity0121510.'</td></tr>'; }
+	if($quantity0121511) { $message.='<tr><td>(10lbs) Traditional Potato Salad (Special Order)</td><td>'.$quantity0121511.'</td></tr>'; }
+	if($quantity0121512) { $message.='<tr><td>(10lbs) Homemade Chicken Gumbo (Special Order)</td><td>'.$quantity0121512.'</td></tr>'; }
+	if($quantity0121513) { $message.='<tr><td>(10lbs) Penne Pasta w/ Marinara (Special Order)</td><td>'.$quantity0121513.'</td></tr>'; }
+	if($quantity0121514) { $message.='<tr><td>(10lbs) Spicy Red Beans & Rice (Special Order)</td><td>'.$quantity0121514.'</td></tr>';}
+	if($quantity0121515) { $message.='<tr><td>(10lbs) Cheesy Au Gratin Potatoes (Special Order)</td><td>'.$quantity0121515.'</td></tr>';}
+	if($quantity0121516) { $message.='<tr><td>(10lbs) Mashed Sweet Potatoes (Special Order)</td><td>'.$quantity0121516.'</td></tr>'; }
+	
+}
+
+if($price012111!='')
+$message.='<tr><td><h5>Need a Little Extra?</h5>Add on for 10 People $50.99</td><td>'.$price012111.'</td><td>$ '.(50.99*$price012111).'</td></tr>';$totalCost += (50.99*$price012111);
+
+if($totalCost)
+$message.='<tr><td><h3>Total Amount</h3></td><td></td><td> <h3> $ '.$totalCost.'</h3></td></tr>';
+?>
+
+
+
+
+<script type="text/javascript">jQuery(function(){	jQuery(".confirmorder").click(function(){		jQuery(".cartview").hide();		jQuery(".orderform").fadeIn();		return false;	});		jQuery(".backtocartview").click(function(){		jQuery(".orderform").hide();		jQuery(".cartview").fadeIn();			return false;	});});</script>
+		
+<h1>Your Order</h1>
+<table class="cartview">
+ <tbody>
+  <?php echo $message; ?>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="#confirm" class="confirmorder">Confirm Order</a></td>
+    <td><a href="javascript:history.go(-1);">Change Order</a></td>
+  </tr>
+ </tbody> 
+</table>  
+<form method="post" action="" class="contactdetails" name="frmContactDetail" onsubmit="return orderConfirmation()">
+<table class="orderform" style="display:none;">
+    <tbody><tr>
+    <td colspan="2"></td>
+    </tr>
+    <tr>
+    <td class="formrt">First Name</td>
+    <td><input type="text" name="first" id="first" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Last Name</td>
+    <td><input type="text" name="last" id="last" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Address</td>
+    <td><input type="text" name="address" id="address" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">City</td>
+    <td><input type="text" name="city" id="city" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">State</td>
+    <td><input type="text" name="state" id="state" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Zipcode</td>
+    <td><input type="text" name="zip" id="zip" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Phone</td>
+    <td><input type="text" name="phone" id="phone" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Email</td>
+    <td><input type="text" name="email" id="email" value=""></td>
+    </tr>
+    <tr>
+    <td class="formrt">Retype Email</td>
+    <td><input type="text" name="email2" id="email2" value=""></td>
+    </tr>
+    </tbody></table>	
+    
+    <p class="text orderform"  style="display:none;"><span style="font-weight:bold;">When would you like your order ready by?</span><i> Note: Orders less than 24 hours please call our number to confirm we can have it prepared in time. </i><br>216-409-3517</p>
+    
+    <table class="orderform"  style="display:none;">
+    <tbody><tr>
+    <td class="formrt">Date:</td>
+    <td><input type="text" name="date" class="datepicker hasDatepicker" value="" id="date"></td>
+    </tr>
+    <tr>
+    <td class="formrt">Time: </td>
+    <td>	<select id="timer" id="timer" name="timer" style="padding: 2px; width: 150px;;">
+                                    <option value="08:00 am">08:00 am</option>
+                                    <option value="08:15 am">08:15 am</option>
+                                    <option value="08:30 am">08:30 am</option>
+                                    <option value="08:45 am">08:45 am</option>
+                                    <option value="09:00 am">09:00 am</option>
+                                    <option value="09:15 am">09:15 am</option>
+                                    <option value="09:30 am">09:30 am</option>
+                                    <option value="09:45 am">09:45 am</option>
+                                    <option value="10:00 am">10:00 am</option>
+                                    <option value="10:15 am">10:15 am</option>
+                                    <option value="10:30 am">10:30 am</option>
+                                    <option value="10:45 am">10:45 am</option>
+                                    <option value="11:00 am">11:00 am</option>
+                                    <option value="11:15 am">11:15 am</option>
+                                    <option value="11:30 am">11:30 am</option>
+                                    <option value="11:45 am">11:45 am</option>
+                                    <option value="12:00 pm">12:00 pm</option>
+                                    <option value="12:15 pm">12:15 pm</option>
+                                    <option value="12:30 pm">12:30 pm</option>
+                                    <option value="12:45 pm">12:45 pm</option>
+                                    <option value="01:00 pm">01:00 pm</option>
+                                    <option value="01:15 pm">01:15 pm</option>
+                                    <option value="01:30 pm">01:30 pm</option>
+                                    <option value="01:45 pm">01:45 pm</option>
+                                    <option value="02:00 pm">02:00 pm</option>
+                                    <option value="02:15 pm">02:15 pm</option>
+                                    <option value="02:30 pm">02:30 pm</option>
+                                    <option value="02:45 pm">02:45 pm</option>
+                                    <option value="03:00 pm">03:00 pm</option>
+                                    <option value="03:15 pm">03:15 pm</option>
+                                    <option value="03:30 pm">03:30 pm</option>
+                                    <option value="03:45 pm">03:45 pm</option>
+                                    <option value="04:00 pm">04:00 pm</option>
+                                    <option value="04:15 pm">04:15 pm</option>
+                                    <option value="04:30 pm">04:30 pm</option>
+                                    <option value="04:45 pm">04:45 pm</option>
+                                    <option value="05:00 pm">05:00 pm</option>
+                                    <option value="05:15 pm">05:15 pm</option>
+                                    <option value="05:30 pm">05:30 pm</option>
+                                    <option value="05:45 pm">05:45 pm</option>
+                                    <option value="06:00 pm">06:00 pm</option>
+                                    <option value="06:15 pm">06:15 pm</option>
+                                    <option value="06:30 pm">06:30 pm</option>
+                                    <option value="06:45 pm">06:45 pm</option>
+                                    <option value="07:00 pm">07:00 pm</option>
+                                    <option value="07:15 pm">07:15 pm</option>
+                                    <option value="07:30 pm">07:30 pm</option>
+                                    <option value="07:45 pm">07:45 pm</option>
+                                    <option value="08:00 pm">08:00 pm</option>
+                                    <option value="08:15 pm">08:15 pm</option>
+                                    <option value="08:30 pm">08:30 pm</option>
+                                    <option value="08:45 pm">08:45 pm</option>
+                                    <option value="09:00 pm">09:00 pm</option>
+                                    <option value="09:15 pm">09:15 pm</option>
+                                    <option value="09:30 pm">09:30 pm</option>
+                                    <option value="09:45 pm">09:45 pm</option>
+                                    <option value="10:00 pm">10:00 pm</option>
+                                    <option value="10:15 pm">10:15 pm</option>
+                                    <option value="10:30 pm">10:30 pm</option>
+                                    <option value="10:45 pm">10:45 pm</option>
+                                    <option value="11:00 pm">11:00 pm</option>
+                                    <option value="11:15 pm">11:15 pm</option>
+                                    <option value="11:30 pm">11:30 pm</option>
+                                    <option value="11:45 pm">11:45 pm</option>
+                                    <option value="12:00 am">12:00 am</option>
+                                    <option value="12:15 am">12:15 am</option>
+                                    <option value="12:30 am">12:30 am</option>
+                                    <option value="12:45 am">12:45 am</option>
+                                    <option value="01:00 am">01:00 am</option>
+                                    <option value="01:15 am">01:15 am</option>
+                                    <option value="01:30 am">01:30 am</option>
+                                    <option value="01:45 am">01:45 am</option>
+                                    <option value="02:00 am">02:00 am</option>
+                                    <option value="02:15 am">02:15 am</option>
+                                    <option value="02:30 am">02:30 am</option>
+                                    <option value="02:45 am">02:45 am</option>
+                                    <option value="03:00 am">03:00 am</option>
+                                    <option value="03:15 am">03:15 am</option>
+                                    <option value="03:30 am">03:30 am</option>
+                                    <option value="03:45 am">03:45 am</option>
+                                    <option value="04:00 am">04:00 am</option>
+                                    <option value="04:15 am">04:15 am</option>
+                                    <option value="04:30 am">04:30 am</option>
+                                    <option value="04:45 am">04:45 am</option>
+                                    <option value="05:00 am">05:00 am</option>
+                                    <option value="05:15 am">05:15 am</option>
+                                    <option value="05:30 am">05:30 am</option>
+                                    <option value="05:45 am">05:45 am</option>
+                                    <option value="06:00 am">06:00 am</option>
+                                    <option value="06:15 am">06:15 am</option>
+                                    <option value="06:30 am">06:30 am</option>
+                                    <option value="06:45 am">06:45 am</option>
+                                    <option value="07:00 am">07:00 am</option>
+                                    <option value="07:15 am">07:15 am</option>
+                                    <option value="07:30 am">07:30 am</option>
+                                </select></td>
+    </tr>
+    <tr>
+    <td class="formrt" valign="top">Special Notes:</td>
+    <td><textarea name="notes" id="notes"></textarea></td>
+    </tr>
+    <tr>
+    <td colspan="2"><input type="hidden" name="cartid" value="404">
+    <input type="hidden" name="orderData" value="<?php echo $message;?>">
+    <input type="submit" name="frmConfirmOrder" value="Confirm Order">	<br />	<div style="text-align:center"><a href="#cartview" class="backtocartview">View Order</a></div>
+    
+    </td>
+    </tr>
+    </tbody></table>
+    <br>
+</form>
+
+<?php 
+	}// confermation order form
+	else
+	{
+		echo "Invalid Order";
+	} ?>
+
+        <div class="clear"></div>
+        
+    </article>
+    <!-- finish text block -->	
+    
+</section>
+<!-- finish center wrap -->
+    
+<?php } elseif($_POST['frmConfirmOrder'])
+{ ?>
+<!-- begin centerwrap -->
+<section id="center-wrap">
+		
+    <!-- begin text block -->
+    <article class="text-block inner">
+    
+		<?php 
+@extract($_POST);
+
+
+
+		// multiple recipients
+		$admin_email = get_option( 'admin_email' );
+		$to  = $admin_email. ', '; // note the comma
+		$to .= $email;
+
+		// subject
+		$subject = 'Mr. Chicken Order';
+
+	// message
+	$message = '
+	<html>
+	<head>
+	  <title></title>
+	</head>
+	<body>
+	  <h2>Contact Details</h2>
+	  <table>
+		<tr><td>Name:</td><td>'.$first.'&nbsp;'.$last.'</td></tr>
+		<tr><td>Address:</td><td>'.$address.'</td></tr>
+		<tr><td>City:</td><td>'.$city.'</td></tr>
+		<tr><td>State:</td><td>'.$state.'</td></tr>
+		<tr><td>Zip:</td><td>'.$zip.'</td></tr>
+		<tr><td>Phone:</td><td>'.$phone.'</td></tr>
+		<tr><td>Email:</td><td>'.$email.'</td></tr>
+		
+		<tr><td>Email2:</td><td>'.$email2.'</td></tr>
+		<tr><td>Date:</td><td>'.$date.'</td></tr>
+		<tr><td>Timer:</td><td>'.$timer.'</td></tr>
+		<tr><td>Notes:</td><td>'.$notes.'</td></tr>
+		</table>
+	  <br>
+	  <p>Order Details</p>
+	  <table>
+		'.$orderData.'
+	  </table>
+	</body>
+	</html>
+	';
+	
+	// To send HTML mail, the Content-type header must be set
+	$headers  = 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+	
+	// Mail it
+	@mail($to, $subject, $message, $headers);
+	echo 'Thanks you! Your Order has been placed.';
+	?>
+    
+        <div class="clear"></div>
+        
+    </article>
+    <!-- finish text block -->	
+    
+</section>
+<!-- finish center wrap -->
+    
+<?php }
+else{
+?>
+ <script type="text/javascript">jQuery(function(){	jQuery(".calculateprice").change(function(){			var morethanfive = ['price011935','price011925','price011915']; 				var price = jQuery(this).data("price");				var qty = jQuery(this).val();		price = jQuery.trim(price) * 1;		qty=jQuery.trim(qty)*1;				if( jQuery.inArray(jQuery(this).attr("name") , morethanfive)!= -1 && qty < 5) {			alert("Please enter at least 5 quantity for this item");			return false;		}						if(!isNaN((price*qty))) {			jQuery(this).parent().parent().find(".ptot").html( "$" + (price*qty).toFixed(2));		} else {			jQuery(this).val("");		}	});});</script> 
+   <form action="" name="frmOrder" method="post" onsubmit="return OrderValidation()">
+    <!-- begin centerwrap -->
+    <section id="center-wrap">
+        <!-- begin sandwich block -->
+        <article class="sandwich-block">			
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <div class="post" id="post-<?php the_ID(); ?>">            
+                <h1><?php the_title(); ?></h1>                
+                <div class="entry">                
+                    <?php the_content('<p class="serif">' . __('Read the rest of this page &raquo;', 'kubrick') . '</p>'); ?>    
+                    <?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>    
+                </div>
+            </div>
+            <?php endwhile; endif; ?>            
+			<?php query_posts('post_type=onlineorder&showposts=100&meta_key=group_selection&meta_value=Group1&orderby=date&order=ASC'); ?>
+            <?php 
+            $counter=1;
+            while (have_posts()) : the_post(); ?>
+        	<div id="tab<?php echo $counter ?>" class="tab_content details">				
+                <div class="thumb">                	
+                    <?php if ( has_post_thumbnail() ) { ?>
+            		<?php the_post_thumbnail('full', array('width' => 454)); ?>
+					<?php } else { ?>
+                    &nbsp;
+                    <?php } ?>                    
+                </div>
+                <aside class="list list1">
+                    <div class="order">                    
+                    	<h3><?php the_title(); ?></h3>                    
+						<?php if(get_field('combined_package')): ?>
+                        <ul class="combined"> 
+                        <?php 
+                        $counted = 1;
+                        while(has_sub_field('combined_package')): ?>
+                        <?php 
+                        $final3 = get_the_ID(); 
+                        $final3.=$counted; 
+                        ?>
+                        <li>
+                        <?php 
+                        $title=get_sub_field('package_title'); if(($title)!="") { ?><h4><?php the_sub_field('package_title'); ?> <span>$<?php the_sub_field('package_price'); ?></span></h4><?php } ?>
+                        <p>
+                        	<span class="total">Total</span>
+                        	<span class="ptot"> $0.00</span>
+                            <span class="right"><input name="quatity<?php echo $final3;?>" id="quatity<?php echo $final3;?>" data-price="<?php the_sub_field('package_price'); ?>" class="calculateprice" type="text" /> Qty.</span>
+                            <?php $subtitle=get_sub_field('package_name'); if(($subtitle)!="") { ?><?php the_sub_field('package_name'); ?> $<?php the_sub_field('package_price'); ?><?php } ?>
+                            <input type="hidden" name="hiddenQuantity<?php echo $final3;?>" />                            
+                        </p>
+                        <?php if(get_sub_field('package_include')): ?>	
+                        <ul>
+                        <?php 
+                        while(has_sub_field('package_include')): ?>
+                        <li>
+                            <?php the_sub_field('list'); ?>
+                        </li>
+                        <?php endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        <?php if(get_sub_field('side_dishes')): ?>	
+                        <ul>
+                        <?php 
+                        $counted1 = 1;
+                        while(has_sub_field('side_dishes')): ?>
+                        <?php 
+                        $final2 = get_the_ID(); 
+                        $final2.=$counted; 
+                        $final2.=$counted1; 
+                        ?>
+                        <li>
+                            <input name="quantity0<?php echo $final2; ?>" id="quantity0<?php echo $final2; ?>" type="text" />
+                            <?php the_sub_field('side_dishes_title'); ?>
+                        </li>
+                        <?php $counted1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $counted++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+						<?php if(get_field('product')): ?>
+                        <ul>
+                        <?php 
+                        $count=1;
+                        while(has_sub_field('product')): ?>
+                        <li>
+                        <?php $title=get_sub_field('product_name'); if(($title)!="") { ?><h4><?php the_sub_field('product_name'); ?></h4><?php } ?>
+                        <?php if(get_sub_field('price_and_quantity')): ?>	
+                        <ul>
+                        <span class="total">Total</span>
+                        <?php 
+                        $count1=1;
+                        while(has_sub_field('price_and_quantity')): ?>
+                        <?php 
+                        $final = get_the_ID(); 
+                        $final.= $count; 
+                        $final.= $count1; 
+                        ?>
+                        <li>
+                            <span class="left">
+                                <?php the_sub_field('product_quantity'); ?> $<?php the_sub_field('product_price'); ?>
+                                <input type="hidden" />
+                            </span>
+                            <span class="ptot"> $0.00</span>
+                            <span class="right">
+                                <input name="price0<?php echo $final; ?>" id="price0<?php echo $final; ?>" type="text"  data-price="<?php the_sub_field('product_price'); ?>" class="calculateprice" /> Qty.
+                            </span>    
+                        </li>
+                        <?php $count1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $count++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+						<?php if(get_field('dishes')): ?>
+                        <ul>
+                        <?php 
+                        $dishcount=1;
+                        while(has_sub_field('dishes')): ?>
+                        <li>
+                        <?php $title=get_sub_field('dishes_name'); if(($title)!="") { ?><h4><?php the_sub_field('dishes_name'); ?> $<?php the_sub_field('dishes_price'); ?></h4><?php } ?>
+                        <?php if(get_sub_field('dishes_title')): ?>	
+                        <ul>
+                        <span class="total">Total</span>	
+                        <?php 
+                        $dishcount1=1;
+                        while(has_sub_field('dishes_title')): ?>
+                        <?php 
+                        $final1 = get_the_ID(); 
+                        $final1.= $dishcount; 
+                        $final1.= $dishcount1; 
+                        ?>
+                        <li>
+                            <span class="left">
+                                <?php the_sub_field('dish'); ?>
+                                <input type="hidden" />
+                            </span>
+                            <span class="ptot"> $0.00</span>
+                            <span class="right">
+                                <input name="price0<?php echo $final1; ?>" id="price0<?php echo $final1; ?>" type="text" /> Qty.
+                            </span>    
+                        </li>
+                        <?php $dishcount1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $dishcount++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+                    </div>
+
+                </aside>
+
+            	<div class="clear"></div>
+
+            </div>
+            <?php if($counter==10){$counter=1;}else {$counter++; }endwhile; wp_reset_query(); ?>
+
+            <aside class="link">
+
+                <ul class="tabs">
+					<?php query_posts('post_type=onlineorder&showposts=100&meta_key=group_selection&meta_value=Group1&orderby=date&order=ASC'); ?>
+					<?php 
+                    $counter=1;
+                    while (have_posts()) : the_post(); ?>
+                    <li><a href="#tab<?php echo $counter ?>"><?php the_title(); ?></a></li>
+                    <?php if($counter==10){$counter=1;}else {$counter++; }endwhile; wp_reset_query(); ?>
+                </ul>
+
+            </aside>
+
+            <div class="clear"></div>
+
+        </article>
+        <!-- finish sandwich block -->
+        
+        <div class="clear"></div>
+        
+        <!-- begin sandwich block -->
+        <article class="sandwich-block ordersand">
+			
+			<?php query_posts('post_type=onlineorder&showposts=100&meta_key=group_selection&meta_value=Group2&orderby=date&order=ASC'); ?>
+            <?php 
+            $counter=1;
+            while (have_posts()) : the_post(); ?>
+        	<div id="tabber<?php echo $counter ?>" class="tab_content1 details">
+				
+                <div class="thumb">
+                	
+                    <?php if ( has_post_thumbnail() ) { ?>
+            		<?php the_post_thumbnail('full', array('width' => 454)); ?>
+					<?php } else { ?>
+                    &nbsp;
+                    <?php } ?>
+                    
+                </div>
+                
+                <aside class="list list1">
+
+                    <div class="order">
+                    
+                    	<h3><?php the_title(); ?></h3>
+                    
+						<?php if(get_field('combined_package')): ?>
+                        <ul> 
+                        <?php 
+                        $counted = 1;
+                        while(has_sub_field('combined_package')): ?>
+                        <?php 
+                        $final3 = get_the_ID(); 
+                        $final3.=$counted; 
+                        ?>
+                        <li>
+                        <?php 
+                        $title=get_sub_field('package_title'); if(($title)!="") { ?><h4><?php the_sub_field('package_title'); ?> <span>$<?php the_sub_field('package_price'); ?></span></h4><?php } ?>
+                        <p>
+                            <span class="right"><input name="quatity<?php echo $final3;?>" id="quatity<?php echo $final3;?>" type="text"  data-price="<?php the_sub_field('package_price'); ?>" class="calculateprice"  /> Qty.</span>
+                            <?php $subtitle=get_sub_field('package_name'); if(($subtitle)!="") { ?><?php the_sub_field('package_name'); ?> $<?php the_sub_field('package_price'); ?><?php } ?>
+                            <input type="hidden" name="hiddenQuantity<?php echo $final3;?>" />                            
+                        </p>
+                        <?php if(get_sub_field('package_include')): ?>	
+                        <ul>
+                        <?php 
+                        while(has_sub_field('package_include')): ?>
+                        <li>
+                            <?php the_sub_field('list'); ?>
+                        </li>
+                        <?php endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        <?php if(get_sub_field('side_dishes')): ?>	
+                        <ul>
+                        <?php 
+                        $counted1 = 1;
+                        while(has_sub_field('side_dishes')): ?>
+                        <?php 
+                        $final2 = get_the_ID(); 
+                        $final2.=$counted; 
+                        $final2.=$counted1; 
+                        ?>
+                        <li>
+                            <input name="quantity0<?php echo $final2; ?>" id="quantity0<?php echo $final2; ?>" type="text" />
+                            <?php the_sub_field('side_dishes_title'); ?>
+                        </li>
+                        <?php $counted1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $counted++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+						<?php if(get_field('product')): ?>
+                        <ul>
+                        <?php 
+                        $count=1;
+                        while(has_sub_field('product')): ?>
+                        <li>
+                        <?php $title=get_sub_field('product_name'); if(($title)!="") { ?><h4><?php the_sub_field('product_name'); ?></h4><?php } ?>
+                        <?php if(get_sub_field('price_and_quantity')): ?>	
+                        <ul>
+                        <span class="total">Total</span>
+                        <?php 
+                        $count1=1;
+                        while(has_sub_field('price_and_quantity')): ?>
+                        <?php 
+                        $final = get_the_ID(); 
+                        $final.= $count; 
+                        $final.= $count1; 
+                        ?>
+                        <li>
+                            <span class="left">
+                                <?php the_sub_field('product_quantity'); ?> $<?php the_sub_field('product_price'); ?>
+                                <input type="hidden" />
+                            </span>
+                            <span class="ptot"> $0.00</span>
+                            <span class="right">
+                                <input name="price0<?php echo $final; ?>" id="price0<?php echo $final; ?>" type="text" data-price="<?php the_sub_field('product_price'); ?>" class="calculateprice"  /> Qty.
+                            </span>    
+                        </li>
+                        <?php $count1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $count++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+						<?php if(get_field('dishes')): ?>
+                        <ul>
+                        <?php 
+                        $dishcount=1;
+                        while(has_sub_field('dishes')): ?>
+                        <li>
+                        <?php $title=get_sub_field('dishes_name'); 						$dishprice = get_sub_field('dishes_price'); 						if(($title)!="") { ?><h4><?php the_sub_field('dishes_name'); ?> $<?php the_sub_field('dishes_price'); ?></h4><?php } ?>
+                        <?php if(get_sub_field('dishes_title')): ?>	
+                        <ul>
+                        <span class="total">Total</span>	
+                        <?php 
+                        $dishcount1=1;
+                        while(has_sub_field('dishes_title')): ?>
+                        <?php 
+                        $final1 = get_the_ID(); 
+                        $final1.= $dishcount; 
+                        $final1.= $dishcount1; 
+                        ?>
+                        <li>
+                            <span class="left">
+                                <?php the_sub_field('dish'); ?>
+                                <input type="hidden" />
+                            </span>
+                            <span class="ptot"> $0.00</span>
+                            <span class="right">
+                                <input name="price0<?php echo $final1; ?>" id="price0<?php echo $final1; ?>" type="text" data-price="<?php echo $dishprice; ?>" class="calculateprice"  /> Qty.
+                            </span>    
+                        </li>
+                        <?php $dishcount1++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                        </li>
+                        <?php $dishcount++; endwhile; ?>
+                        </ul>
+                        <?php endif; ?>
+                    
+                    </div>
+
+                </aside>
+
+            	<div class="clear"></div>
+
+            </div>
+            <?php if($counter==10){$counter=1;}else {$counter++; }endwhile; wp_reset_query(); ?>
+
+            <aside class="link">
+
+                <ul class="tabs1">
+					<?php query_posts('post_type=onlineorder&showposts=100&meta_key=group_selection&meta_value=Group2&orderby=date&order=ASC'); ?>
+					<?php 
+                    $counter=1;
+                    while (have_posts()) : the_post(); ?>
+                    <li><a href="#tabber<?php echo $counter ?>"><?php the_title(); ?></a></li>
+                    <?php if($counter==10){$counter=1;}else {$counter++; }endwhile; wp_reset_query(); ?>
+                </ul>
+
+            </aside>
+
+            <div class="clear"></div>
+
+        </article>
+        <!-- finish sandwich block -->
+        
+        <input type="hidden" name="hdnCheck" value="checked" />
+		
+        <input type="submit" class="submitbtn" name="btnSubmit" value="Checkout"  onclick="return bis()" />
+            
+        <div class="clear"></div>
+        
+    </section>
+    <!-- finish center wrap -->
+</form>
+<?php }?>
+
+</section>
+<!-- finish content -->
+    
+<?php get_footer(); ?>

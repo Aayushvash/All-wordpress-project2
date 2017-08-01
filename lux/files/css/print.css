@@ -1,0 +1,88 @@
+@import "css/reset.css"; 
+
+/* ### wrapper ### */
+#main { width: 100%; overflow: hidden; font-family: Arial, Helvetica, sans-serif; }
+#layout { position: relative; display: block; width: 100%; min-height: 100%; }
+#layout .nav-btn { display: none; }
+	
+	.adWidgetTop { padding: 15px 0; text-align: center; }
+	.adWidgetTop p { margin: 0px; }
+	
+	/* ### header ### */
+	#header { width: 100%; z-index: 10; background: #f5f5f5; padding-bottom: 30px; border-bottom: 5px solid #f5f5f5; }
+	#header .logo { float: none; position: relative; z-index: 9; }
+	#header .logo a { display: block; }
+		
+		/* ### top bar ### */
+		.topbar { display: none; }
+		
+		/* ### menu bar ### */
+		.menubar { display: none; }
+		
+	/* ### content ### */
+	#content { padding: 50px 0; width: 100%; overflow: hidden; border-bottom: 5px solid #f5f5f5; background: #fff; }
+	#content.mainPage { padding: 0px; border: 0px; background: #f5f5f5 url(images/slider-bg.gif) repeat-x center top; }
+
+		/* ### left ### */
+		#left { float: none; width: 100%; } 
+			
+			.breadcrumbs { display: none; }
+			
+			.entry { }
+			.entry ul,
+			.entry ol { margin-left: 20px; margin-bottom: 15px; }
+			.entry ul li { list-style: outside; }
+			.entry ol li { list-style: decimal; }
+			.entry h5 { font-weight: bold; }
+			.entry.pageThumb { width: 52%; float: left; }
+			
+			.entry #payment ul li { list-style: none; }
+			
+			.thumbImg { width: 45%; float: right; text-align: right; }
+			
+			#articlesList { margin-right: -25px; }		
+			#articlesList .article { margin: 0 25px 25px 0; width: 270px; float: left; background: #f5f5f5; }
+			#articlesList .article:hover p { color: #2C2C2C; }
+			#articlesList .date { margin-bottom: 5px; }
+			
+			.articleDetail { padding: 40px 0; background: #f5f5f5; }
+			.articleDetail .date { margin-bottom: 8px; font-size: 14px; }
+			.articleDetail .spl-text { margin-bottom: 6px; }
+			.articleDetail .articleImg { margin-bottom: 40px; position: relative; }
+			.articleDetail .articleImg img { width: 100%; height: auto; }
+			.articleDetail .articleImg .gallery-data { position: absolute; left: 20px; bottom: 20px; }
+			.articleDetail .articleImg .gallery-data a.button { margin: 0px; background: url(images/white-button-bg.png) repeat; }
+			.articleDetail .articleImg .gallery-data a.button:hover { color: #fff; background: #2C2C2C; }
+				
+				.social-buttons { position: absolute; width: 24px; right: -50px; top: 0px; }
+				.social-buttons .stButton { margin: 0px; margin-bottom: 10px; }
+				.social-buttons .stButton .stLarge { width: 24px; height: 24px; background-image: url(images/social-icon.png)!important; background-repeat: no-repeat!important; }
+				.social-buttons .stButton .stLarge:hover { opacity: 1; filter:alpha(opacity=100); }
+				.social-buttons .st_twitter_large .stLarge { background-position: left top; }
+				.social-buttons .st_twitter_large .stLarge:hover { background-position: right top; }
+				.social-buttons .st_facebook_large .stLarge { background-position: left -24px; }
+				.social-buttons .st_facebook_large .stLarge:hover { background-position: right -24px;; }
+				.social-buttons .st_googleplus_large .stLarge { background-position: left -48px; }
+				.social-buttons .st_googleplus_large .stLarge:hover { background-position: right -48px; }
+				.social-buttons .st_email_large .stLarge { background-position: left -72px; }
+				.social-buttons .st_email_large .stLarge:hover { background-position: right -72px; }
+				.social-buttons a.print { display: block; margin-bottom: 10px; width: 24px; height: 24px; text-indent: -9999px; background: url(images/social-icon.png) no-repeat left bottom; }
+				.social-buttons a.print:hover { background-position: right bottom; }
+							
+			.textBar { margin-top: 20px; padding: 40px; background: #f5f5f5; }
+			
+			.gewinnspielPage img.attachment-page-img { margin: -40px 0; margin-left: 80px; float: right; }
+			
+			.errorPage { padding: 15px 0; max-width: 740px; }
+			
+		/* ### right ### */
+		#right { display: none; }
+
+		
+	/* ### footer ### */
+	#footer { overflow: hidden; width: 100%; }
+	#footer #top { background: #b3df00; }
+	#footer #bottom { display: none; }
+	#footer .footerMenu { display: none; }
+	
+	#commentArea { display: none; }
